@@ -1,0 +1,116 @@
+.login-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input-with-icon input {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Adjust padding to accommodate icon */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.input-with-icon input:focus {
+    border-color: #888;
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FF9900;
+}
+
+.login-container p {
+    color: #333;
+}
+
+.login-container p a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: 600;
+}
+
+.login-container p a:hover {
+    color: #FF9900;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-forgot label {
+    color: #555;
+    margin-right: 20px;
+}
+
+.remember-forgot a {
+    margin-left: auto;
+    color: #555;
+    text-decoration: none;
+}
+
+.back-to-home-login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.back-to-home-login-link a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-to-home-login-link .icon {
+    margin-right: 8px;
+    color: #555   ;
+}

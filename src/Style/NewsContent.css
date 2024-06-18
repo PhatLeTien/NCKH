@@ -1,0 +1,399 @@
+/* Phần CSS hiện tại */
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #2e002e, #FFFFFF);
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.news-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+  font-size: 52px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: "Work Sans", sans-serif;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.column {
+  margin: 0 10px;
+}
+
+.main-news-column {
+  flex: 2;
+  max-width: 60%;
+}
+
+.side-news-column {
+  flex: 1;
+  max-width: 20%;
+}
+
+.main-news {
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+  height: 560px;
+}
+
+.main-news-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.main-news-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.main-news-content h1 {
+  margin: 10px 0;
+  font-size: calc(26px);
+  line-height: calc(32px);
+  margin-bottom: 0.25rem;
+  white-space: normal;
+  word-wrap: break-word;
+  /* Hoặc word-break: break-all */
+  color: rgb(34, 34, 34);
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  font-weight: 700;
+}
+
+
+.main-news-content h1:hover {
+  margin: 10px 0;
+  font-size: calc(26px);
+  line-height: calc(32px);
+  margin-bottom: 0.25rem;
+  white-space: normal;
+  word-wrap: break-word;
+  /* Hoặc word-break: break-all */
+  color: rgba(79 79 79);
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+}
+
+.main-news-content p {
+  font-size: calc(16px);
+  line-height: calc(24px);
+  color: rgb(34, 34, 34);
+  margin-bottom: 0.25rem;
+}
+
+.main-news-content p:hover {
+  font-size: calc(16px);
+  line-height: calc(24px);
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.main-news-content a,
+.side-news-content a {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Đảm bảo các thẻ a bao phủ toàn bộ nội dung */
+}
+
+.main-news-content a:hover h1,
+.side-news-content a:hover p {
+  text-decoration: none;
+}
+
+.author {
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  height: 16px;
+  font-weight: 600;
+}
+
+.side-news-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 269px;
+  font-size: calc(18px);
+  line-height: calc(24px);
+  color: rgb(34, 34, 34);
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.side-news-image img {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.side-news-content {
+  padding: 10px;
+  text-align: left;
+}
+
+.side-news-content p {
+  margin: 0;
+  margin-bottom: 0.25rem;
+  font-size: calc(15px);
+  line-height: calc(24px);
+  color: rgb(34, 34, 34);
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.side-news-content .author {
+  line-height: inherit;
+  color: rgb(34, 34, 34);
+  margin-top: 5px;
+  margin-bottom: 0.25rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  .columns-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    margin: 10px 0;
+  }
+
+  .main-news-column,
+  .side-news-column {
+    flex: 1;
+    width: 100%;
+  }
+
+  .main-news,
+  .side-news-item {
+    height: auto;
+  }
+
+  .main-news-image img,
+  .side-news-image img {
+    height: auto;
+  }
+}
+
+.news-additional-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  /* Gạch trắng phía trên */
+  padding-top: 30px;
+  /* Khoảng cách giữa gạch trắng và phần tử tiếp theo */
+}
+
+.additional-news-content p {
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none;
+  /* Loại bỏ gạch chân ban đầu */
+}
+
+.additional-news-content p span.title {
+  text-decoration: none;
+  /* Hiển thị gạch chân khi di chuột vào cho tiêu đề */
+  cursor: pointer;
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.additional-news-content p span.title:hover {
+  text-decoration: underline;
+  /* Hiển thị gạch chân khi di chuột vào cho tiêu đề */
+  cursor: pointer;
+  color: rgb(177, 36, 96);
+  text-align: left;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.additional-news-content .highlighted:hover {
+  text-decoration: none;
+  /* Loại bỏ gạch chân khi di chuột vào category1 và category2 */
+}
+
+.additional-news-container-1,
+.additional-news-container-2 {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 10px;
+  position: relative;
+}
+
+/* Updated styles for spacing in additional-news-container-1 */
+.additional-news-container-1 .additional-news-item,
+.additional-news-container-2 .additional-news-item {
+  display: flex;
+  margin-bottom: 30px; /* Increase the margin-bottom for more spacing between items */
+}
+
+/* Additional specific styles for .additional-news-container-1 */
+.additional-news-container-1 .additional-news-item {
+  padding-bottom: 20px; /* Add padding at the bottom of each item */
+  border-bottom: 1px solid #ddd; /* Add a border to separate each item visually */
+}
+
+/* Remove the last border in .additional-news-container-1 */
+.additional-news-container-1 .additional-news-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0; /* Remove bottom margin for the last item */
+}
+
+/* General styles for .additional-news-content */
+.additional-news-content {
+  padding-left: 15px; /* Slightly increase left padding */
+  text-align: left;
+}
+
+.additional-news-content p {
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none; /* Remove underline initially */
+}
+
+.additional-news-content p span.title {
+  text-decoration: none; /* Remove underline initially */
+  cursor: pointer;
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.additional-news-content p span.title:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: rgb(177, 36, 96);
+}
+
+.additional-news-content .highlighted:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.additional-news-image img {
+  width: 300px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.additional-news-content .author {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.additional-news-content .published {
+  margin-left: 2px; /* Adjust spacing */
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .news-additional-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .additional-news-container-1,
+  .additional-news-container-2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.additional-news-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Maintain text color */
+}
+
+.additional-news-content .highlighted {
+  text-decoration: none; /* Remove underline */
+}
+
+.additional-news-content .description {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.pagination-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-news button {
+  background-color: #FFCC33; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.pagination-news button:disabled {
+  background-color: #ddd; /* Gray background when disabled */
+  cursor: not-allowed;
+}
+
+.pagination-news button:hover:not(:disabled) {
+  background-color: #FF9900;
+}
+
+.page-info {
+  margin: 0 10px;
+  font-size: 16px;
+}

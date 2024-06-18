@@ -1,0 +1,625 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Tạo ra 4 cột */
+    grid-gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 100px;
+}
+
+.main-article,
+.side-articles,
+.tips-guides,
+.latest-updates {
+    margin-bottom: 20px;
+}
+
+.main-article {
+    grid-column: span 2;
+    /* Chiếm 2 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.main-article-content {
+    padding-top: 10px;
+}
+
+.article-title {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.article-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.article-author {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.side-articles {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlighted-article {
+    margin-bottom: 10px;
+}
+
+.highlighted-article img {
+    width: 100%;
+    height: auto;
+}
+
+.highlighted-title {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.highlighted-title:hover {
+    text-decoration: underline;
+}
+
+.tips-guides {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Canh trái miêu tả */
+}
+
+.tips-guides-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tips-guides-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.view-all-link:hover {
+    text-decoration: none;
+}
+
+.tips-guides ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tips-guides li {
+    margin-bottom: 15px;
+}
+
+.tips-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tips-item img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.tips-item span {
+    font-size: 14px;
+    color: #0073e6;
+    line-height: 1.2;
+}
+
+.tips-item span:hover {
+    text-decoration: underline;
+}
+
+.latest-updates {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.latest-updates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.latest-updates-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.latest-updates-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.latest-updates-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.latest-updates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.latest-updates-column {
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.latest-updates-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* Khoảng cách giữa các phần tử */
+}
+
+.latest-updates-image {
+    border-radius: 5px;
+}
+
+/* Điều chỉnh kích thước ảnh cho cột 2 và 3 */
+.latest-updates-column:nth-child(2) .latest-updates-item,
+.latest-updates-column:nth-child(3) .latest-updates-item {
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.latest-updates-column:nth-child(5) .latest-updates-item,
+.latest-updates-column:nth-child(6) .latest-updates-item {
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.latest-updates-column:nth-child(2) .latest-updates-image,
+.latest-updates-column:nth-child(3) .latest-updates-image {
+    width: 100%;
+    height: auto;
+}
+
+.latest-updates-column:nth-child(5) .latest-updates-image,
+.latest-updates-column:nth-child(6) .latest-updates-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Điều chỉnh kích thước ảnh cho cột 1 dài ra */
+.latest-updates-column:nth-child(1) .latest-updates-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    /* Tỉ lệ ảnh 16:9 để ảnh dài ra */
+}
+
+.latest-updates-column:nth-child(1) .latest-updates-item {
+    width: 550px;
+}
+
+.latest-updates-content {
+    padding-top: 10px;
+}
+
+.latest-updates-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.latest-updates-article-title:hover {
+    text-decoration: none;
+}
+
+.latest-updates-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.latest-updates-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.top-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.top-games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.top-games-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    /* Điều chỉnh vị trí của biểu tượng tìm kiếm */
+    color: #666;
+    /* Màu của biểu tượng */
+}
+
+.top-games-search {
+    padding: 10px 40px 10px 40px;
+    /* Điều chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc;
+    /* Viền ô tìm kiếm */
+    border-radius: 20px;
+    /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px;
+    /* Kích thước chữ trong ô tìm kiếm */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    width: 100%;
+    /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.top-games-search::placeholder {
+    color: #aaa;
+    /* Màu của chữ gợi ý */
+}
+
+.top-games-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.top-games-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.top-games-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.top-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.top-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-games-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn trái nội dung */
+    width: 200px;
+    height: 400px;
+}
+
+.top-games-image {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.top-games-content {
+    padding-top: 10px;
+    width: 100%;
+    /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.top-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.top-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.top-games-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.top-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+.hades-essentials {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.essentials-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.essentials-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.essentials-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.essentials-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.essentials-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.essentials-content {
+    margin-top: 10px;
+}
+
+.essentials-article-title {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.essentials-article-author {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+.future-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.future-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.future-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.future-games-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.future-game-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.future-game-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.future-game-content {
+    margin-top: 10px;
+}
+
+.future-game-article-title {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.future-game-article-author {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+/* Add this CSS to your News.css */
+
+.additional-sections {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    width: 32%;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gold;
+    /* Thêm đường kẻ vàng dưới mỗi bài viết */
+    padding-bottom: 10px;
+    /* Tạo khoảng cách dưới nội dung để không bị che bởi đường kẻ */
+}
+
+.article img {
+    width: 160px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.article-title {
+    font-size: 1.1em;
+}

@@ -1,0 +1,76 @@
+@keyframes colorChange {
+    0% {
+        color: #0000ff;
+    }
+
+    25% {
+        color: #ff0000;
+    }
+
+    50% {
+        color: #00ff00;
+    }
+
+    75% {
+        color: #ff00ff;
+    }
+
+    100% {
+        color: #0000ff;
+    }
+}
+
+.color-change {
+    animation: colorChange 2s infinite;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    footer {
+        position: relative;
+    }
+}
+
+.footer-content p {
+    margin-top: 20px;
+    /* Khoảng cách trên cho phần văn bản dưới footer */
+}
+
+.social-icons {
+    display: flex;
+    /* Sử dụng flexbox để căn giữa */
+    justify-content: center;
+    /* Căn giữa các phần tử theo chiều ngang */
+    align-items: center;
+    /* Căn giữa các phần tử theo chiều dọc */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới cho phần chứa biểu tượng mạng xã hội */
+}
+
+.social-icons span {
+    margin: 0 20px;
+    /* Khoảng cách giữa các biểu tượng */
+}

@@ -1,0 +1,118 @@
+/* Signup.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  min-height: 93vh;
+  background-image: url('../Assets/background-signup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  color: #fff;
+}
+
+.signup-container label {
+  color: #fff;
+}
+
+.signup-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Adding a background for better readability */
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  /* Adjust padding to accommodate icon */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input-with-icon input:focus {
+  border-color: #888;
+  outline: none;
+}
+
+.signup-button {
+  background-color: #ffcc00;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #FF9900;
+}
+
+.login-link {
+  margin-top: 20px;
+}
+
+.login-link p {
+  margin: 0;
+  color: #fff;
+}
+
+.login-link a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-to-home-signup-link {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  width: 100%;
+  /* Ensure the container takes full width */
+}
+
+.back-to-home-signup-link a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-to-home-signup-link a:hover {
+  color: #FF9900;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-to-home-signup-link .icon {
+  margin-right: 8px;
+  color: #fff;
+}

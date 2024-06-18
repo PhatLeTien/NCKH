@@ -1,0 +1,151 @@
+/* src/About.css */
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-header {
+  background-color: #C62828;
+  padding: 10px 0; /* Giảm khoảng cách giữa nội dung và viền trên dưới */
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.about-header::before {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #C62828;
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+}
+
+.about-header::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.about-us {
+  color: white;
+  font-weight: bold;
+  padding: 5px 50px; /* Giảm padding bên trong */
+  position: relative;
+  z-index: 1;
+  background-color: #C62828;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  white-space: nowrap; /* Ngăn chặn văn bản bên trong không bị xuống dòng */
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-container span {
+  margin-top: 5px;
+  margin-right: 718px;
+  font-size: 13px;
+  color: rgb(34, 34, 34);
+  display: inline;
+}
+
+.about-content {
+  font-family: Georgia, serif;
+  text-align: justify; /* Căn đều văn bản */
+  font-size: 18px;
+  line-height: 29px;
+  max-width: 700px; /* Giới hạn chiều rộng tối đa của đoạn văn */
+  margin: 0 auto; /* Căn giữa đoạn văn */
+  margin-top: 10px;
+}
+
+.about-content u {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  border-bottom: 2px solid rgb(177, 36, 96); /* Thêm đường gạch chân màu đỏ */
+  color: black; /* Đặt màu chữ là màu đen */
+}
+
+.about-content .news-scoops::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-image: initial;
+  border-width: 1px 0px 0px;
+  height: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.about-editor {
+  font-size: 18px;
+  line-height: 29px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.about-editor u {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  border-bottom: 2px solid rgb(177, 36, 96); /* Thêm đường gạch chân màu đỏ */
+  color: black; /* Đặt màu chữ là màu đen */
+}
+
+.about-editor u a {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  color: black; /* Đặt màu chữ là màu đen */
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.about-follow {
+  font-size: 18px;
+  line-height: 29px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.about-follow u {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  border-bottom: 2px solid rgb(177, 36, 96); /* Thêm đường gạch chân màu đỏ */
+  color: black; /* Đặt màu chữ là màu đen */
+}
+
+.about-follow u a {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  color: black; /* Đặt màu chữ là màu đen */
+}

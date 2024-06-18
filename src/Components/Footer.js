@@ -1,4 +1,6 @@
 import React from 'react';
+import '../Style/Footer.css';
+
 
 const Footer = () => {
     return (
@@ -10,7 +12,7 @@ const Footer = () => {
                     <span><i className="fa-brands fa-instagram"></i></span>
                     <span><i className="fa-brands fa-vk"></i></span>
                 </div>
-                <p>©2024 GamePT. All Rights Reserved | Design by <a href="https://www.facebook.com/letien.phat.712/" style={{ color: '#0000ff' }}>Phát Lê</a></p>
+                <p>©2024 GamePT. All Rights Reserved | Design by <a href="https://www.facebook.com/letien.phat.712/" className="color-change">Phát Lê</a></p>
             </div>
         </footer>
     );

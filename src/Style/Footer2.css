@@ -1,0 +1,55 @@
+/* Footer2.css */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #212121;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  z-index: 100; /* Đảm bảo thanh footer hiển thị phía trên tất cả các phần khác */
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+}
+
+.footer-network {
+  margin: 20px 0;
+}
+
+.footer-network span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.network-icons i {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999999;
+}
