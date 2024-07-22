@@ -1,0 +1,25 @@
+/* DashboardPage.css */
+.ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ant-layout-sider {
+    background: #fff;
+}
+
+.ant-layout-content {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.add-new-button {
+    margin-bottom: 16px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}

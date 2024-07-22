@@ -21,6 +21,7 @@ import Latest20 from '../Assets/Latest/Latest-20.webp';
 
 export const articles = [
   {
+    id: 1,
     title: "Street Fighter VI Devs Talk About Monetization, M. Bison, And The Series' First-Ever Guest Fighter",
     description: "A recent Akuma event could foreshadow Street Fighter’s future",
     author: "By Ethan Gach",
@@ -31,6 +32,7 @@ export const articles = [
     category2: "FEATURE",
   },
   {
+    id: 2,
     title: "Promising-Looking Sims Competitor Canceled",
     description: "Life By You is no longer being developed by Paradox Interactive following multiple delays",
     author: "By Zack Zwiezen",
@@ -41,16 +43,18 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 3,
     title: "Dragon Age: The Veilguard Is An Exciting And Critical Moment For BioWare",
     description: "After a decade of waiting, we’re finally going back to Thedas, and the fandom is awake again",
     author: "By Kenneth Shepard",
-    published: "Published4 hours ago",
+    published: "Published 4 hours ago",
     imgSrc: Latest3,
     link: "#",
     category1: "OPINION",
     category2: "COMMENTARY",
   },
   {
+    id: 4,
     title: "New Uncharted Movie In The Works As Everyone Wonders Where The Hell The Next Game Is",
     description: "This is not the Uncharted sequel most folks have been waiting for",
     author: "By Moises Taveras",
@@ -61,6 +65,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 5,
     title: "Starfield Can Run At 60 FPS On Xbox Series S Now Thanks To Mods",
     description: "You'll have to remove the grass and put up with a much lower resolution, but it's still playable",
     author: "By Zack Zwiezen",
@@ -71,6 +76,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 6,
     title: "Star Wars: The Acolyte Episode One Is The Fresh Take The Jedi Needed",
     description: "The latest Star Wars series kicks off with a shocking event and some thrillingly bold storytelling",
     author: "By Jan Lucanus",
@@ -81,6 +87,7 @@ export const articles = [
     category2: "TV AND MOVIES",
   },
   {
+    id:7,
     title: "Still Wakes The Deep: The Kotaku Review",
     description: "The Chinese Room's latest horror game begs you to consider what’s worth running from in life",
     author: "By Claire Jackson",
@@ -91,6 +98,7 @@ export const articles = [
     category2: "MULTIPLATFORM",
   },
   {
+    id: 8,
     title: "'90s Dark Web Streaming Sim Is Way More Terrifying Than I Expected",
     description: "darkwebSTREAMER blends horror and sim elements into an enthralling experience that’s hard to put down",
     author: "By Willa Rowe",
@@ -101,6 +109,7 @@ export const articles = [
     category2: "IMPRESSIONS",
   },
   {
+    id: 9,
     title: "Pirate Brawler Planned For The OG Xbox Is Finally Launching 20 Years Later",
     description: "Age of Pirates: Captain Blood was set to arrive in 2006 at one point",
     author: "By Zack Zwiezen",
@@ -111,6 +120,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 10,
     title: "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
     description: "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
     author: "By Kenneth Shepard",
@@ -121,6 +131,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 11,
     title: "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
     description: "Todd Howard pours cold water on Fallout fans' hopes and dreams",
     author: "By Ethan Gach",
@@ -131,6 +142,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 12,
     title: "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop",
     description: "There’ll be a pretty big window to preload the expansion as well, but only on PlayStation",
     author: "By Moises Taveras",
@@ -141,6 +153,7 @@ export const articles = [
     category2: "STRATEGY",
   },
   {
+    id: 13,
     title: "MultiVersus Character Guide: Jason Voorhees",
     description: "How to make the most of the classic slasher villain's best moves",
     author: "By Lucas White",
@@ -151,6 +164,7 @@ export const articles = [
     category2: "INDIE",
   },
   {
+    id: 14,
     title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
     description: "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon without a healer",
     author: "By Willa Rowe",
@@ -161,6 +175,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 15,
     title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
     description: "The company has already confirmed there will be no mention of the Switch successor",
     author: "By Kenneth Shepard",
@@ -171,6 +186,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 16,
     title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
     description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
     author: "By John Walker",
@@ -181,6 +197,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 17,
     title: "A Father’s Day Tribute To My Much-Missed Gaming Dad",
     description: "Hugh Walker was really good at Skyrim, dentistry, and being my dad",
     author: "By John Walker",
@@ -191,6 +208,7 @@ export const articles = [
     category2: "FEATURE",
   },
   {
+    id: 18,
     title: "Elden Ring Players Will Still Get Some Cool New Features Even If They Don't Buy The Erdtree DLC",
     description: "A free update alongside the expansion adds better inventory management",
     author: "By Ethan Gach",
@@ -201,6 +219,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 19,
     title: "19 Things We Learned From The Dragon Age: The Veilguard Q&A",
     description: "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
     author: "By Kenneth Shepard",
@@ -211,6 +230,7 @@ export const articles = [
     category2: "NEWS",
   },
   {
+    id: 20,
     title: "Starfield’s Paid Mods Ignite A Review Bombing On Steam",
     description: "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
     author: "By Claire Jackson",

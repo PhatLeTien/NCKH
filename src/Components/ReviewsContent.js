@@ -1,8 +1,12 @@
 import React from 'react';
 import '../Style/ReviewsContent.css';
+import { useTranslation } from 'react-i18next';
 import { mainReviews, sideReviews, Multiplatforms, PlayStation, Controllers, Keyboards } from '../Scripts/DataReviews';
 
 const ReviewsContent = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="Reviews-container">
             <div className="Reviews-header">
@@ -17,8 +21,8 @@ const ReviewsContent = () => {
                     <div className="main-review-content">
                         <a href={mainReviews.link}>
                             <p className="review-category">{mainReviews.category}</p>
-                            <h1>{mainReviews.title}</h1>
-                            <p>{mainReviews.description}</p>
+                            <h1>{t('mainReviews.mainReviewsTitle')}</h1>
+                            <p>{t('mainReviews.mainReviewsDescription')}</p>
                             <p className="author">{mainReviews.author}</p>
                         </a>
                     </div>
@@ -32,8 +36,8 @@ const ReviewsContent = () => {
                             <div className="side-review-content">
                                 <a href={review.link}>
                                     <p className="review-category">{review.category}</p>
-                                    <p className='title'>{review.title}</p>
-                                    <p className='description'>{review.description}</p>
+                                    <p className='title'>{t(`sideReviews.sideReviewsTitle${index + 1}`)}</p>
+                                    <p className='description'>{t(`sideReviews.sideReviewsDescription${index + 1}`)}</p>
                                     <p className="author">{review.author}</p>
                                 </a>
                             </div>
@@ -50,7 +54,7 @@ const ReviewsContent = () => {
                         <div key={index} className="multiplatforms-game-item">
                             <img src={multiplatforms.img} alt={multiplatforms.alt} className="multiplatforms-game-image" />
                             <div className="multiplatforms-game-content">
-                                <div className="multiplatforms-game-article-title">{multiplatforms.title}</div>
+                                <div className="multiplatforms-game-article-title">{t(`Multiplatforms.mulReviewsTitle${index+1}`)}</div>
                                 <div className="multiplatforms-game-article-author">{multiplatforms.author}</div>
                             </div>
                         </div>
@@ -66,7 +70,7 @@ const ReviewsContent = () => {
                         <div key={index} className="playstation-game-item">
                             <img src={playstation.img} alt={playstation.alt} className="playstation-game-image" />
                             <div className="playstation-game-content">
-                                <div className="playstation-game-article-title">{playstation.title}</div>
+                                <div className="playstation-game-article-title">{t(`PlayStations.psReviewsTitle${index+1}`)}</div>
                                 <div className="playstation-game-article-author">{playstation.author}</div>
                             </div>
                         </div>
@@ -82,7 +86,7 @@ const ReviewsContent = () => {
                         <div key={index} className="controllers-game-item">
                             <img src={controllers.img} alt={controllers.alt} className="controllers-game-image" />
                             <div className="controllers-game-content">
-                                <div className="controllers-game-article-title">{controllers.title}</div>
+                                <div className="controllers-game-article-title">{t(`Controllers.conReviewsTitle${index+1}`)}</div>
                                 <div className="controllers-game-article-author">{controllers.author}</div>
                             </div>
                         </div>
@@ -98,7 +102,7 @@ const ReviewsContent = () => {
                         <div key={index} className="keyboards-game-item">
                             <img src={keyboards.img} alt={keyboards.alt} className="keyboards-game-image" />
                             <div className="keyboards-game-content">
-                                <div className="keyboards-game-article-title">{keyboards.title}</div>
+                                <div className="keyboards-game-article-title">{t(`Keyboards.keyReviewsTitle${index+1}`)}</div>
                                 <div className="keyboards-game-article-author">{keyboards.author}</div>
                             </div>
                         </div>

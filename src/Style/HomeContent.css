@@ -22,6 +22,7 @@
     background: #fff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .main-image {
@@ -33,8 +34,8 @@
     padding-top: 10px;
 }
 
-.article-title {
-    font-size: 24px;
+.main-article-title {
+    font-size: 32px;
     color: #000;
     font-weight: bold;
     line-height: 1.2;
@@ -45,9 +46,11 @@
     /* Đảm bảo miêu tả chiếm đủ chiều rộng */
 }
 
-.article-description {
-    font-size: 16px;
-    line-height: 1.5;
+.main-article-title:hover {
+    font-size: 32px;
+    color: #666;
+    font-weight: bold;
+    line-height: 1.2;
     margin-bottom: 10px;
     text-align: left;
     /* Canh trái miêu tả */
@@ -55,7 +58,18 @@
     /* Đảm bảo miêu tả chiếm đủ chiều rộng */
 }
 
-.article-author {
+.main-article-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+    color: #000;
+}
+
+.main-article-author {
     font-size: 14px;
     color: #666;
     text-align: left;
@@ -64,10 +78,15 @@
     /* Đảm bảo miêu tả chiếm đủ chiều rộng */
 }
 
+.main-article-link {
+    text-decoration: none;
+}
+
 .side-articles {
     background: #fff;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .highlighted-article {
@@ -80,18 +99,19 @@
 }
 
 .highlighted-title {
-    font-size: 16px;
-    line-height: 1.2;
-    color: #333;
-    font-weight: bold;
-    text-align: left;
+    color: rgb(34, 34, 34);
     /* Canh trái miêu tả */
     width: 100%;
     /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+    margin: 10px 0px 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .highlighted-title:hover {
-    text-decoration: underline;
+    color: #666;
 }
 
 .tips-guides {
@@ -100,6 +120,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
     /* Canh trái miêu tả */
+    cursor: pointer;
 }
 
 .tips-guides-header {
@@ -109,7 +130,7 @@
     margin-bottom: 15px;
 }
 
-.tips-guides-title {
+.tips-guides-title-header {
     font-size: 28px;
     font-weight: 700;
     color: rgb(177, 36, 96);
@@ -149,14 +170,23 @@
     object-fit: cover;
 }
 
-.tips-item span {
-    font-size: 14px;
-    color: #0073e6;
-    line-height: 1.2;
+.tips-guides-article-link {
+    text-decoration: none;
 }
 
-.tips-item span:hover {
-    text-decoration: underline;
+.tips-guides-title {
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    margin-left: 10px;
+    margin: 0px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+}
+
+.tips-guides-title:hover {
+    color: #666;
 }
 
 .latest-updates {
@@ -165,6 +195,7 @@
     background: #fff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .latest-updates-header {
@@ -189,7 +220,7 @@
 }
 
 .latest-updates-view-all-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .latest-updates-grid {
@@ -305,6 +336,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .top-games-header {
@@ -446,6 +478,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .essentials-header {
@@ -513,6 +546,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .future-header {
@@ -581,6 +615,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .section {
@@ -620,6 +655,29 @@
     margin-right: 10px;
 }
 
-.article-title {
-    font-size: 1.1em;
+.additional-article-title {
+    color: rgb(34, 34, 34);
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.commentary-article-title {
+    color: rgb(34, 34, 34);
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.retro-article-title {
+    color: rgb(34, 34, 34);
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
 }

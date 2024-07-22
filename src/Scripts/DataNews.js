@@ -1,3 +1,4 @@
+// DataNews.js
 import imgnewsMain from '../Assets/News/News-main.webp';
 
 import imgnewsSide1 from '../Assets/News/News-side-1.webp';
@@ -19,8 +20,8 @@ import imgAdd2_1 from '../Assets/News/add-2-1.webp';
 import imgAdd2_2 from '../Assets/News/add-2-2.webp';
 import imgAdd2_3 from '../Assets/News/add-2-3.webp';
 
-
 export const mainNews = {
+    id: "promising-sims-competitor-canceled",
     imageUrl: imgnewsMain,
     title: "Promising-Looking Sims Competitor Canceled",
     description: "Life By You is no longer being developed by Paradox Interactive following multiple delays",
@@ -30,29 +31,34 @@ export const mainNews = {
 
 export const sideNews = [
     {
+        id: "new-uncharted-movie",
         imageUrl: imgnewsSide1,
         title: "New Uncharted Movie In The Works As Everyone Wonders Where The Hell The Next Game Is",
         author: "Moises Taveras"
     },
     {
+        id: "starfield-60fps-mod",
         imageUrl: imgnewsSide3,
         title: "Starfield Can Run At 60 FPS On Xbox Series S Now Thanks To Mods",
         author: "Zack Zwiezen"
     },
     {
+        id: "overwatch-2-transformers-collab",
         imageUrl: imgnewsSide2,
         title: "Overwatch 2 Teases Transformers Collaboration Ahead Of Season 11",
         author: "Kenneth Shepard"
     },
     {
+        id: "pirate-brawler-launch",
         imageUrl: imgnewsSide4,
         title: "Pirate Brawler Planned For The OG Xbox Is Finally Launching 20 Years Later",
-        author: "Zack Zwiezen   "
+        author: "Zack Zwiezen"
     }
 ];
 
 export const additionalNews1 = [
     {
+        id: "elden-ring-fantasy-rpg",
         imageUrl: imgAdd1,
         title: "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
         description: "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
@@ -63,6 +69,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "bethesda-fallout-starfield",
         imageUrl: imgAdd2,
         title: "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
         description: "Todd Howard pours cold water on Fallout fans' hopes and dreams",
@@ -73,6 +80,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "ffxiv-healers-strike",
         imageUrl: imgAdd3,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         description: "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon…",
@@ -83,6 +91,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "nintendo-direct-announcement",
         imageUrl: imgAdd4,
         title: "The Long-Awaited June Nintendo Direct Is Finally Happening'",
         description: "The company has already confirmed there will be no mention of the Switch successor",
@@ -93,6 +102,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "elden-ring-dlc-spoilers",
         imageUrl: imgAdd5,
         title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
         description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
@@ -103,6 +113,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "elden-ring-dlc-update",
         imageUrl: imgAdd6,
         title: "Elden Ring Players Will Still Get Some Cool New Features Even If They Don't Buy The Erdtree DLC",
         description: "A free update alongside the expansion adds better inventory management",
@@ -113,6 +124,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "dragon-age-veilguard-qa",
         imageUrl: imgAdd7,
         title: "19 Things We Learned From The Dragon Age: The Veilguard Q&A",
         description: "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
@@ -123,6 +135,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "starfield-paid-mods",
         imageUrl: imgAdd8,
         title: "Starfield’s Paid Mods Ignite A Review Bombing On Steam",
         description: "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
@@ -133,6 +146,7 @@ export const additionalNews1 = [
         link: "#"
     },
     {
+        id: "bloodborne-pc-port",
         imageUrl: imgAdd9,
         title: "FromSoftware's Miyazaki On A Bloodborne PC Port: 'I'd Love More Players To Be Able To Enjoy It'",
         description: "FromSoftware president Hidetaka Miyazaki isn't 'opposed' to a new port of the beloved RPG",
@@ -141,11 +155,12 @@ export const additionalNews1 = [
         category1: "CULTURE",
         category2: "NEWS",
         link: "#"
-    },
+    }
 ];
 
 export const additionalNews2 = [
     {
+        id: "nintendo-direct-happening",
         imageUrl: imgAdd2_1,
         title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
@@ -156,6 +171,7 @@ export const additionalNews2 = [
         link: "#"
     },
     {
+        id: "ffxiv-healers-strike-dawntrail",
         imageUrl: imgAdd2_2,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
@@ -166,6 +182,7 @@ export const additionalNews2 = [
         link: "#"
     },
     {
+        id: "sims-competitor-canceled",
         imageUrl: imgAdd2_3,
         title: "Promising-Looking Sims Competitor Canceled",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",

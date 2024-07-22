@@ -48,19 +48,21 @@ import imgRetro4 from '../Assets/HomeContent/retro-4.webp';
 
 
 export const mainArticle = {
+    id: 'main-article',
     img: imgMain,
     title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
     description: "The company has already confirmed there will be no mention of the Switch successor",
     author: "Kenneth Shepard",
-    link: '#'
 };
 
 export const sideArticle = [
     {
+        id: 'side-article-1',
         img: imgSide1,
         title: "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield"
     },
     {
+        id: 'side-article-2',
         img: imgSide2,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts"
     },
@@ -68,29 +70,35 @@ export const sideArticle = [
 
 export const tipsGuides = [
     {
+        id: 'tip-guides-1',
         img: imgTips1,
-        span: "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop"
+        title: "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop"
     },
     {
+        id: 'tip-guides-2',
         img: imgTips2,
-        span: "MultiVersus Character Guide: Jason Voorhees"
+        title: "MultiVersus Character Guide: Jason Voorhees"
     },
     {
+        id: 'tip-guides-3',
         img: imgTips3,
-        span: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips"
+        title: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips"
     },
     {
+        id: 'tip-guides-4',
         img: imgTips4,
-        span: "Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide"
+        title: "Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide"
     },
     {
+        id: 'tip-guides-5',
         img: imgTips5,
-        span: "How To Defeat Matador In Shin Megami Tensei V: Vengeance"
+        title: "How To Defeat Matador In Shin Megami Tensei V: Vengeance"
     },
 ];
 
 export const latestUpdates = [
     {
+        id: 'lates-updates-1',
         img: imgLatest1,
         alt: "Latest News 1",
         title: "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
@@ -98,6 +106,7 @@ export const latestUpdates = [
         author: "Kenneth Shepard"
     },
     {
+        id: 'lates-updates-2',
         img: imgLatest2,
         alt: "Latest News 2",
         title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
@@ -105,6 +114,7 @@ export const latestUpdates = [
         author: "John Walker"
     },
     {
+        id: 'lates-updates-3',
         img: imgLatest3,
         alt: "Latest News 3",
         title: "A Father’s Day Tribute To My Much-Missed Gaming Dad",
@@ -112,6 +122,7 @@ export const latestUpdates = [
         author: "John Walker"
     },
     {
+        id: 'lates-updates-4',
         img: imgLatest4,
         alt: "Latest News 4",
         title: "Hands-On With Star Wars Outlaws, Weighing In On Dragon Age Discourse, And More Takes For The Week",
@@ -119,6 +130,7 @@ export const latestUpdates = [
         author: "Kotaku Staff"
     },    
     {
+        id: 'lates-updates-5',
         img: imgLatest5,
         alt: "Latest News 5",
         title: "A Revealing Epic Store Leak, New Star Wars Outlaws Details And More Of The Week's Big Stories",
@@ -126,40 +138,46 @@ export const latestUpdates = [
         author: "Kotaku Staff"
     },
     {
+        id: 'lates-updates-6',
         img: imgLatest6,
         alt: "Latest News 5",
         title: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
         description: "We'll also give you the lowdown on Octopath Traveler II's new bosses",
-        author: "By Kotaku Staff"
+        author: "Kotaku Staff"
     },
 ];
 
 export const topGames = [
     {
+        id: 'top-games-1',
         img: imgTopGames1,
         alt: "Game 1",
         title: "Palworld",
         author: "PocketPair"
     },
     {
+        id: 'top-games-2',
         img: imgTopGames2,
         alt: "Game 2",
         title: "Like a Dragon: Infinite Wealth",
         author: "Ryū Ga Gotoku Studios"
     },
     {
+        id: 'top-games-3',
         img: imgTopGames3,
         alt: "Game 3",
         title: "Fortnite",
         author: "Epic Games"
     },
     {
+        id: 'top-games-4',
         img: imgTopGames4,
         alt: "Game 4",
         title: "Final Fantasy XVI",
         author: "Square Enix Creative Business Unit III"
     },
     {
+        id: 'top-games-5',
         img: imgTopGames5,
         alt: "Game 5",
         title: "Super Mario Bros. Wonder",
@@ -169,24 +187,28 @@ export const topGames = [
 
 export const hadesEssentials = [
     {
+        id: 'hades-essentials-1',
         img: imgEs1,
         alt: "Hades 2 Tips",
         title: "Every Game We Played At This Year's Not-E3 Summer Game Fest Extravaganza",
         author: "Alyssa Mercante and Ethan Gach"
     },
     {
+        id: 'hades-essentials-2',
         img: imgEs2,
         alt: "Hades 2 Impressions",
         title: "14 Cool Details We Spotted In Star Wars Outlaws' New Gameplay Trailer",
         author: "Zack Zwiezen"
     },
     {
+        id: 'hades-essentials-2',
         img: imgEs3,
         alt: "Hades 2 Tips",
         title: "21 Incredible Games That Stole The Spotlight At This Year’s Day Of The Devs Showcase",
         author: "Ethan Gach"
     },
     {
+        id: 'hades-essentials-3',
         img: imgEs4,
         alt: "Hades 2 Tips",
         title: "Everything We Saw At Summer Game Fest 2024",
@@ -196,24 +218,28 @@ export const hadesEssentials = [
 
 export const futureGames = [
     {
+        id: 'future-games-1',
         img: imgFuture1,
         alt: "Future Game 1",
         title: "Everything We Know About Elden Ring's Shadow Of The Erdtree DLC",
         author: "Levi Winslow"
     },
     {
+        id: 'future-games-2',
         img: imgFuture2,
         alt: "Future Game 2",
         title: "Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat",
         author: "Ashley Bardhan and Zack Zwiezen"
     },
     {
+        id: 'future-games-3',
         img: imgFuture3,
         alt: "Future Game 3",
         title: "All The Cool Stuff We Spotted In The Star Wars Outlaws Story Trailer",
         author: "Zack Zwiezen"
     },
     {
+        id: 'future-games-4',
         img: imgFuture4,
         alt: "Future Game 4",
         title: "Obsidian’s Avowed Will Defy One Major RPG Trend",
@@ -225,21 +251,25 @@ export const futureGames = [
 export const additionalSections= {
     tvMovies: [
         {
+            id: 'tv-1',
             img: imgTv1,
             alt: "TV and Movies Article 1",
             title: "Star Wars: The Acolyte Episode One Is The Fresh Take The Jedi Needed"
         },
         {
+            id: 'tv-2',
             img: imgTv2,
             alt: "TV and Movies Article 2",
             title: "Star Wars: The Acolyte Tells Us What We Already Knew About The Jedi"
         },
         {
+            id: 'tv-3',
             img: imgTv3,
             alt: "TV and Movies Article 3",
             title: "Blade Movie Loses Second Director In Latest Setback"
         },
         {
+            id: 'tv-4',
             img: imgTv4,
             alt: "TV and Movies Article 4",
             title: "Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell"
@@ -248,21 +278,25 @@ export const additionalSections= {
     
     commentary: [
         {
+            id: 'commentary-1',
             img: imgCom1,
             alt: "Commentary Article 1",
             title: "Still Wakes The Deep: The Kotaku Review"
         },
         {
+            id: 'commentary-2',
             img: imgCom2,
             alt: "Commentary Article 2",
             title: "New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans"
         },
         {
+            id: 'commentary-3',
             img: imgCom3,
             alt: "Commentary Article 3",
             title: "New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great"
         },
         {
+            id: 'commentary-4',
             img: imgCom4,
             alt: "Commentary Article 4",
             title: "Senua’s Saga: Hellblade II: The Kotaku Review"
@@ -271,21 +305,25 @@ export const additionalSections= {
 
     retro: [
         {
+            id: 'retro-1',
             img: imgRetro1,
             alt: "Retro Article 1",
             title: "Final Fantasy VII: The Kotaku Retro Review"
         },
         {
+            id: 'retro-2',
             img: imgRetro2,
             alt: "Retro Article 2",
             title: "This ‘Playable Documentary’ About A 1984 Classic Is One Of The Year’s Best Games"
         },
         {
+            id: 'retro-3',
             img: imgRetro3,
             alt: "Retro Article 3",
             title: "10 Years Ago, Sony Redefined The Modern Console War"
         },
         {
+            id: 'retro-4',
             img: imgRetro4,
             alt: "Retro Article 4",
             title: "Final Fantasy VII: The Kotaku Retro Review"

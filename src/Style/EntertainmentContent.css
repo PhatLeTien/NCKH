@@ -1,0 +1,350 @@
+.entertainment-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.entertainment-header {
+    text-align: center;
+    background-color: #6A0DAD;
+    margin-top: 0px;
+    padding: 20px;
+    color: #fff;
+}
+
+.entertainment-header h1 {
+    margin: 0;
+    padding: 0px 30px;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+}
+
+.entertainment-header p {
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-top: 0.5rem;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.entertainment-categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.entertainment-categories span {
+    background-color: #fff;
+    color: #6A0DAD;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.entertainment-main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.entertainment-main-article {
+    width: 65%;
+    text-align: left;
+}
+
+.entertainment-main-article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.entertainment-main-article h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.entertainment-main-article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.entertainment-main-article .author {
+    font-style: italic;
+    color: #666;
+}
+
+.entertainment-side-articles {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.entertainment-side-article {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.entertainment-side-article h3 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+
+.entertainment-side-article p {
+    font-size: 14px;
+    color: #333;
+}
+
+.entertainment-side-article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.entertainment-additional-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px; /* Add gap between additional articles */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.entertainment-additional-article {
+    width: 32%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.entertainment-additional-article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.entertainment-additional-article h3 {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+
+.entertainment-additional-article p {
+    font-size: 14px;
+    color: #333;
+}
+
+.entertainment-additional-article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.action-games-ent {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.action-header-ent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.action-title-ent {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.action-games-grid-ent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.action-game-item-ent {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.action-game-image-ent {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.action-game-content-ent {
+    margin-top: 10px;
+}
+
+.action-game-article-title-ent {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.action-game-article-author-ent {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+.fantasy-games-ent {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.fantasy-header-ent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.fantasy-title-ent {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.fantasy-games-grid-ent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.fantasy-game-item-ent {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fantasy-game-image-ent {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.fantasy-game-content-ent {
+    margin-top: 10px;
+}
+
+.fantasy-game-article-title-ent {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.fantasy-game-article-author-ent {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+.horror-games-ent {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.horror-header-ent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.horror-title-ent {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(177, 36, 96);
+    text-decoration: none;
+}
+
+.horror-games-grid-ent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.horror-game-item-ent {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.horror-game-image-ent {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.horror-game-content-ent {
+    margin-top: 10px;
+}
+
+.horror-game-article-title-ent {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.horror-game-article-author-ent {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}

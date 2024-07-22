@@ -1,0 +1,46 @@
+.detail-page {
+    margin-top: 100px;
+}
+
+.detail-news-container {
+    padding: 20px;
+}
+
+.detail-news-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detail-news-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.detail-news-info {
+    margin-top: 20px;
+}
+
+/* New CSS for centering the title */
+.detail-news-info .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional: Ensures text is centered within the container */
+}
+
+.detail-news-info h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.detail-news-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.detail-news-info .author, .detail-news-info .published, .detail-news-info .categories {
+    font-size: 14px;
+    color: #888;
+}

@@ -8,9 +8,21 @@ import About from './Pages/About';
 import News from './Pages/News';
 import Guides from './Pages/Guides';
 import Reviews from './Pages/Reviews';
+import Games from './Pages/Games';
+import Entertainment from './Pages/Entertainment';
+
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 
+import DetailHome from './DetailContent/DetailHome';
+import DetailLatest from './DetailContent/DetailLatest';
+import DetailGames from './DetailContent/DetailGames';
+import DetailNews from './DetailContent/DetailNews';
+import DetailGuides from './DetailContent/DetailGuides';
+import DetailReviews from './DetailContent/DetailReviews';
+
+import LoginPage from './Admin2/LoginPage';
+import DashboardPage from './Admin2/DashboardPage';
 
 
 function App() {
@@ -27,6 +39,16 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/guides" element={<Guides />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/entertainment" element={<Entertainment/>} />
+          <Route path="/home/article/:id" element={<DetailHome/>} />
+          <Route path="/latest/article/:id" element={<DetailLatest />} />
+          <Route path="/games/article/:id" element={<DetailGames />} />
+          <Route path="/news/article/:id" element={<DetailNews/>} />
+          <Route path="/guides/article/:id" element={<DetailGuides />} />
+          <Route path="/reviews/article/:id" element={<DetailReviews />} />
+          <Route path="/admin-2" element={<DashboardPage />} />
+          <Route path="/login-admin" element={<LoginPage />} />
         </Routes>
       </div>
     </Router>

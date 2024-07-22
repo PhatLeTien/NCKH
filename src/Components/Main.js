@@ -29,9 +29,11 @@ const Main = () => {
     <div className="slider">
       <button className="nav-button left" onClick={goToPreviousSlide}>&#8249;</button>
       <img src={images[currentImageIndex]} alt="Slide" />
-      <button className="image-overlay-button">
-        <p className="words"><a href='/home'>Click Me</a></p>
-      </button>
+      <a href='/home'>
+        <button className="image-overlay-button">
+          <p className="words">Click Me</p>
+        </button>
+      </a>
       <button className="nav-button right" onClick={goToNextSlide}>&#8250;</button>
     </div>
   );

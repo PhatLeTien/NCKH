@@ -1,0 +1,25 @@
+.detail-page {
+    margin-top: 50px;
+}
+
+.detail-games {
+    padding: 20px;
+    text-align: center;
+}
+
+.detail-games h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detail-games-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.detail-games-author {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}

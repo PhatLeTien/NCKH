@@ -1,0 +1,738 @@
+/*TOP-GAMES*/
+.best-games {
+    margin-top: 100px; /* Khoảng cách từ đỉnh trang xuống đối với phần tử top-games */
+    background-color: rgb(54,34,43);
+    margin-bottom: 0;
+    cursor: context-menu;
+    padding: 0 20px; /* Adding padding to narrow the sides */
+}
+
+.best-games-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các phần tử trong top-games-header */
+    margin-bottom: 20px; /* Khoảng cách với phần tử top-games-grid */
+}
+
+.best-games-header h1 {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Work Sans", sans-serif;
+    grid-column: 2;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.best-games-search-container {
+    display: flex;
+    align-items: center;
+    position: relative; /* Để icon search có thể căn chỉnh dựa trên input */
+    width: 100%;
+    -webkit-box-align: center;
+    border-radius: 8px;
+    background: rgba(245, 245, 245, 0.1);
+}
+
+.best-games-search {
+    padding: 10px 40px; /* Căn chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc; /* Viền ô tìm kiếm */
+    border-radius: 20px; /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px; /* Kích thước chữ trong ô tìm kiếm */
+    outline: none; /* Loại bỏ viền khi focus */
+    width: 100%; /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.best-games-search::placeholder {
+    color: #aaa; /* Màu của chữ gợi ý */
+}
+
+.best-search-icon {
+    position: absolute;
+    left: 15px; /* Khoảng cách từ biểu tượng search đến biên phải của input */
+    color: #aaa; /* Màu của biểu tượng search */
+}
+
+.best-games-title {
+    font-size: calc(29px);
+    line-height: calc(36px);
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px; /* Khoảng cách giữa top-games-title và top-games-grid */
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    align-self: flex-start; /* Căn chỉnh phần tử này sang trái */
+    margin-left: 10px;
+}
+
+.best-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cột với độ rộng bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các phần tử trong grid */
+}
+
+.best-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các item trong cột */
+    cursor: pointer; /* Con trỏ chuột thay đổi thành hình bàn tay khi di chuyển qua các cột */
+    margin-bottom: 25px;
+}
+
+.best-games-item {
+    background: #f9f9f9; /* Màu nền của item */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Căn trái nội dung */
+    width: 200px; /* Độ rộng của item */
+    height: 400px; /* Chiều cao của item */
+}
+
+.best-games-image {
+    border-radius: 5px; /* Đường viền cong của hình ảnh */
+    width: 100%; /* Kích thước ảnh */
+    height: auto;
+}
+
+.best-games-content {
+    padding-top: 10px;
+    width: 100%; /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.best-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left; /* Canh trái tiêu đề */
+}
+
+.best-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.best-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left; /* Canh trái tác giả */
+}
+
+/*RPG-GAMES*/
+.rpg-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background-color: rgb(54,34,43);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    cursor: context-menu;
+}
+
+.rpg-games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.rpg-games-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.rpg-search-icon {
+    position: absolute;
+    left: 10px;
+    /* Điều chỉnh vị trí của biểu tượng tìm kiếm */
+    color: #666;
+    /* Màu của biểu tượng */
+}
+
+.rpg-games-search {
+    padding: 10px 40px 10px 40px;
+    /* Điều chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc;
+    /* Viền ô tìm kiếm */
+    border-radius: 20px;
+    /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px;
+    /* Kích thước chữ trong ô tìm kiếm */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    width: 100%;
+    /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.rpg-games-search::placeholder {
+    color: #aaa;
+    /* Màu của chữ gợi ý */
+}
+
+.rpg-games-title {
+    font-size: calc(29px);
+    line-height: calc(36px);
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px; /* Khoảng cách giữa top-games-title và top-games-grid */
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    align-self: flex-start; /* Căn chỉnh phần tử này sang trái */
+    margin-left: 10px;
+}
+
+.rpg-games-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.rpg-games-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.rpg-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.rpg-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các item trong cột */
+    cursor: pointer; /* Con trỏ chuột thay đổi thành hình bàn tay khi di chuyển qua các cột */
+    margin-bottom: 25px;
+}
+
+.rpg-games-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn trái nội dung */
+    width: 200px;
+    height: 400px;
+}
+
+.rpg-games-image {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.rpg-games-content {
+    padding-top: 10px;
+    width: 100%;
+    /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.rpg-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.rpg-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.rpg-games-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.rpg-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+/*Shooter*/
+.shooter-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background-color: rgb(54,34,43);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    cursor: context-menu;
+}
+
+.shooter-games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.shooter-games-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.shooter-search-icon {
+    position: absolute;
+    left: 10px;
+    /* Điều chỉnh vị trí của biểu tượng tìm kiếm */
+    color: #666;
+    /* Màu của biểu tượng */
+}
+
+.shooter-games-search {
+    padding: 10px 40px 10px 40px;
+    /* Điều chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc;
+    /* Viền ô tìm kiếm */
+    border-radius: 20px;
+    /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px;
+    /* Kích thước chữ trong ô tìm kiếm */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    width: 100%;
+    /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.shooter-games-search::placeholder {
+    color: #aaa;
+    /* Màu của chữ gợi ý */
+}
+
+.shooter-games-title {
+    font-size: calc(29px);
+    line-height: calc(36px);
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px; /* Khoảng cách giữa top-games-title và top-games-grid */
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    align-self: flex-start; /* Căn chỉnh phần tử này sang trái */
+    margin-left: 10px;
+}
+
+.shooter-games-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.shooter-games-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.shooter-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.shooter-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các item trong cột */
+    cursor: pointer; /* Con trỏ chuột thay đổi thành hình bàn tay khi di chuyển qua các cột */
+    margin-bottom: 25px;
+}
+
+.shooter-games-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn trái nội dung */
+    width: 200px;
+    height: 400px;
+}
+
+.shooter-games-image {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.shooter-games-content {
+    padding-top: 10px;
+    width: 100%;
+    /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.shooter-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.shooter-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.shooter-games-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.shooter-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+/*Racing*/
+.racing-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background-color: rgb(54,34,43);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    cursor: context-menu;
+}
+
+.racing-games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.racing-games-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.racing-search-icon {
+    position: absolute;
+    left: 10px;
+    /* Điều chỉnh vị trí của biểu tượng tìm kiếm */
+    color: #666;
+    /* Màu của biểu tượng */
+}
+
+.racing-games-search {
+    padding: 10px 40px 10px 40px;
+    /* Điều chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc;
+    /* Viền ô tìm kiếm */
+    border-radius: 20px;
+    /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px;
+    /* Kích thước chữ trong ô tìm kiếm */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    width: 100%;
+    /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.racing-games-search::placeholder {
+    color: #aaa;
+    /* Màu của chữ gợi ý */
+}
+
+.racing-games-title {
+    font-size: calc(29px);
+    line-height: calc(36px);
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px; /* Khoảng cách giữa top-games-title và top-games-grid */
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    align-self: flex-start; /* Căn chỉnh phần tử này sang trái */
+    margin-left: 10px;
+}
+
+.racing-games-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.racing-games-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.racing-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.racing-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các item trong cột */
+    cursor: pointer; /* Con trỏ chuột thay đổi thành hình bàn tay khi di chuyển qua các cột */
+    margin-bottom: 25px;
+}
+
+.racing-games-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn trái nội dung */
+    width: 200px;
+    height: 400px;
+}
+
+.racing-games-image {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.racing-games-content {
+    padding-top: 10px;
+    width: 100%;
+    /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.racing-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.racing-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.racing-games-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.racing-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}
+
+/*Horror*/
+.horror-games {
+    grid-column: span 4;
+    /* Chiếm 4 cột */
+    background-color: rgb(54,34,43);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    cursor: context-menu;
+}
+
+.horror-games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.horror-games-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.horror-search-icon {
+    position: absolute;
+    left: 10px;
+    /* Điều chỉnh vị trí của biểu tượng tìm kiếm */
+    color: #666;
+    /* Màu của biểu tượng */
+}
+
+.horror-games-search {
+    padding: 10px 40px 10px 40px;
+    /* Điều chỉnh khoảng cách và độ rộng của ô tìm kiếm */
+    border: 1px solid #ccc;
+    /* Viền ô tìm kiếm */
+    border-radius: 20px;
+    /* Đường cong góc của ô tìm kiếm */
+    font-size: 16px;
+    /* Kích thước chữ trong ô tìm kiếm */
+    outline: none;
+    /* Loại bỏ viền khi focus */
+    width: 100%;
+    /* Ô tìm kiếm chiếm toàn bộ chiều rộng của phần tử cha */
+}
+
+.horror-games-search::placeholder {
+    color: #aaa;
+    /* Màu của chữ gợi ý */
+}
+
+.horror-games-title {
+    font-size: calc(29px);
+    line-height: calc(36px);
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px; /* Khoảng cách giữa top-games-title và top-games-grid */
+    box-sizing: inherit;
+    white-space: nowrap;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.5px;
+    align-self: flex-start; /* Căn chỉnh phần tử này sang trái */
+    margin-left: 10px;
+}
+
+.horror-games-view-all-link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.horror-games-view-all-link:hover {
+    text-decoration: underline;
+}
+
+.horror-games-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.horror-games-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các item trong cột */
+    cursor: pointer; /* Con trỏ chuột thay đổi thành hình bàn tay khi di chuyển qua các cột */
+    margin-bottom: 25px;
+}
+
+.horror-games-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn trái nội dung */
+    width: 200px;
+    height: 400px;
+}
+
+.horror-games-image {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.horror-games-content {
+    padding-top: 10px;
+    width: 100%;
+    /* Đảm bảo nội dung chiếm đủ chiều rộng */
+}
+
+.horror-games-article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(177, 36, 96);
+    text-align: left;
+    /* Canh trái tiêu đề */
+    width: 100%;
+    /* Đảm bảo tiêu đề chiếm đủ chiều rộng */
+}
+
+.horror-games-article-title:hover {
+    text-decoration: underline;
+}
+
+.horror-games-article-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+    /* Canh trái miêu tả */
+    width: 100%;
+    /* Đảm bảo miêu tả chiếm đủ chiều rộng */
+}
+
+.horror-games-article-author {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    /* Canh trái tác giả */
+    width: 100%;
+    /* Đảm bảo tác giả chiếm đủ chiều rộng */
+}

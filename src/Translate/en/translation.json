@@ -1,0 +1,377 @@
+{
+    "mainArticle": {
+        "__comment": "HomeContent",
+        "mainArticleTitle": "The Long-Awaited June Nintendo Direct Is Finally Happening",
+        "mainArticleDescription": "The company has already confirmed there will be no mention of the Switch successor"
+    },
+    "sideArticles": {
+        "__comment": "HomeContent",
+        "sideArticleTitle1": "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
+        "sideArticleTitle2": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts"
+    },
+    "tipsGuides": {
+        "__comment": "HomeContent",
+        "tipsGuidesTitleHeader": "Tips & Guides",
+        "viewAll": "View All",
+        "tipGuideTitle1": "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop",
+        "tipGuideTitle2": "MultiVersus Character Guide: Jason Voorhees",
+        "tipGuideTitle3": "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
+        "tipGuideTitle4": "Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide",
+        "tipGuideTitle5": "How To Defeat Matador In Shin Megami Tensei V: Vengeance"
+    },
+    "latestUpdates": {
+        "__comment": "HomeContent",
+        "latestUpdatesTitle": "PTGAMES's Latest",
+        "viewAll": "Show all",
+        "latestUpdateTitle1": "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
+        "latestUpdateDescription1": "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
+        "latestUpdateTitle2": "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
+        "latestUpdateDescription2": "PlayStation's latest sale is here, offering great discounts on PS5 consoles and games including Spider-Man 2.",
+        "latestUpdateTitle3": "A Father’s Day Tribute To My Much-Missed Gaming Dad",
+        "latestUpdateDescription3": "Destiny 2's upcoming expansion, The Final Shape, promises to be a pivotal moment for the game.",
+        "latestUpdateTitle4": "Hands-On With Star Wars Outlaws, Weighing In On Dragon Age Discourse, And More Takes For The Week",
+        "latestUpdateDescription4": "A new Lego set featuring another iconic element from the Zelda universe is set to release soon.",
+        "latestUpdateTitle5": "A Revealing Epic Store Leak, New Star Wars Outlaws Details And More Of The Week's Big Stories",
+        "latestUpdateDescription5": "Several new games are announced for the PlayStation VR platform, promising exciting new experiences.",
+        "latestUpdateTitle6": "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
+        "latestUpdateDescription6": "We'll also give you the lowdown on Octopath Traveler II's new bosses."
+    },
+    "topGames": {
+        "__comment": "HomeContent",
+        "topGamesTitle": "Top Games"
+    },
+    "hadesEssential": {
+        "__comment": "HomeContent",
+        "hadesEssentialsTitleHeader": "Summer Game Fest Essential",
+        "hadesEssentialsTitle1": "Every Game We Played At This Year's Not-E3 Summer Game Fest Extravaganza",
+        "hadesEssentialsTitle2": "14 Cool Details We Spotted In Star Wars Outlaws' New Gameplay Trailer",
+        "hadesEssentialsTitle3": "21 Incredible Games That Stole The Spotlight At This Year’s Day Of The Devs Showcase",
+        "hadesEssentialsTitle4": "Everything We Saw At Summer Game Fest 2024"
+    },
+    "futureGames": {
+        "__comment": "HomeContent",
+        "futureGamesTitleHeader": "Future Games",
+        "futureGamesTitle1": "Everything We Know About Elden Ring's Shadow Of The Erdtree DLC",
+        "futureGamesTitle2": "Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat",
+        "futureGamesTitle3": "All The Cool Stuff We Spotted In The Star Wars Outlaws Story Trailer",
+        "futureGamesTitle4": "Obsidian’s Avowed Will Defy One Major RPG Trend"
+    },
+    "tvMovies": {
+        "__comment": "HomeContent",
+        "tvMoviesTitle": "TV & Movies",
+        "tvMovies1": "Star Wars: The Acolyte Episode One Is The Fresh Take The Jedi Needed",
+        "tvMovies2": "Star Wars: The Acolyte Tells Us What We Already Knew About The Jedi",
+        "tvMovies3": "Blade Movie Loses Second Director In Latest Setback",
+        "tvMovies4": "Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell"
+    },
+    "commentary": {
+        "__comment": "HomeContent",
+        "commentaryTitle": "Commentary",
+        "commentary1": "Still Wakes The Deep: The Kotaku Review",
+        "commentary2": "New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans",
+        "commentary3": "New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great",
+        "commentary4": "Senua’s Saga: Hellblade II: The Kotaku Review"
+    },
+    "retro": {
+        "__comment": "HomeContent",
+        "retroTitle": "Retro",
+        "retro1": "Final Fantasy VII: The Kotaku Retro Review",
+        "retro2": "This ‘Playable Documentary’ About A 1984 Classic Is One Of The Year’s Best Games",
+        "retro3": "10 Years Ago, Sony Redefined The Modern Console War",
+        "retro4": "Final Fantasy VII: The Kotaku Retro Review"
+    },
+    "articles": {
+        "__comment": "LatestContent",
+        "ArticleTitle1": "Street Fighter VI Devs Talk About Monetization, M. Bison, And The Series' First-Ever Guest Fighter",
+        "ArticleTitle2": "Promising-Looking Sims Competitor Canceled",
+        "ArticleTitle3": "Dragon Age: The Veilguard Is An Exciting And Critical Moment For BioWare",
+        "ArticleTitle4": "New Uncharted Movie In The Works As Everyone Wonders Where The Hell The Next Game Is",
+        "ArticleTitle5": "Starfield Can Run At 60 FPS On Xbox Series S Now Thanks To Mods",
+        "ArticleTitle6": "Star Wars: The Acolyte Episode One Is The Fresh Take The Jedi Needed",
+        "ArticleTitle7": "Still Wakes The Deep: The Kotaku Review",
+        "ArticleTitle8": "'90s Dark Web Streaming Sim Is Way More Terrifying Than I Expected",
+        "ArticleTitle9": "Pirate Brawler Planned For The OG Xbox Is Finally Launching 20 Years Later",
+        "ArticleTitle10": "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
+        "ArticleTitle11": "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
+        "ArticleTitle12": "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop",
+        "ArticleTitle13": "MultiVersus Character Guide: Jason Voorhees",
+        "ArticleTitle14": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
+        "ArticleTitle15": "The Long-Awaited June Nintendo Direct Is Finally Happening",
+        "ArticleTitle16": "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
+        "ArticleTitle17": "A Father’s Day Tribute To My Much-Missed Gaming Dad",
+        "ArticleTitle18": "Elden Ring Players Will Still Get Some Cool New Features Even If They Don't Buy The Erdtree DLC",
+        "ArticleTitle19": "19 Things We Learned From The Dragon Age: The Veilguard Q&A",
+        "ArticleTitle20": "Starfield’s Paid Mods Ignite A Review Bombing On Steam",
+        "ArticleDescription1": "A recent Akuma event could foreshadow Street Fighter’s future",
+        "ArticleDescription2": "Life By You is no longer being developed by Paradox Interactive following multiple delays",
+        "ArticleDescription3": "After a decade of waiting, we’re finally going back to Thedas, and the fandom is awake again",
+        "ArticleDescription4": "This is not the Uncharted sequel most folks have been waiting for",
+        "ArticleDescription5": "You'll have to remove the grass and put up with a much lower resolution, but it's still playable",
+        "ArticleDescription6": "The latest Star Wars series kicks off with a shocking event and some thrillingly bold storytelling",
+        "ArticleDescription7": "The Chinese Room's latest horror game begs you to consider what’s worth running from in life",
+        "ArticleDescription8": "darkwebSTREAMER blends horror and sim elements into an enthralling experience that’s hard to put down",
+        "ArticleDescription9": "Age of Pirates: Captain Blood was set to arrive in 2006 at one point",
+        "ArticleDescription10": "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
+        "ArticleDescription11": "Todd Howard pours cold water on Fallout fans' hopes and dreams",
+        "ArticleDescription12": "There’ll be a pretty big window to preload the expansion as well, but only on PlayStation",
+        "ArticleDescription13": "How to make the most of the classic slasher villain's best moves",
+        "ArticleDescription14": "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon without a healer",
+        "ArticleDescription15": "The company has already confirmed there will be no mention of the Switch successor",
+        "ArticleDescription16": "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
+        "ArticleDescription17": "Hugh Walker was really good at Skyrim, dentistry, and being my dad",
+        "ArticleDescription18": "A free update alongside the expansion adds better inventory management",
+        "ArticleDescription19": "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
+        "ArticleDescription20": "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
+        "ArticlePublished1": "Published 4 hours ago",
+        "ArticlePublished2": "Published 4 hours ago",
+        "ArticlePublished3": "Published 4 hours ago",
+        "ArticlePublished4": "Published 5 hours ago",
+        "ArticlePublished5": "Published 6 hours ago",
+        "ArticlePublished6": "Published 7 hours ago",
+        "ArticlePublished7": "Published 7 hours ago",
+        "ArticlePublished8": "Published 7 hours ago",
+        "ArticlePublished9": "Published 8 hours ago",
+        "ArticlePublished10": "Published 10 hours ago",
+        "ArticlePublished11": "Published 10 hours ago",
+        "ArticlePublished12": "Published 10 hours ago",
+        "ArticlePublished13": "Published 10 hours ago",
+        "ArticlePublished14": "Published 11 hours ago",
+        "ArticlePublished15": "Published 11 hours ago",
+        "ArticlePublished16": "Published 12 hours ago",
+        "ArticlePublished17": "Published Yesterday",
+        "ArticlePublished18": "Published Friday 5:15PM",
+        "ArticlePublished19": "Published Friday 5:05PM",
+        "ArticlePublished20": "Published Friday 4:00PM"
+    },
+    "mainNewsContent": {
+        "__comment": "NewsContent",
+        "mainNewsTitle": "Promising-Looking Sims Competitor Canceled",
+        "mainNewsDescription": "Life By You is no longer being developed by Paradox Interactive following multiple delays"
+    },
+    "sideNewsContent": {
+        "__comment": "NewsContent",
+        "sideNewsTitle1": "New Uncharted Movie In The Works As Everyone Wonders Where The Hell The Next Game Is",
+        "sideNewsTitle2": "Starfield Can Run At 60 FPS On Xbox Series S Now Thanks To Mods",
+        "sideNewsTitle3": "Overwatch 2 Teases Transformers Collaboration Ahead Of Season 11",
+        "sideNewsTitle4": "Pirate Brawler Planned For The OG Xbox Is Finally Launching 20 Years Later"
+    },
+    "additionalNews1": {
+        "__comment": "AdditionalNewsContent1",
+        "addTitle1": "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
+        "addDesciption1": "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
+        "addPublished1": "Published June 17, 2024",
+        "addTitle2": "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
+        "addDesciption2": "Todd Howard pours cold water on Fallout fans' hopes and dreams",
+        "addPublished2": "Published June 17, 2024",
+        "addTitle3": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
+        "addDesciption3": "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon…",
+        "addPublished3": "Published June 17, 2024",
+        "addTitle4": "The Long-Awaited June Nintendo Direct Is Finally Happening'",
+        "addDesciption4": "The company has already confirmed there will be no mention of the Switch successor",
+        "addPublished4": "Published June 17, 2024",
+        "addTitle5": "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
+        "addDesciption5": "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
+        "addPublished5": "Published June 17, 2024",
+        "addTitle6": "Elden Ring Players Will Still Get Some Cool New Features Even If They Don't Buy The Erdtree DLC",
+        "addDesciption6": "A free update alongside the expansion adds better inventory management",
+        "addPublished6": "Published June 14, 2024",
+        "addTitle7": "19 Things We Learned From The Dragon Age: The Veilguard Q&A",
+        "addDesciption7": "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
+        "addPublished7": "Published June 14, 2024",
+        "addTitle8": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
+        "addDesciption8": "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
+        "addPublished8": "Published June 14, 2024",
+        "addTitle9": "FromSoftware's Miyazaki On A Bloodborne PC Port: 'I'd Love More Players To Be Able To Enjoy It'",
+        "addDesciption9": "FromSoftware president Hidetaka Miyazaki isn't 'opposed' to a new port of the beloved RPG",
+        "addPublished9": "Published June 13, 2024"
+    },
+    "additionalNews2": {
+        "__comment": "AdditionalNewsContent2",
+        "addTitle1": "The Long-Awaited June Nintendo Direct Is Finally Happening",
+        "addPublished1": "Yesterday",
+        "addTitle2": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
+        "addPublished2": "Yesterday",
+        "addTitle3": "Promising-Looking Sims Competitor Canceled",
+        "addPublished3": "Yesterday"
+    },
+    "mainGuides": {
+        "__comment": "Main Guides",
+        "mainGuidesTitle": "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop",
+        "mainGuidesDescription": "There’ll be a pretty big window to preload the expansion as well, but only on PlayStation"
+    },
+    "sideGuides": {
+        "__comment": "Side Guides",
+        "sideGuidesTitle1": "MultiVersus Character Guide: Jason Voorhees",
+        "sideGuidesDescription1": "How to make the most of the classic slasher villain’s best moves",
+        "sideGuidesTitle2": "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week’s Gaming Tips",
+        "sideGuidesDescription2": "We’ll also give you the lowdown on Octopath Traveler II’s new bosses",
+        "sideGuidesTitle3": "Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide",
+        "sideGuidesDescription3": "There aren’t many graphical options to choose from, but let’s discuss the best settings for Atlus’ RPG on Steam Deck"
+    },
+    "additionalGuides1": {
+        "__comment": "Additional Guides 1",
+        "titleGuides1": "How To Defeat Matador In Shin Megami Tensei V: Vengeance",
+        "descriptionGuides1": "Beware the critical hits in Shin Megami Tensei V: Vengeance’s first major optional boss battle",
+        "publishedGuides1": "Published June 14, 2024",
+        "titleGuides2": "10 Tips For Shin Megami Tensei V: Vengeance Beginners",
+        "descriptionGuides2": "New to Atlus' RPG? Follow these tips and Da’at won’t be a problem",
+        "publishedGuides2": "Published June 14, 2024",
+        "titleGuides3": "Kotaku’s Weekend Guide: Four Games To Send You To The Stars (And Realms Beyond)",
+        "descriptionGuides3": "Let’s travel to space, the dark place, and a popular fantasy game with a long-awaited sequel on the horizon",
+        "publishedGuides3": "Published June 14, 2024",
+        "titleGuides4": "How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance",
+        "descriptionGuides4": "Let’s help you solve Nozuchi’s riddles and find the Sangaku Beads",
+        "publishedGuides4": "Published June 14, 2024",
+        "titleGuides5": "Starfield Mod Fixes The Ending To One Of The Game’s Best Quests",
+        "descriptionGuides5": "It ain’t pretty, but it sure beats the canonical endings to this otherwise-great quest",
+        "publishedGuides5": "Published June 14, 2024",
+        "titleGuides6": "Cut Out Dragon Age: Inquisition’s Filler And Stick To The Good Stuff With These Mods",
+        "descriptionGuides6": "If you’re replaying before The Veilguard, here’s a handy list of mods that will help you get the most out of it",
+        "publishedGuides6": "Published June 14, 2024",
+        "titleGuides7": "Should You Take The Girl's Hand In Shin Megami Tensei V: Vengeance?",
+        "descriptionGuides7": "Let’s figure out if you should embark on the Canon of Vengeance or the Canon of Creation",
+        "publishedGuides7": "Published June 14, 2024",
+        "titleGuides8": "The Quickest Way To Catch Up On Dragon Age Before The Veilguard Arrives",
+        "descriptionGuides8": "BioWare’s fantasy RPG series has been going on for 15 years, here’s the most important things to go back and play",
+        "publishedGuides8": "Published June 13, 2024",
+        "titleGuides9": "Octopath Traveler II's Four Brand-New Boss Battles, Explained",
+        "descriptionGuides9": "Here’s how to access the Extra Battles in Square Enix's popular RPG",
+        "publishedGuides9": "Published June 13, 2024"
+    },
+    "additionalGuides2": {
+        "__comment": "Additional Guides 2",
+        "titleGuides1": "The Long-Awaited June Nintendo Direct Is Finally Happening",
+        "descriptionGuides1": "Kenneth Shepard",
+        "publishedGuides1": "Published Yesterday",
+        "titleGuides2": "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
+        "descriptionGuides2": "Willa Rowe",
+        "publishedGuides2": "Published Yesterday",
+        "titleGuides3": "Promising-Looking Sims Competitor Canceled",
+        "descriptionGuides3": "Zack Zwiezen",
+        "publishedGuides3": "Published Yesterday"
+    },
+    "mainReviews": {
+        "__comment": "Main Reviews",
+        "mainReviewsTitle": "Elden Ring: Shadow of the Erdtree Review: Massive, Menacing, And Magnificent",
+        "mainReviewsDescription": "FromSoftware’s highly anticipated DLC could be a standalone game, it’s just that good"
+    },
+    "sideReviews": {
+        "__comment": "Side Reviews",
+        "sideReviewsTitle1": "Still Wakes The Deep: The Kotaku Review",
+        "sideReviewsDescription1": "The Chinese Room’s latest horror game begs you to consider what’s worth running from in life",
+        "sideReviewsTitle2": "New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans",
+        "sideReviewsDescription2": "Tiny Terry’s Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
+        "sideReviewsTitle3": "New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great",
+        "sideReviewsDescription3": "Master Key is a sublime 2D RPG that’s a perfect follow-up to Animal Well"
+    },
+    "Multiplatforms": {
+        "__comment": "Multiplatforms Reviews",
+        "mulReviewsTitle1": "Elden Ring: Shadow of the Erdtree Review: Massive, Menacing, And Magnificent",
+        "mulReviewsTitle2": "Still Wakes The Deep: The Kotaku Review",
+        "mulReviewsTitle3": "New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans",
+        "mulReviewsTitle4": "Senua’s Saga: Hellblade II: The Kotaku Review"
+    },
+    "PlayStations": {
+        "__comment": "PlayStations Reviews",
+        "psReviewsTitle1": "Stellar Blade: The Kotaku Review",
+        "psReviewsTitle2": "Rise Of The Ronin: The Kotaku Review",
+        "psReviewsTitle3": "Final Fantasy VII Rebirth: The Kotaku Review",
+        "psReviewsTitle4": "The Last of Us Part II Remastered: The Kotaku Review"
+    },
+    "Controllers": {
+        "__comment": "PlayStations Reviews",
+        "conReviewsTitle1": "Replica Xbox 360 Controller Nails The Vibes, But Lack Of Wireless Hurts",
+        "conReviewsTitle2": "The Next Time You're Looking For New Switch Joy-Con, Check These Out",
+        "conReviewsTitle3": "The 5 Best Budget Controllers For Xbox And PC",
+        "conReviewsTitle4": "The Scuf Instinct Pro Feels Like An Official Xbox Controller"
+    },
+    "Keyboards": {
+        "__comment": "Keyboards Reviews",
+        "keyReviewsTitle1": "The Shurikey Hanzo Keyboard Looks Like A Toy, Types Like A Weapon",
+        "keyReviewsTitle2": "Kinesis’ TKO Is My New Favorite Compact Keyboard",
+        "keyReviewsTitle3": "The Razer Huntsman Mini Is An Excellent Intro To 60 Percent Keyboards",
+        "keyReviewsTitle4": "Kaliber Gaming's Opto-Mechanical Keyboard Looks Sharp, Literally"
+    },
+    "bestGames": {
+        "__comment": "Games Content",
+        "bestGamesTitle1": "Halo Infinite",
+        "bestGamesTitle2": "Over Watch 2",
+        "bestGamesTitle3": "Princess Peach Showtime !",
+        "bestGamesTitle4": "Call Of Duty Warzone 2.0",
+        "bestGamesTitle5": "Tekken8"
+    },
+    "rpgGames": {
+        "__comment": "Games Content",
+        "rpgGamesTitle1": "Elden Ring",
+        "rpgGamesTitle2": "Baldur's Gate 3",
+        "rpgGamesTitle3": "Final Fantasy XVI",
+        "rpgGamesTitle4": "Diablo IV",
+        "rpgGamesTitle5": "World WarCraft"
+    },
+    "racingGames": {
+        "__comment": "Games Content",
+        "racingGamesTitle1": "Forza Motorsport",
+        "racingGamesTitle2": "Gran Turismo 7",
+        "racingGamesTitle3": "Mario Kart 8",
+        "racingGamesTitle4": "NFS UNBOUND",
+        "racingGamesTitle5": "Rocket League"
+    },
+    "horrorGames": {
+        "__comment": "Games Content",
+        "horrorGamesTitle1": "Resident Evil 4 : Separate Ways",
+        "horrorGamesTitle2": "Silent Hill",
+        "horrorGamesTitle3": "Alone In The Dark",
+        "horrorGamesTitle4": "Dead By Daylight",
+        "horrorGamesTitle5": "Alan Wake II"
+    },
+    "topGame": {
+        "__comment": "Games Content",
+        "topGameTitle1": "Top Games",
+        "topGameTitle2": "RPG",
+        "topGameTitle3": "Racing",
+        "topGameTitle4": "Horror",
+        "searchPlaceholder": "Search all games"
+    },
+    "titleHeaderEnt": {
+        "titleHeaderEnt1": "Action",
+        "titleHeaderEnt2": "Fantasy",
+        "titleHeaderEnt3": "Horror"
+    },
+    "mainEnt": {
+        "mainTitle": "Star Wars: The Acolyte Is Doing A Different Kind Of Fan-Service, And It Rocks",
+        "mainDescription": "The Disney+ series is leaning into an unapologetically horny part of the fandom, while also expanding the lore in fascinating ways",
+        "mainAuthor": "By Alyssa Mercante"
+    },
+    "sideEnt": {
+        "sideTitle1": "The Acolyte Episode 5 Review: Stunning Battles, Shallow Characters",
+        "sideTitle2": "The Acolyte's Fourth Episode Is A Mundane Misstep",
+        "sideTitle3": "The Acolyte Episode 3 Review: Star Wars Finds Religion In A Whole New Way",
+        "sideTitle4": "First Gladiator 2 Pics Show Paul Mescal And Pedro Pascal Duke It Out",
+        "sideTitle5": "One Of TV's Best Shows Just Came Back With A Terrible Season Premiere",
+        "sideTitle6": "Elden Ring And House Of The Dragon Make This The Summer Of George R. R. Martin",
+        "sideTitle7": "The Latest Acolyte Episode Is Star Wars At Its Most Sexy, Deadly"
+    },
+    "addEnt": {
+        "addEnt1": "Cate Blanchett Explains Why She's In The Borderlands Movie",
+        "addEnt2": "House Of The Dragon Season 2 Episode 3 Recap: Sister Act",
+        "addEnt3": "Hideo Kojima Really Loves The Chainsaw Man Creator’s New Movie"
+    },
+    "actionEntGames": {
+        "actionEnt1": "The Super Mario Bros. Movie 2 Has A Release Date",
+        "actionEnt2": "Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell",
+        "actionEnt3": "Arcane Season 2 Teaser Shows Off Caitlyn And Vi’s New Looks",
+        "actionEnt4": "The Last Of Us Show May Stretch Part II's Story Across Three Seasons"
+    },
+    "fantasyEntGames": {
+        "fantasyEnt1": "House Of The Dragon Season 2 Episode 3 Recap: Sister Act",
+        "fantasyEnt2": "Elden Ring And House Of The Dragon Make This The Summer Of George R. R. Martin",
+        "fantasyEnt3": "House Of The Dragon Season Two Episode One Recap: Westeros Smells A Rat",
+        "fantasyEnt4": "The Live-Action Legend Of Zelda Movie Is Aiming For A More 'Grounded' Style"
+    },
+    "horrorEntGames": {
+        "horrorEnt1": "The Exorcism Review: Clever Ideas Can't Develop In A Film This Shallow",
+        "horrorEnt2": "Blade Movie Loses Second Director In Latest Setback",
+        "horrorEnt3": "Here’s Your First Look At Return To Silent Hill’s Iconic Monster",
+        "horrorEnt4": "2023’s Indie Fishing Horror Game Is Getting A Film Adaptation"
+    }
+}

@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import '../Style/Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faSearch, faEnvelope, faUser, faBars, faTimes, faNewspaper } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faSearch, faEnvelope, faUser, faBars, faTimes, faNewspaper, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Login from './Login';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
+  const [editionsOpen, setEditionsOpen] = useState(false);
+  const { i18n } = useTranslation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -21,6 +24,10 @@ function Header() {
     if (!loginOpen && menuOpen) {
       setMenuOpen(false);
     }
+  };
+
+  const toggleEditions = () => {
+    setEditionsOpen(!editionsOpen);
   };
 
   const handleSendTip = () => {
@@ -48,6 +55,13 @@ function Header() {
     };
   }, []);
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setEditionsOpen(false);
+    setMenuOpen(false); // Close the slide-in menu
+    localStorage.setItem('selectedLanguage', lng); // Lưu ngôn ngữ vào localStorage
+  };
+
   return (
     <header className="header">
       <div className="header-top">
@@ -73,16 +87,24 @@ function Header() {
           <a href="/news">NEWS</a>
           <a href="/guides">GUIDES</a>
           <a href="/reviews">REVIEWS</a>
-          <a href="/">THE BESTS</a>
-          <a href="/">CULTURE</a>
-          <a href="/">OPINION</a>
-          <a href="/">ANIME</a>
+          <a href="/games">GAMES</a>
+          <a href="/entertainment">ENTERTAINMENT</a>
+          {/* <a href="/">OPINION</a>
+          <a href="/">ANIME</a> */}
         </nav>
         <div className="icons">
-          <button onClick={() => window.location.href = "/"} className="icon-item">
+          <div className="icon-item" onClick={toggleEditions}>
             <FontAwesomeIcon icon={faGlobe} />
             <span>EDITIONS</span>
-          </button>
+            <FontAwesomeIcon icon={faChevronDown} className={`arrow-icon ${editionsOpen ? 'open' : ''}`} />
+            {editionsOpen && (
+              <div className="dropdown-menu show">
+                <button onClick={() => changeLanguage('vi')}>Vietnamese</button>
+                <button onClick={() => changeLanguage('en')}>English</button>
+                <button onClick={() => changeLanguage('en')}>Australia</button>
+              </div>
+            )}
+          </div>
           <button onClick={() => window.location.href = "/"} className="icon-item">
             <FontAwesomeIcon icon={faSearch} />
           </button>
@@ -99,7 +121,7 @@ function Header() {
       </div>
       {menuOpen && (
         <>
-          <div className="slide-in-menu">
+          <div className="slide-in-menu open">
             <button className="close-button" onClick={toggleMenu}>
               <FontAwesomeIcon icon={faTimes} />
             </button>
@@ -110,14 +132,14 @@ function Header() {
               <a href="/news">News</a>
               <a href="/guides">Guides</a>
               <a href="/reviews">Reviews</a>
-              <a href="/">The Bests</a>
-              <a href="/">Culture</a>
-              <a href="/">Opinion</a>
-              <a href="/">Anime</a>
+              <a href="/games">Games</a>
+              <a href="/entertainment">ENTERTAINMENT</a>
+              {/* <a href="/">Opinion</a>
+              <a href="/">Anime</a> */}
               <div className="heading">Editions</div>
-              <a href="/">USA</a>
-              <a href="/">UK</a>
-              <a href="/">Australia</a>
+              <button onClick={() => changeLanguage('vi')}>Vietnamese</button>
+              <button onClick={() => changeLanguage('en')}>English</button>
+              <button onClick={() => changeLanguage('en')}>Australia</button>
               <div className="heading">More</div>
               <button onClick={toggleLogin} className="button-link">
                 <FontAwesomeIcon icon={faUser} className="fa-icon" /> Log In / Sign Up
