@@ -14,22 +14,25 @@ const DetailLatest = () => {
     }
 
     return (
-        <div className="detail-page"> {/* Add your className here */}
+        <div className="detail-page-latest"> {/* Add your className here */}
             <Header />
-            <div className="detail-wrapper"> {/* New class name added */}
-                <div className="detail-container">
-                    <img src={article.imgSrc} alt={article.title} className="detail-image" />
-                    <div className="detail-content">
-                        <h1 className="detail-title">{article.title}</h1>
-                        <p className="detail-category">
-                            <span className="highlighted">{article.category1}</span>
-                            <span className="separator"> » </span>
-                            <span className="highlighted">{article.category2}</span>
+            <div className="detail-wrapper-latest"> {/* New class name added */}
+                <div className="detail-container-latest">
+                    <img src={article.imgSrc} alt={article.title} className="detail-image-latest" />
+                    <div className="detail-content-latest">
+                        <h1 className="detail-title-latest">{article.title}</h1>
+                        <p className="detail-category-latest">
+                            <span className="highlighted-latest">{article.category1}</span>
+                            <span className="separator-latest"> » </span>
+                            <span className="highlighted-latest">{article.category2}</span>
                         </p>
-                        <p className="detail-description">{article.description}</p>
-                        <p className="detail-author">
-                            {article.author} <span className="detail-published">{article.published}</span>
+                        <p className="detail-description-latest">{article.description}</p>
+                        <p className="detail-author-latest">
+                            {article.author} <span className="detail-published-latest">{article.published}</span>
                         </p>
+                    </div>
+                    <div className="detail-body-latest">
+                        <div>{article.detail}</div>
                     </div>
                 </div>
             </div>

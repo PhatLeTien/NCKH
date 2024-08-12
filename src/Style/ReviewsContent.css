@@ -214,6 +214,10 @@
     margin-top: 10px;
 }
 
+.multiplatforms-game-content a {
+    text-decoration: none;
+}
+
 .multiplatforms-game-article-title {
     font-style: italic;
     font-size: 18px;
@@ -280,6 +284,10 @@
 
 .playstation-game-content {
     margin-top: 10px;
+}
+
+.playstation-game-content a {
+    text-decoration: none;
 }
 
 .playstation-game-article-title {
@@ -350,6 +358,10 @@
     margin-top: 10px;
 }
 
+.controllers-game-content a {
+    text-decoration: none;
+}
+
 .controllers-game-article-title {
     font-style: italic;
     font-size: 18px;
@@ -416,6 +428,10 @@
 
 .keyboards-game-content {
     margin-top: 10px;
+}
+
+.keyboards-game-content a {
+    text-decoration: none;
 }
 
 .keyboards-game-article-title {

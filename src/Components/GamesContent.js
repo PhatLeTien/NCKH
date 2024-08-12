@@ -25,7 +25,7 @@ function GamesContent() {
                 <div className="best-games-title">{t('topGame.topGameTitle1')}</div>
             </div>
             <div className="best-games-grid">
-                {Games.bestGames.map((topgames, index) => (
+                {Games.topGames.map((topgames, index) => (
                     <div key={index} className="best-games-column" onClick={() => openDetail(topgames)}>
                         <div className="best-games-item">
                             <img src={topgames.img} alt={topgames.alt} className="best-games-image" />

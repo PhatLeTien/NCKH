@@ -1,51 +1,49 @@
-.detail-page-news {
-    margin-top: 50px;
+.detail-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 100px;
 }
 
-.detail-news-container {
+.detail-entertainment {
+    flex: 1;
     padding: 20px;
-}
-
-.detail-news-content {
     max-width: 800px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
-.detail-news-image img {
+.detail-entertainment-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-top: 50px;
-}
-
-.detail-news-info {
-    margin-top: 20px;
-}
-
-/* New CSS for centering the title */
-.detail-news-info .title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Optional: Ensures text is centered within the container */
-}
-
-.detail-news-info h1 {
-    font-size: 25px;
     margin-bottom: 20px;
 }
 
-.detail-news-info p {
-    margin: 10px 0;
-    font-size: 16px;
+.detail-entertainment h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.detail-news-info .author-news, .detail-news-info .published-news, .detail-news-info .categories-news {
-    font-size: 14px;
+.detail-entertainment-author {
+    font-size: 1em;
     color: #888;
+    margin-bottom: 20px;
 }
 
-.detail-body-news p {
+.detail-entertainment-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.detail-body-entertainment p {
     margin-left: auto;
     margin-right: auto;
     max-width: 636px;
@@ -56,7 +54,7 @@
     position: relative;
 }
 
-.detail-body-news p:after {
+.detail-body-entertainment p:after {
     content: "";
     display: block;
     width: 100%;

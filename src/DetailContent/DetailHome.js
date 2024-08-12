@@ -18,24 +18,24 @@ const DetailHome = () => {
     }
 
     return (
-        <div className="detail-page">
-            <Header/>
-            <div className="detail-wrapper">
-                <div className="detail-container">
-                    <div className="detail-header">
+        <div className="detail-page-home">
+            <Header />
+            <div className="detail-wrapper-home">
+                <div className="detail-container-home">
+                    <div className="detail-header-home">
                         <img src={article.img} alt={article.alt} className="detail-image" />
-                        <div className="detail-header-content">
-                            <h1 className="detail-title">{t(article.title)}</h1>
-                            <div className="detail-author">{article.author}</div>
-                            <p>{t(article.description)}</p>
+                        <div className="detail-header-content-home">
+                            <h1 className="detail-title-home">{t(article.title)}</h1>
+                            <div className="detail-author-home">{article.author}</div>
+                            <p className="detail-description-home">{t(article.description)}</p>
                         </div>
                     </div>
-                    <div className="detail-body">
-
+                    <div className="detail-body-home">
+                        <div>{article.detail}</div>
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div >
     );
 };

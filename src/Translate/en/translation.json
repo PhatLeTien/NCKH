@@ -38,7 +38,8 @@
     },
     "topGames": {
         "__comment": "HomeContent",
-        "topGamesTitle": "Top Games"
+        "topGamesTitle": "Top Games",
+        "searchPlaceholder": "Search all games"
     },
     "hadesEssential": {
         "__comment": "HomeContent",

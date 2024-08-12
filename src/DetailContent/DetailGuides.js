@@ -28,15 +28,18 @@ function DetailGuides() {
     }
 
     return (
-        <div className="detail-page">
-            <Header/>
+        <div className="detail-page-guides">
+            <Header />
             <div className="detail-guides">
                 <img src={guide.imageUrl} alt={guide.title} className="detail-guides-image" />
                 <h1>{guide.title}</h1>
                 <div className="detail-guides-author">{guide.author}</div>
                 <div className="detail-guides-description">{guide.description}</div>
             </div>
-            <Footer/>
+            <div className="detail-body-guides">
+                <div>{guide.detail}</div>
+            </div>
+            <Footer />
         </div>
     );
 }

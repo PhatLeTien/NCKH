@@ -52,10 +52,12 @@ const ReviewsContent = () => {
                 <div className="multiplatforms-games-grid">
                     {Multiplatforms.map((multiplatforms, index) => (
                         <div key={index} className="multiplatforms-game-item">
-                            <img src={multiplatforms.img} alt={multiplatforms.alt} className="multiplatforms-game-image" />
+                            <img src={multiplatforms.imageUrl} alt={multiplatforms.alt} className="multiplatforms-game-image" />
                             <div className="multiplatforms-game-content">
-                                <div className="multiplatforms-game-article-title">{t(`Multiplatforms.mulReviewsTitle${index+1}`)}</div>
-                                <div className="multiplatforms-game-article-author">{multiplatforms.author}</div>
+                                <a href={multiplatforms.link}>
+                                    <div className="multiplatforms-game-article-title">{t(`Multiplatforms.mulReviewsTitle${index + 1}`)}</div>
+                                    <div className="multiplatforms-game-article-author">{multiplatforms.author}</div>
+                                </a>
                             </div>
                         </div>
                     ))}
@@ -68,10 +70,12 @@ const ReviewsContent = () => {
                 <div className="playstation-games-grid">
                     {PlayStation.map((playstation, index) => (
                         <div key={index} className="playstation-game-item">
-                            <img src={playstation.img} alt={playstation.alt} className="playstation-game-image" />
+                            <img src={playstation.imageUrl} alt={playstation.alt} className="playstation-game-image" />
                             <div className="playstation-game-content">
-                                <div className="playstation-game-article-title">{t(`PlayStations.psReviewsTitle${index+1}`)}</div>
-                                <div className="playstation-game-article-author">{playstation.author}</div>
+                                <a href={playstation.link}>
+                                    <div className="playstation-game-article-title">{t(`PlayStations.psReviewsTitle${index + 1}`)}</div>
+                                    <div className="playstation-game-article-author">{playstation.author}</div>
+                                </a>
                             </div>
                         </div>
                     ))}
@@ -84,10 +88,12 @@ const ReviewsContent = () => {
                 <div className="controllers-games-grid">
                     {Controllers.map((controllers, index) => (
                         <div key={index} className="controllers-game-item">
-                            <img src={controllers.img} alt={controllers.alt} className="controllers-game-image" />
+                            <img src={controllers.imageUrl} alt={controllers.alt} className="controllers-game-image" />
                             <div className="controllers-game-content">
-                                <div className="controllers-game-article-title">{t(`Controllers.conReviewsTitle${index+1}`)}</div>
+                            <a href={controllers.link}>
+                                <div className="controllers-game-article-title">{t(`Controllers.conReviewsTitle${index + 1}`)}</div>
                                 <div className="controllers-game-article-author">{controllers.author}</div>
+                            </a>
                             </div>
                         </div>
                     ))}
@@ -100,10 +106,12 @@ const ReviewsContent = () => {
                 <div className="keyboards-games-grid">
                     {Keyboards.map((keyboards, index) => (
                         <div key={index} className="keyboards-game-item">
-                            <img src={keyboards.img} alt={keyboards.alt} className="keyboards-game-image" />
+                            <img src={keyboards.imageUrl} alt={keyboards.alt} className="keyboards-game-image" />
                             <div className="keyboards-game-content">
-                                <div className="keyboards-game-article-title">{t(`Keyboards.keyReviewsTitle${index+1}`)}</div>
+                            <a href={keyboards.link}>
+                                <div className="keyboards-game-article-title">{t(`Keyboards.keyReviewsTitle${index + 1}`)}</div>
                                 <div className="keyboards-game-article-author">{keyboards.author}</div>
+                            </a>
                             </div>
                         </div>
                     ))}

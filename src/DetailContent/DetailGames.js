@@ -13,7 +13,7 @@ function DetailGames() {
     // Function to find game by id
     const findGameById = (id) => {
         let allGames = [
-            ...Games.bestGames,
+            ...Games.topGames,
             ...Games.rpgGames,
             ...Games.racingGames,
             ...Games.horrorGames
@@ -28,14 +28,17 @@ function DetailGames() {
     }
 
     return (
-        <div className="detail-page">
-            <Header/>
+        <div className="detail-page-games">
+            <Header />
             <div className="detail-games">
                 <img src={game.img} alt={game.alt} className="detail-games-image" />
                 <h1>{game.title}</h1>
                 <div className="detail-games-author">{game.author}</div>
             </div>
-            <Footer/>
+            <div className="detail-body-games">
+                <div>{game.detail}</div>
+            </div>
+            <Footer />
         </div>
     );
 }

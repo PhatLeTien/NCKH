@@ -20,15 +20,18 @@ const DetailReview = () => {
     }
 
     return (
-        <div className="detail-page">
-            <Header/>
+        <div className="detail-page-review">
+            <Header />
             <div className="detail-review">
                 <img src={review.imageUrl} alt={review.title} className="detail-review-image" />
                 <h1>{review.title}</h1>
                 <p className="detail-review-author">{review.author}</p>
                 <p className="detail-review-description">{review.description}</p>
             </div>
-            <Footer/>
+            <div className="detail-body-reviews">
+                <div>{review.detail}</div>
+            </div>
+            <Footer />
         </div>
     );
 };

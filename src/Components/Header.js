@@ -77,7 +77,7 @@ function Header() {
       <div className={`header-bottom ${isBlurred ? 'blurred' : ''}`}>
         <div className="logo">
           <div className="logo-wrapper">
-            <div className="logo-text">PTGAMES</div>
+            <div className="logo-text"><a href="/home">PTGAMES</a></div>
             <div className="logo-subtext">Gaming Reviews, News, Tips and More.</div>
           </div>
         </div>
@@ -108,7 +108,7 @@ function Header() {
           <button onClick={() => window.location.href = "/"} className="icon-item">
             <FontAwesomeIcon icon={faSearch} />
           </button>
-          <button onClick={() => window.location.href = "/"} className="icon-item">
+          <button onClick={handleSendTip} className="icon-item">
             <FontAwesomeIcon icon={faEnvelope} />
           </button>
           <button onClick={toggleLogin} className="icon-item">

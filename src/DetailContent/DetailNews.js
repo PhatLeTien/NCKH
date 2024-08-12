@@ -15,8 +15,8 @@ const DetailNews = () => {
     }
 
     return (
-        <div className="detail-page">
-            <Header/>
+        <div className="detail-page-news">
+            <Header />
             <div className="detail-news-container">
                 <div className="detail-news-content">
                     <div className="detail-news-image">
@@ -27,13 +27,16 @@ const DetailNews = () => {
                             <h1>{article.title}</h1>
                         </div>
                         <p>{article.description}</p>
-                        <p className="author">{article.author}</p>
-                        <p className="published">{article.published}</p>
-                        <p className="categories">{article.category1} » {article.category2}</p>
+                        <p className="author-news">{article.author}</p>
+                        <p className="published-news">{article.published}</p>
+                        <p className="categories-news">{article.category1} » {article.category2}</p>
                     </div>
                 </div>
+                <div className="detail-body-news">
+                    <div>{article.detail}</div>
+                </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
