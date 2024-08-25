@@ -1,5 +1,3 @@
-import { TwitterTweetEmbed } from 'react-twitter-embed';
-
 import mainImage from '../Assets/Entertainment/mainImage.webp';
 
 import sideImage1 from '../Assets/Entertainment/side-1.webp';
@@ -28,15 +26,6 @@ import imageHorror1 from '../Assets/Entertainment/hor-1.webp';
 import imageHorror2 from '../Assets/Entertainment/hor-2.webp';
 import imageHorror3 from '../Assets/Entertainment/hor-3.webp';
 import imageHorror4 from '../Assets/Entertainment/hor-4.webp';
-
-import Add2t1 from '../Assets/Entertainment/add-ent-2t1.webp';
-import Side1t1 from '../Assets/Entertainment/side-1t1.webp';
-import Side2t1 from '../Assets/Entertainment/side-2t1.webp';
-import Side3t1 from '../Assets/Entertainment/side-3t1.webp';
-import Side4t1 from '../Assets/Entertainment/side-4t1.webp';
-import Side5t1 from '../Assets/Entertainment/side-5t1.webp';
-import Fantasy1t1 from '../Assets/Entertainment/fts-1t1.webp';
-import Fantasy3t1 from '../Assets/Entertainment/fts-3t1.webp';
 
 export const additionalEntertainments = [
     {
@@ -80,7 +69,6 @@ export const additionalEntertainments = [
                 <p>Criston has his first day of doing double duty as the Hand and the Commander. The Team Green Council feels like a repeat of all the councils in episodes before it. They acknowledge that the Riverlands are key to securing soldiers and butt heads over the use of dragons. Alicent, the lone female voice, is drowned in the council.</p>
                 <p>Team Black is taking this period of inaction from Team Green as a chance to get their own ducks (or dragon eggs) in a row. Rhaena, the oft-forgotten second daughter of Daemon, is sent to Pentos to guard the three boy kings. The White Worm, Mysaria, is still in Dragonstone after saving Rhaenyra from the Twin plot and wants a place on Team Black. Daemon arrives at a nearly decimated Harrenhal with absolutely nobody to fight. Ser Strong pledges his allegiance to Rhaenyra and offers Daemon dinner (a shame, no red currant). Team Black’s council meetings go over similarly to those of their Green foes; everyone argues over using dragons and ignores the woman urging peace.</p>
                 <p>Alicent sets Criston off to Harrenhal with her cocky brother, Gwayne, a hanky, and some prayers. Helaena gives her mother what she desperately wants—forgiveness.</p>
-                <p><img src={Add2t1} alt="House Of The Dragon Season 2 Episode 3 Recap: Sister Act" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -96,9 +84,6 @@ export const additionalEntertainments = [
             <div>
                 <p>Look Back, the adaptation of Chainsaw Man creator Tastsuki Fujimoto’s 2021 manga of the same name, is a hit in Japan after a strong opening weekend. One person who is particularly in love with the film is none other than everyone’s favorite full-time cinephile and part-time game developer, Hideo Kojima. In the five days since the movie’s release, Kojima appears to have seen the movie not once, not twice, but four times.</p>
                 <p>In typical fashion, we know Kojima has become enamored with Look Back thanks to his own social media posts. On June 28 (the film’s release date) Kojima tweeted a still from the movie, which many have taken as him signaling he watched the movie that day. Kojima then did the same thing on June 29, June 30, and July 1. That’s four back-to-back viewings every day since Look Back was released in theaters. Even with a short runtime of an hour and one minute, it’s still a commitment to see that often. Between all these viewings, Kojima posted his thoughts on the film on June 30. “Look Back” is one of the most remarkable anime of the past decade,” he wrote, “I was shaken to my core! The tenderness, the kindness, the strength! Such rich expressions and sensitivity, surpassing even a live-action film! I was moved by the present and future of entertainment!”</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1807751879423610989" />
-                </div>
             </div>
         )
     }
@@ -133,9 +118,6 @@ export const sideEntertainments = [
                 <p>After a slow episode 4, The Acolyte turns the volume all the way up on lightsaber battles with an episode that is worth every minute of screen time and then some. Featuring perhaps the best lightsaber choreography in Star Wars history, here the action takes priority over plot and character development.</p>
                 <p>Episode 5 (“Night”) picks up right where we left off, seconds before a battle between the Jedi Knights and the acolyte’s mysterious Master, clad in dark armor that’s a mix between that of Darth Vader and Kylo Ren. The battle begins with the Master tearing through several seemingly faceless Jedi, each of whom I’m sure each have their own dense backstories. Even amidst the spectacular all-versus-one action, the lack of intimacy we feel with these unknown Jedi left me feeling like an opportunity had been missed for us to feel more. As each Jedi fell, I would have loved for for their deaths to feel more impactful. All it would’ve taken was a simple meal scene like the goop dinner in the first Matrix movie in which Neo meets the crew of the ship that saved him.</p>
                 <p>Sprinkled between lightsaber martial arts combos, we have actual story progression. We’re in this fight to see Osha reunite with/arrest her twin sister Mae, both played by Amandla Stenberg. Amidst the battle, the Jedi tell Osha to get to safety, escorted by injured Jedi Knight Yord. Meanwhile, acolyte Mae attempts to evade her former dark Master unsuccessfully, and she sends a psychic distress signal to Osha. Osha tells Yord they have to go back or everyone will die. Osha gets the bright idea to use her pocket-droid’s flashlight to attract a swarm of umbramoths (giant, lethal moths) that surround them in the trees to use against the dark Master, and she and Yord run back to battle.</p>
-                <p>Yord lunges at the dark Master and hits his mask, but that doesn’t stop his adversary from slaying the best Jedi fighter, Padawan Jecki Lon (Dafne María Keen Fernández). Finally, we see the face of the Master. No doubt like many fans, up to this point I’d been wondering who the master is. Is it one of Osha and Mae’s mothers? Is it a former Jedi, perhaps the teacher of Master Sol (Lee Jung-jae)? Nope. It’s Qimir (Manny Jacinto). And now the volume on the episode turns down.</p>
-                <p>Manny is a great actor who’s performed well in previous episodes, but he feels miscast in this moment. His reveal underwhelms, and the strength and mystery of the character is now gone. We learn of Qimir’s motivation—to be free—and the authenticity of a villain feels lost. This is not Vader. This is just a bad guy.</p>
-                <p><img src={Side1t1} alt="The Acolyte Episode 5 Review: Stunning Battles, Shallow Characters" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -152,14 +134,6 @@ export const sideEntertainments = [
                 <p>After establishing a high bar in earlier episodes, The Acolyte’s fourth installment struggles to maintain the momentum, suffering from a mix of standard writing, camerawork, and performances. Unfortunately, it also exhibits a number of tropes that are causing the Hollywood machine distress industry wide.</p>
                 <p>Episode 4 is centered around two opposing parties racing to be the first to find Jedi Master Kelnacca (Joonas Suotamo). The Acolytes want to find him for the kill to complete a mission from their mysterious master, and the Jedi want to get to him before it’s too late. Twin sisters Osha and Mae (both played by Amandla Sternberg) are on opposing sides, struggling with their connection to each other—Osha sure that she can’t hurt her own sister, and Mae contemplating with whom her loyalties truly lie. Without spoiling it for you, we get a glimpse of the Acolytes’ mysterious master at the end of the episode, who looks pretty cool, teasing a battle with the Jedi. It’s an abrupt cliffhanger to a mostly statically paced episode.</p>
                 <p>What makes this episode feel static? Sometimes when watching a show, I like to close my eyes and just listen. Listen for the rhythm of the dialogue, what’s being said, and how it’s being said. Listen for when the music comes in and out. If it sounds like another film or show, in my view, it’s on the path to lacking potency. That can translate into a film or show feeling old, slow, or unoriginal. This was the first episode of The Acolyte that struck me this way: as an episode packed with generic scene pacing and dialogue beats.</p>
-                <p>The Acolyte's Fourth Episode Is A Mundane Misstep
-                    <li>The standard shots and pacing of the dialogue between Jedi Masters Sol (Lee Jung-jae) and Vernestra (Rebecca Henderson)</li>
-                    <li>The sonic device of Jedi Knight Yord (Charlie Barnett) clearing his throat to interrupt Osha’s whispers to Jedi Padawan (an “apprentice”) Jecki Lon (Dafne María Keen Fernández) about the cute new tracker character, Bazil</li>
-                    <li>The performance rhythm of Osha asking Yord to stop Mae in the event she won’t join the Jedi side</li>
-                </p>
-                <p>We have all seen these type of scene structures before in other films and shows. Close you eyes and feel the mundane Force.</p>
-                <p>It’s important to note that the seeds for this lack of uniqueness were planted in earlier episodes and films. We can at least trace this back to Finn calling Imperial personnel “cops” in The Last Jedi as he tries to avoid them when infiltrating their ship. In The Acolyte, the Jedi act as law enforcement, and their use of language references modern TV police, with Yord telling Mae to come out of Kelnacca’s home with her hands where they can see them. I don’t watch Star Wars to remember our current way of life in the real world, I watch it to be inspired to think differently. I wish the approach to these characters and systems satisfied my craving.</p>
-                <p><img src={Side2t1} alt="The Acolyte's Fourth Episode Is A Mundane Misstep" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -175,7 +149,6 @@ export const sideEntertainments = [
                 <p>Just because you can grab an audience with a name like Star Wars doesn’t mean you can keep their attention. With its third episode, The Acolyte introduces a theme so big and so important—religion—that if the show doesn’t take it seriously in the coming episodes, it may lose mine.</p>
                 <p>Episode 3 spends most of its time giving us the backstory of Brendok, the homeworld of twin sisters Mae and Osha. Here, we get to see a society of women—the equivalent of witches—who are experts on the Force. Mae and Osha are the only children in their tribe, and when Jedi Masters Indara (Carrie-Anne Moss), Sol (Lee Jung-jae), Torbin (Dean-Charles Chapman), and Kelnacca (Joonas Suotamo) arrive to test the kids for potential Jedi knighthood, we learn that they have no father. They were conceived through some secret use of the Force, and their mothers don’t want the Jedi to find out the details.</p>
                 <p>This secret is a massive development for the show, and not simply because Star Wars fans will connect this birth and Mae & Osha’s psychokinetic link to Rey and Kylo Ren’s coupling decades later, referred to as a “Dyad” in the Force by Emperor Palpatine. No, fandom-centric speculation is not what matters to me. I’m the fan that’s looking at where George Lucas found his inspiration for the Force itself, and why this challenges the real-world ancient philosophies upon which the entirety of Star Wars is based.</p>
-                <p><img src={Side3t1} alt="The Acolyte Episode 3 Review: Star Wars Finds Religion In A Whole New Way" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -190,7 +163,6 @@ export const sideEntertainments = [
             <div>
                 <p>It’s July 1, folks. You know what that means? Pride Month is over and all the corporations who told us we were welcome to spend our money at their businesses are about to fold up their rainbow flags and forget about the gays and theys until next year. But fear not, we have one buffer to cushion the fall as the country drops us down a chasm of despair: Paul Mescal and Pedro Pascal looking filthy and bloody in the first images from Gladiator II.</p>
                 <p>Vanity Fair has a first look at the film, which is the sequel to the 2000 Academy Award-winning film starring Russell Crowe. Original director Ridley Scott is returning to helm, with Mescal (Normal People, All of Us Strangers) set to lead the movie as Lucius Verus, last seen as a young child portrayed by Spencer Treat Clark in the original. Connie Nielsen is returning for the sequel, as well, to reprise her role as Lucilla, Lucius’ mother. Gladiator II will take place decades after the first movie, with the two long-separated and forced to reckon with the state of their relationship. But in the time since their separation, the Roman empire—led by Pascal’s (The Last of Us, The Mandarin) character Marcus Acacius—has begun encroaching on North Africa, where Lucius has been in hiding.</p>
-                <p><img src={Side4t1} alt="First Gladiator 2 Pics Show Paul Mescal And Pedro Pascal Duke It Out" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -205,7 +177,6 @@ export const sideEntertainments = [
             <div>
                 <p>FX’s The Bear has returned with its third season, dropped in its entirety on the streamer on June 27. The stunning cooking drama starring Jeremy Allen White and Ayo Edebiri has been one of the best things on television in recent years, an indulgent feast of spectacular camera work and acting. Unfortunately, Season 3’s premiere takes that indulgence to an extreme, resulting in an episode that works fine on its own merits and would have been fine if it landed midseason, but fails as a reintroduction to the show.</p>
                 <p>To sum it up, the premiere sees Carmy alone the morning after his restaurant’s opening (as shown in the season 2 finale), looking back on his entire life while he creates a new menu and a list of non-negotiables that will help the restaurant earn a Michelin star. It’s an introspective clip show offering a glimpse into the mind of White as he seeks to start the next chapter of his career. As opposed to the often stressful episodes filled with lengthy character interactions highlighted by excellently written and humorous dialogue, the premiere is a fairly quiet affair focused solely on Carmy. We do see short sequences from the past with other characters but nothing that goes beyond a couple of lines of dialogue. It’s all about the visual journey into the past.</p>
-                <p><img src={Side5t1} alt="First Gladiator 2 Pics Show Paul Mescal And Pedro Pascal Duke It Out" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -221,13 +192,6 @@ export const sideEntertainments = [
                 <p>For over 14 years, Game of Thrones author George R. R. Martin has been writing The Winds of Winter, the next book in his beloved fantasy saga. The HBO series inspired by the novels extended past his writing long before its final episode aired in 2019, though Martin did provide the broad strokes of how he intended to end his song of ice and fire. His last book, which inspired House of the Dragon, the Game of Thrones-spinoff currently airing on HBO, was published in 2018. Frustrated fans think The Winds of Winter will never come.</p>
                 <p>I was one of those frustrated fans until last week, when both Elden Ring: Shadow of the Erdtree and HBO’s House of the Dragon simultaneously existed in our shared cultural consciousness, both shining beacons of Martin’s influence, mirroring or mimicking each other. Now I wonder, do I even need Winds of Winter?</p>
                 <p>For what it’s worth, it’s still unclear just how much Martin contributed to the story of 2022’s GOTY Elden Ring, though we know that game director Hidetaka Miyazaki reached out to him specifically for his fantasy expertise. Martin has said previously that he was in charge of building Elden Ring’s world and the backstory of some of its key characters, but we have scant details beyond that. Does his writing exist in any form in the Erdtree DLC? We don’t know. But it doesn’t matter, as his influence is like the wind in The Lands Between—it’s everywhere.</p>
-                <h2>Martin, Monsters, Madness, and More</h2>
-                <p>Elden Ring’s lore is as heady and dense as that in any Martin novel, but with clear themes that echo sentiments we’ve seen from him before: the burden one carries when ruling over a land, the danger of those twisted and gnarled by power, the horrors that the common folk face, the perils of religious extremism. The twisting narratives, the double-crossing, hell, even the gender fuckery is all stuff you’d expect from Martin, even if some of this was put forth by Miyazaki. It’s hard to put your finger on an essence, or a vibe, to carve it into something tangible like marble, but it’s there—Martin’s fingerprints are all over Elden Ring.</p>
-                <p>There are dragons, sibling rivalries, scorned lovers, weird religions, honorable (and dishonorable knights), dark magic, and a whole host of beautiful, dangerous-looking armor, diaphanous veils, and shiny-sharp weapons. If you had any doubt that Martin’s ideas are woven through Elden Ring like gilded yarn, this X (formerly Twitter) thread should convince you.</p>
-                <p>Diving into Shadow of the Erdtree while tuning in weekly for House of the Dragon has instilled in me a sort of cognitive harmony, a melding of the two worlds that then bleeds into my own. The latest episode, which aired on Sunday, June 23, featured a brief moment that felt like it was ripped straight from an Elden Ring cutscene.</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1794664734282915878" />
-                </div>
             </div>
         )
     },
@@ -263,9 +227,6 @@ export const actionGamesEntertainments = [
             <div>
                 <p>It came as no surprise earlier this year when it was announced that The Super Mario Bros. Movie was to receive a sequel. The 2023 animated feature made $1.3 billion from its theatrical release alone, and in a world without Barbie, would have been the biggest film of the year. Of course it’s getting a sequel. And now we know precisely when.</p>
                 <p>Posting on the official Japanese X (formerly Twitter) account, Miyamoto explained that he wanted to make an announcement ahead of June 18's Nintendo Direct, that the movie has a Japanese release date set for April 24, 2026. Oh, and it will be “fun,” which comes as quite a relief.</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1802869076475392024" />
-                </div>
             </div>
         )
     },
@@ -359,7 +320,6 @@ export const fantasyGamesEntertainments = [
                 <p>Criston has his first day of doing double duty as the Hand and the Commander. The Team Green Council feels like a repeat of all the councils in episodes before it. They acknowledge that the Riverlands are key to securing soldiers and butt heads over the use of dragons. Alicent, the lone female voice, is drowned in the council.</p>
                 <p>Team Black is taking this period of inaction from Team Green as a chance to get their own ducks (or dragon eggs) in a row. Rhaena, the oft-forgotten second daughter of Daemon, is sent to Pentos to guard the three boy kings. The White Worm, Mysaria, is still in Dragonstone after saving Rhaenyra from the Twin plot and wants a place on Team Black. Daemon arrives at a nearly decimated Harrenhal with absolutely nobody to fight. Ser Strong pledges his allegiance to Rhaenyra and offers Daemon dinner (a shame, no red currant). Team Black’s council meetings go over similarly to those of their Green foes; everyone argues over using dragons and ignores the woman urging peace.</p>
                 <p>Alicent sets Criston off to Harrenhal with her cocky brother, Gwayne, a hanky, and some prayers. Helaena gives her mother what she desperately wants—forgiveness.</p>
-                <p><img src={Fantasy1t1} alt="House Of The Dragon Season 2 Episode 3 Recap: Sister Act" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -375,13 +335,6 @@ export const fantasyGamesEntertainments = [
                 <p>For over 14 years, Game of Thrones author George R. R. Martin has been writing The Winds of Winter, the next book in his beloved fantasy saga. The HBO series inspired by the novels extended past his writing long before its final episode aired in 2019, though Martin did provide the broad strokes of how he intended to end his song of ice and fire. His last book, which inspired House of the Dragon, the Game of Thrones-spinoff currently airing on HBO, was published in 2018. Frustrated fans think The Winds of Winter will never come.</p>
                 <p>I was one of those frustrated fans until last week, when both Elden Ring: Shadow of the Erdtree and HBO’s House of the Dragon simultaneously existed in our shared cultural consciousness, both shining beacons of Martin’s influence, mirroring or mimicking each other. Now I wonder, do I even need Winds of Winter?</p>
                 <p>For what it’s worth, it’s still unclear just how much Martin contributed to the story of 2022’s GOTY Elden Ring, though we know that game director Hidetaka Miyazaki reached out to him specifically for his fantasy expertise. Martin has said previously that he was in charge of building Elden Ring’s world and the backstory of some of its key characters, but we have scant details beyond that. Does his writing exist in any form in the Erdtree DLC? We don’t know. But it doesn’t matter, as his influence is like the wind in The Lands Between—it’s everywhere.</p>
-                <h2>Martin, Monsters, Madness, and More</h2>
-                <p>Elden Ring’s lore is as heady and dense as that in any Martin novel, but with clear themes that echo sentiments we’ve seen from him before: the burden one carries when ruling over a land, the danger of those twisted and gnarled by power, the horrors that the common folk face, the perils of religious extremism. The twisting narratives, the double-crossing, hell, even the gender fuckery is all stuff you’d expect from Martin, even if some of this was put forth by Miyazaki. It’s hard to put your finger on an essence, or a vibe, to carve it into something tangible like marble, but it’s there—Martin’s fingerprints are all over Elden Ring.</p>
-                <p>There are dragons, sibling rivalries, scorned lovers, weird religions, honorable (and dishonorable knights), dark magic, and a whole host of beautiful, dangerous-looking armor, diaphanous veils, and shiny-sharp weapons. If you had any doubt that Martin’s ideas are woven through Elden Ring like gilded yarn, this X (formerly Twitter) thread should convince you.</p>
-                <p>Diving into Shadow of the Erdtree while tuning in weekly for House of the Dragon has instilled in me a sort of cognitive harmony, a melding of the two worlds that then bleeds into my own. The latest episode, which aired on Sunday, June 23, featured a brief moment that felt like it was ripped straight from an Elden Ring cutscene.</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1794664734282915878" />
-                </div>
             </div>
         )
     },
@@ -400,7 +353,6 @@ export const fantasyGamesEntertainments = [
                 <p>In Drismarck, Lord Coryls (Steve Toussaint) assesses the state of the shipping fleet and meets Alyn, the sailor who saved his life. Then the “enduring mystery,” Queen Helaena (Phia Saban) ominously tells King Aegon (Tom Glynn-Carney) about fearing “the rats.”</p>
                 <p>Of course, rats surround King’s Landing. Lord Larys (Matthew Needham) exterminates Otto Highwater’s spies in another ploy to have Queen Consort Alicent Hightower (Olivia Cooke) owe him. When Alicent isn’t worrying about the impending war or her alliance with her father, she’s finally getting hers with Kings Guard commander Criston Cole (Fabian Frankel). Alicent is no angel, but after years of bedding a pus-filled King Corpse, she deserves a ride or two.</p>
                 <p>The Team Green council meeting goes awry with too many cooks in the kitchen (one being the 4-year-old heir that Aegon decided to bring to work). Aegon flounders as king. He can’t even resolve a small-time farming dispute, let alone enact his Dragon v Dragon war plan. Naturally, Aegon’s woeful leadership and need to be liked by the masses makes him the perfect puppet for Alicent and Otto to control. But the sneaky Larys starts campaigning to be Aegon’s new Hand.</p>
-                <p><img src={Fantasy3t1} alt="House Of The Dragon Season Two Episode One Recap: Westeros Smells A Rat" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -418,9 +370,6 @@ export const fantasyGamesEntertainments = [
                 <p>Wes Ball is known primarily for the Maze Runner trilogy of films seen only by the cousin of someone you know, and is currently building up toward the release of Kingdom of the Planet of the Apes—having taken over the franchise from Matt Reeves, and marking the first entry not to feature Andy Serkis. He’s also the man at the helm of the forthcoming, currently pre-pre-pre-production Zelda movie, revealed by Nintendo in November 2023, alongside producers Shigeru Miyamoto and Avi Arad.</p>
                 <p><b>Read More:</b> Zelda Movie Director Wants It To Be More Miyazaki Than Lord Of The Rings</p>
                 <p>As it happens, before Ball broke into the film industry with his 2011 CG short, Ruin, he tweeted his ambition to create a fully computer-animated Zelda movie.</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="8362170683" />
-                </div>
             </div>
         )
     },
@@ -461,7 +410,7 @@ export const horrorGamesEntertainments = [
                 <p>The news comes from The Wrap, which reports that the actual parting happened a while ago (though no specific time frame is stated) and that it was “entirely amicable.” Demange was brought on as director in 2022 following the exit of Bassam Tariq (Mogul Mowgli) who joined the project in 2021. The writing team has also been in constant flux. MCU veteran writer Eric Pearson is currently working on the latest version of the script but he is rewriting and building off of the work of a long list that includes four previous writers. At one point Blade had been relegated to “fourth lead” of the movie, and Ali was reportedly close to leaving.</p>
                 <p>In addition to crew leaving, the planned production start was delayed due to the 2023 SAG-AFTRA strike that halted nearly all Hollywood film production. Blade was originally slated for a 2023 release, which it has clearly missed by a long shot. Currently, the project has a November 7, 2025 release date.</p>
                 <p>Through all of the setbacks Mahershala Ali has remained attached to the project, and Marvel seems to be committed to getting the movie right. While the long list of issues Blade has faced make it seem in danger, it might not be all bad news. Just last month, Disney CEO Bob Iger revealed that Disney would reduce Marvel movie output to roughly two to three movies every year. That hopefully means it is taking a quality-over-quantity approach, and with several movies on the horizon already, including Deadpool & Wolverine, Blade will be given the chance to take its time and get everything right.</p>
-            </div>
+            </div> 
         )
     },
     {

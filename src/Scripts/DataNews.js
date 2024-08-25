@@ -1,5 +1,4 @@
-import { TwitterTweetEmbed } from 'react-twitter-embed';
-
+// DataNews.js
 import imgnewsMain from '../Assets/News/News-main.webp';
 
 import imgnewsSide1 from '../Assets/News/News-side-1.webp';
@@ -20,10 +19,6 @@ import imgAdd9 from '../Assets/News/add-9.webp';
 import imgAdd2_1 from '../Assets/News/add-2-1.webp';
 import imgAdd2_2 from '../Assets/News/add-2-2.webp';
 import imgAdd2_3 from '../Assets/News/add-2-3.webp';
-
-import Add2t1 from '../Assets/News/add2t1.webp';
-import Add7t1 from '../Assets/News/add7t1.webp';
-import Add8t1 from '../Assets/News/add8t1.webp';
 
 export const mainNews = {
     id: "promising-sims-competitor-canceled",
@@ -160,13 +155,6 @@ export const additionalNews1 = [
             <div>
                 <p>Most of Elden Ring developer FromSoftware’s games have some form of cooperative play. However, they are full of restrictions and cost-related mechanics that make it impossible for you to play the whole way through with a friend without jumping through hoops. The good news is, it doesn’t sound like the studio is married to that ideal, and may consider a more seamless co-op experience in a future project.</p>
                 <p>Elden Ring’s Shadow of the Erdree DLC is just a few days away from its June 21 launch, and FromSoftware president Hidetaka Miyazaki has been making the rounds for interviews. This included a chat with PC Gamer, delving into the expansion, the nature of cooperative play in his future games, what his ideal fantasy RPG looks like, and his reaction to the layoffs plaguing the video gaming industry.</p>
-                <h2>FromSoftware would “consider” seamless co-op in a future game</h2>
-                <p>If you’ve ever tried to play a FromSoftware game with a friend, you know it can be a bit of an ordeal. Games like Bloodborne allow you to play in co-op, but you have to use summoning items to bring the other person into your game, and you must have a certain in-game currency to pull it off. This is an effective way to let players call for help if they need it without the game becoming a solely cooperative adventure, but would that be such a bad thing? Elden Ring also has its own rules and limitations, and it’s resulted in a popular Seamless Co-op mod that lets you go through the entire game with a friend.</p>
-                <p>Miyazaki says this isn’t something the team is opposed to. The “drop in drop out” was meant to let the game be “more loose” so players could complete a task then move on. But Miyazaki sounds open to implementing something like this mod in a future project.</p>
-                <p>“That’s not to say we won’t consider other ways like you and your friend played, from beginning to end, total co-op—that’s not to say we won’t consider ideas like that with our future games,” he said.</p>
-                <h2>Elden Ring is not Miyazaki’s ideal fantasy RPG, but it’s “getting close”</h2>
-                <p>Miyazaki admits that it is probably impossible to achieve this ideal, because if he’s the one making the game he can’t experience the same surprise a player would. So it seems that creating his ideal RPG and experiencing his ideal RPG are mutually exclusive in his eyes.</p>
-                <p>“It’s hard to say without giving spoilers for my next idea or our next games,” Miyazaki said when asked about what Elden Ring was missing to be his ideal. “But I think one thing that’s not necessarily missing, but makes it difficult to achieve my ideal, is that when I play it, I know everything’s going to happen. I already know everything that’s going on. So in terms of enjoying the game from a player’s perspective, I’d love to not know that, and for somebody else to make my ideal fantasy game, please, if possible. Then I can enjoy it just as a player.”</p>
             </div>
         )
     },
@@ -186,11 +174,6 @@ export const additionalNews1 = [
                 <p>“For other Fallout games in the future, you know obviously I can’t talk about those right now but I would say sort of rushing through them or we kind of need to get stuff out that is different than the work we’re doing in 76, you know we don’t feel like we need to rush any of that,” he told MrMattyPlays. “The Fallout TV show fills a certain niche in terms of the franchise and storytelling.”</p>
                 <p>Howard continued:</p>
                 <p>Totally get the desire for a new kind of mainline single-player game. And look, those things take time. I don’t think it’s bad for people to miss things. We just want to get it right and make sure that everything we’re doing in a franchise, whether it’s Elder Scrolls, Fallout, or now Starfield, that those become meaningful moments for everybody who loved these franchises as much as we do.</p>
-                <h2>A new Fallout might not happen anytime soon</h2>
-                <p>That’ll be bad news for anyone who was hoping Bethesda might pivot to getting the next Fallout game out sooner in the wake of the Fallout TV show’s wild success and breakout popularity beyond the existing fan base. Fallout 5, or whatever the studio decides to call it, is currently slated to go into production after The Elder Scrolls VI is complete, which is likely still many years away as well at this point.</p>
-                <p>The recent boost in popularity, including Fallout 4's next-gen update making it one of April’s most-downloaded games, renewed speculation about whether Bethesda would be willing to hand-off the franchise to a third-party again, like it did with Obsidian Entertainment for Fallout: New Vegas. Given that the studio is now part of Microsoft, there’s a lot of other internal teams it could partner with to potentially put out a smaller spin-off based in that world in the short-term.</p>
-                <p>But nothing Howard said in the interview suggested that’s currently one of Bethesda’s goals for the franchise. It doesn’t sound like remasters of Fallout 1 and 2 are on the table either. The CRPGs developed by Interplay Entertainment before Bethesda purchased the license are isometric and more punishing. They’re great but much harder to get into in the year 2024.</p>
-                <p><img src={Add2t1} alt="Dragon Age: The Veilguard Is An Exciting And Critical Moment For BioWare" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -262,9 +245,6 @@ export const additionalNews1 = [
                 <p>In a statement posted to the official Elden Ring X (formerly Twitter) feed, the team warns players to be “mindful” in the week running up to the expansion’s release. And it’s done in the most gentle, non-accusatory way imaginable.</p>
                 <p>“Please be mindful of spoilers,” says the tweeted JPEG, “for those who want to tread into the Realm of Shadows with nothing but their determination and their minds unclouded.”</p>
                 <p><b>Pre-order <i>Elden Ring: Shadow of the Erdtree:</i></b>  | Best Buy | Humble Bundle</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1802579506479202486" />
-                </div>
             </div>
         )
     },
@@ -281,9 +261,6 @@ export const additionalNews1 = [
             <div>
                 <p>I imagine the cross-section of people who still play Elden Ring but aren’t buying its Shadow of the Erdtree expansion is pretty small. Even so, those people are in luck since they’ll still get to take advantage of a free update going live alongside the DLC. In addition to various gameplay changes, it’ll greatly improve inventory management and even add more hairstyles.</p>
                 <p>FromSoftware teased the changes in a brief thread on Twitter today. “An update to the Elden Ring base game & a day 1 patch for Shadow of the Erdtree will be distributed on 6/20,” the company wrote. “The update includes bug fixes, balance adjustments & some new features.”</p>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <TwitterTweetEmbed tweetId="1801616168299499599" />
-                </div>
             </div>
         )
     },
@@ -305,11 +282,6 @@ export const additionalNews1 = [
                 <p>“We just found that when you’re playing the combat system, when you’re planning your strategies, two really felt like the right number to manage,” she said. “So keep in mind, [protagonist] Rook has a lot of different types of actions, abilities, and individual attacks that are more fully fleshed out than ever before. Timing and positioning really matter a lot, so this really felt like the right balance. The number of inputs and actions we’re asking you as a player to take, including directing your companions, is higher than ever before. [...] I engage with the companions, [and] actively control what they’re doing more than I ever have before in any of the other three games.”</p>
                 <p>As far as banter goes, Epler said that The Veilguard will still include banter between companions as you travel through the world, even if fewer people are taking part in the conversation at once. He also confirmed that BioWare has gone out of its way to include features like resumable banter to ensure you don’t miss a conversation by accidentally triggering an event that interrupts it. While there will be interactions between characters during your travels, BioWare also confirmed there will be banter at your home base, so you’ll still get a sense of their relationships with one another if you don’t take them out to the field.</p>
                 <p>“Honestly, I don’t think you could stop the writers from writing banter,” Epler said. “I will say for myself it’s one of the more light but fun things to do. You get to write little stories and little arcs between different characters.”</p>
-                <h2>You can kiss a skeleton, maybe?</h2>
-                <p>Since it was revealed that Emmrich, the old man necromancer party member, would have a skeletal assistant named Manfred, Dragon Age fans have, perhaps predictably, wondered if you can kiss the lipless man. Rhodes shot down any notion of a Manfred romance, but he seems to imply that you’ll be able to do…something….with a skeleton at some point in The Veilguard.<br/>“I would say, ‘not that skeleton,’ but we’re not saying ‘no skeletons,’” Rhodes responded to a fan asking to bone the bones.</p>
-                <h2>There’s no photo mode...yet</h2>
-                <p>BioWare has confirmed that The Veilguard doesn’t have a photo mode, but is open to adding it. This would be the second time the studio has such a feature to its games, as it included it in the Mass Effect: Legendary Edition remasters, but Dragon Age hasn’t had one yet.<br/>“That is a feature that we like the idea of,” Rhodes said. “It’s not just player-facing, but internally it’s a really helpful thing for us as we’re building things out to have that. So we’ll let you know.”</p>
-                <p><img src={Add7t1} alt="Dragon Age: The Veilguard Is An Exciting And Critical Moment For BioWare" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -327,10 +299,6 @@ export const additionalNews1 = [
                 <p>Starfield has yet again rubbed folks the wrong way. This time it’s not over what many perceived as a mostly empty initial offering when it launched last year. Rather, criticism is centered on the game’s new Creations mod hub, which offers free and paid mods from both Bethesda and community members alike. Some are so irate over the presence of those paid mods that, in a case of history repeating itself, they’re taking to Steam to make their feelings known by review-bombing the game all over again.</p>
                 <p><b>Read More:</b> Shattered Space Looks Like The Dose Of Personality Starfield Needs</p>
                 <p>Starfield arrived on September 4, 2023 to mixed reception. While its scope was certainly ambitious and, as I argued in my review, it has quite a few clever ideas, it hasn’t been universally embraced by the gaming community. In the months that followed Starfield’s release, the community (particularly on Steam) took to review-bombing it over its milquetoast offerings. Bethesda has stressed that the game is likely to evolve, with support and new features expected “for years and years” after its release. Now, Starfield’s mod hub, introduced on June 9, 2024, offers easy access to official and community-based mods and has proven to be a much-needed and often great addition to the game. That said, many of the mods come at a steep cost, which, predictably, has influenced fans to take to review bombing it on Steam for a second time.</p>
-                <h2>The mods are cool, but ouch, some are real pricey (and for what, exactly?)</h2>
-                <p>Starfield costs $70 USD. For that you get a Bethesda-ass Bethesda game of Bethesda proportions, just way more barren than you might expect. It’s all cut up into little pieces partitioned off by menus and loading screens. The quests don’t allow for a lot of freedom of choice, despite some neat concepts here and there in the main story.</p>
-                <p>Like many games with online storefronts, Starfield uses a premium currency: Credits. $10 USD will net you 1,000 credits, and you can buy as many as 5500 for $49.99.</p>
-                <p><img src={Add8t1} alt="Dragon Age: The Veilguard Is An Exciting And Critical Moment For BioWare" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
