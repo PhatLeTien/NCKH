@@ -13,7 +13,6 @@ import Entertainment from './Pages/Entertainment';
 
 import Login from './Components/Login';
 import Signup from './Components/Signup';
-import Search from './Components/Search';
 
 import DetailHome from './DetailContent/DetailHome';
 import DetailLatest from './DetailContent/DetailLatest';
@@ -43,7 +42,6 @@ function App() {
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/games" element={<Games />} />
           <Route path="/entertainment" element={<Entertainment/>} />
-          <Route path="/search" element={<Search />} /> 
           <Route path="/home/article/:id" element={<DetailHome/>} />
           <Route path="/latest/article/:id" element={<DetailLatest />} />
           <Route path="/games/article/:id" element={<DetailGames />} />

@@ -1,3 +1,5 @@
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+
 import imgMainGuide from '../Assets/Guides/main.webp';
 import imgSideGuide1 from '../Assets/Guides/side-1.webp';
 import imgSideGuide2 from '../Assets/Guides/side-2.webp';
@@ -17,6 +19,15 @@ import imgAdd2_1 from '../Assets/Guides/add-guide-2-1.webp';
 import imgAdd2_2 from '../Assets/Guides/add-guide-2-2.webp';
 import imgAdd2_3 from '../Assets/Guides/add-guide-2-3.webp';
 
+import SideGuides2t1 from '../Assets/Guides/side-2-1.webp';
+import SideGuides3t1 from '../Assets/Guides/side-3-1.webp';
+
+import Add1_1t1 from '../Assets/Guides/add-guide-1t1.webp';
+import Add4_1t1 from '../Assets/Guides/add-guide-4t1.webp';
+import Add7_1t1 from '../Assets/Guides/add-guide-7t1.webp';
+import Add9_1t1 from '../Assets/Guides/add-guide-9t1.webp';
+
+
 export const mainGuide = {
     id: 'main-guide-1',
     imageUrl: imgMainGuide,
@@ -29,6 +40,9 @@ export const mainGuide = {
             <p>Elden Ring’s highly anticipated expansion, Shadow of the Erdtree, is dropping later this week, and a lot of people are pumped for what’s shaping up to be one of the biggest releases of the year. Whether you’re a lorehound or simply someone looking for a proper excuse to dive into the game of 2022, Shadow of the Erdtree is going to be massive, and you’re probably going to want to get into it as soon as possible to avoid potential spoilers.</p>
             <p>Ahead of launch, the official Elden Ring Twitter account posted a graphic detailing the release schedule for the expansion, including local time zones and the exact time players should expect it to be available.</p>
             <p>Pre-order Elden Ring: Shadow of the Erdtree:  | Best Buy | Humble Bundle</p>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <TwitterTweetEmbed tweetId="1801615583705723349" />
+            </div>
         </div>
     )
 };
@@ -60,7 +74,8 @@ export const sideGuides = [
         detail: (
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
-                <p>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</p>
+                <h2>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</h2>
+                <p><img src={SideGuides2t1} alt="How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week’s Gaming Tips" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>Elden Ring is known for its challenging combat and hazardous exploration, so it’s reasonable to expect its Shadow of the Erdtree expansion to be an ultra-difficult experience. With dozens of hours of new exploration and battle ahead, you’ll want to be certain you’re well-prepared for all of the horrors that await you. As such, you may be asking yourself what level you should be before starting Shadow of the Erdtree. - Billy Givens Read More</p>
             </div>
         )
@@ -77,6 +92,7 @@ export const sideGuides = [
                 <p>Shin Megami Tensei V: Vengeance is a massively expanded version of 2021’s Shin Megami Tensei V, featuring more quests, monsters, and a new story path featuring a brand new character. However, perhaps most importantly, Vengeance drops the original game’s Nintendo Switch exclusivity for a multiplatform release. PC players can now enjoy this game via Steam, and Vengeance is officially Steam Deck verified. However, does it actually run well on Valve’s handheld device?</p>
                 <p>After spending at least 15 hours playing Shin Megami Tensei V: Vengeance portably, I can confirm that the game runs very well on the Steam Deck. At the default resolution of 1280 X 800, I was able to enjoy reliable performance that typically stayed close to a solid 60 FPS. If you plan on enjoying this RPG on the go (or in your bed), definitely grab the Steam version.</p>
                 <p><b>Buy <i>Shin Megami Tensei V: Vengeance:</i></b>  | Best Buy | Humble Bundle</p>
+                <p><img src={SideGuides3t1} alt="Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     }
@@ -97,6 +113,7 @@ export const additionalGuides1 = [
                 <p><b>Buy<i>Shin Megami Tensei V: Vengeance:</i></b>  | Best Buy | Humble Bundle</p>
                 <p>For best results, your main character should be at level 24 before challenging Matador. If you’re underleveled, consider advancing the main story and returning to this encounter later. This is especially helpful if you’re playing the Vengeance story, since you’ll recruit Guest characters who can come in clutch for this fight. Also consider stocking up on Elec Shards from Cadaver’s Hollow to give the Nahobino and any other human characters a way to exploit Matador’s weakness.</p>
                 <p>With that out of the way, here’s everything you need to know about overcoming Matador.</p>
+                <p><img src={Add1_1t1} alt="How To Defeat Matador In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -151,6 +168,7 @@ export const additionalGuides1 = [
                 <p>To complete this quest, you’ll have to solve three “riddles” the Nozuchi presents to you. However, each objective is different from the last, which can turn you around if you aren’t paying close attention.</p>
                 <p>Before we dissect each phase of the Beastly Battle of Wits, know that some combat is involved to complete this quest. There’s no major boss battle here, mind you, but the combat can catch you off guard if you’re under-leveled. The strongest monster you’ll face here is level 18, so use that information to decide if you’d like to tackle other quests to level up first.</p>
                 <p>With that out of the way, here’s how to complete each phase of this quest.</p>
+                <p><img src={Add4_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -207,6 +225,7 @@ export const additionalGuides1 = [
                 <p>The decision to take the girl’s hand will determine which story path you’ll take in Shin Megami Tensei V: Vengeance. If you refuse to take her hand, you’ll embark on the Canon of Creation. This is the story that was featured in the 2021 original version of Shin Megami Tensei V, albeit with some new quests and quality of life changes. However, if you do take her hand, you’ll experience the Canon of Vengeance instead. This is the new story path, in which this mysterious girl will change key story beats and ultimately affect the outcome of the plot.</p>
                 <p>The game will explain all this after you make your choice, and it will give you the chance to alter your decision after explicitly telling you which path you’re about to take. However, once you make your decision, it’s set in stone for the rest of the game.</p>
                 <p><b>Buy <i>Shin Megami Tensei V: Vengeance:</i></b> | Best Buy | Humble Bundle</p>
+                <p><img src={Add7_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -241,6 +260,7 @@ export const additionalGuides1 = [
         detail: (
             <div>
                 <p>On June 6th, Square Enix announced that both Octopath Traveler games are now available on more platforms. Not only is Octopath Traveler available on PlayStation, but you can play Octopath Traveler 2 on Xbox and Xbox Game Pass. Square Enix released a trailer celebrating the new ports, but eagle-eyed RPG fans noticed something curious about the footage shown. Namely, why is there a shot of the protagonists from Octopath Traveler fighting the cast of Octopath Traveler 2? When did that ever happen in the games!?</p>
+                <p><img src={Add9_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>It turns out that Square Enix snuck in a little surprise for Octopath Traveler 2 fans amidst all the excitement. As part of Update 1.1.0, which became available on all platforms on June 6th, four new boss battles were added to the already sprawling RPG. For those who have cleared the main story, a new mode labeled Extra Battles will appear on the main menu for Octopath Traveler 2. In short, these new boss battles are no joke. If you felt Octopath Traveler 2 was too easy for your tastes, you’ll want to open your save file one more time to give these encounters a spin.</p>
                 <p>Here’s everything you need to know about these new battles.</p>
             </div>
