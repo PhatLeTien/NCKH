@@ -13,6 +13,10 @@ import Entertainment from './Pages/Entertainment';
 
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 495698f8e745585ee45b098ec469b7e564b9ca51
 
 import DetailHome from './DetailContent/DetailHome';
 import DetailLatest from './DetailContent/DetailLatest';
@@ -42,6 +46,10 @@ function App() {
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/games" element={<Games />} />
           <Route path="/entertainment" element={<Entertainment/>} />
+<<<<<<< HEAD
+=======
+         
+>>>>>>> 495698f8e745585ee45b098ec469b7e564b9ca51
           <Route path="/home/article/:id" element={<DetailHome/>} />
           <Route path="/latest/article/:id" element={<DetailLatest />} />
           <Route path="/games/article/:id" element={<DetailGames />} />
