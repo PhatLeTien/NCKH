@@ -22,6 +22,35 @@ import imgHorrorGames3 from '../Assets/Games/horror-3.webp';
 import imgHorrorGames4 from '../Assets/Games/horror-4.webp';
 import imgHorrorGames5 from '../Assets/Games/horror-5.webp';
 
+import TopGames1t1 from '../Assets/Games/horror-1t1.webp';
+import TopGames2t1 from '../Assets/Games/horror-1t1.webp';
+import TopGames3t1 from '../Assets/Games/horror-1t1.webp';
+import TopGames4t1 from '../Assets/Games/horror-1t1.webp';
+import TopGames5t1 from '../Assets/Games/horror-1t1.webp';
+import RPG2t1 from '../Assets/Games/RPG-2t1.webp';
+import RPG3t1 from '../Assets/Games/RPG-3t1.webp';
+import RacingGames1t1 from '../Assets/Games/racing-1t1.webp';
+import RacingGames2t1 from '../Assets/Games/racing-2t1.webp';
+import RacingGames2t2 from '../Assets/Games/racing-2t2.webp';
+import RacingGames2t3 from '../Assets/Games/racing-2t3.webp';
+import RacingGames4t1 from '../Assets/Games/racing-4t1.webp';
+import RacingGames4t2 from '../Assets/Games/racing-4t2.webp';
+import RacingGames4t3 from '../Assets/Games/racing-4t3.webp';
+import HorrorGames1t1 from '../Assets/Games/horror-1t1.webp';
+import HorrorGames1t2 from '../Assets/Games/horror-1t2.webp';
+import HorrorGames1t3 from '../Assets/Games/horror-1t3.webp';
+import HorrorGames2t1 from '../Assets/Games/horror-2t1.webp';
+import HorrorGames2t2 from '../Assets/Games/horror-2t2.webp';
+import HorrorGames2t3 from '../Assets/Games/horror-2t3.webp';
+import HorrorGames3t1 from '../Assets/Games/horror-3t1.webp';
+import HorrorGames3t2 from '../Assets/Games/horror-3t2.webp';
+import HorrorGames3t3 from '../Assets/Games/horror-3t3.webp';
+import HorrorGames4t1 from '../Assets/Games/horror-4t1.webp';
+import HorrorGames4t2 from '../Assets/Games/horror-4t2.webp';
+import HorrorGames4t3 from '../Assets/Games/horror-4t3.webp';
+import HorrorGames5t1 from '../Assets/Games/horror-5t1.webp';
+import HorrorGames5t2 from '../Assets/Games/horror-5t2.webp';
+import HorrorGames5t3 from '../Assets/Games/horror-5t3.webp';
 
 export const Games = {
     topGames: [
@@ -36,6 +65,9 @@ export const Games = {
                 <div>
                     <p>How do you even consider Halo Infinite in totality? Not just any Halo game but this Halo game—one that was supposed to herald a new generation of Xboxes but was delayed out of the launch window; one that’s had no shortage of public scrutiny over its tumultuous development process; one that’s not even out yet but has already been the centerpiece of multiple internet-dominating conversations; and, most crucially, one that’s meant to revitalize a totemic first-person shooter series after a stretch of metabolic dormancy. There are so many expectations on Halo Infinite’s armor-clad shoulders that you’d think it’d crumble apart in a pile of pixels. Every single player is bound to come into this game with their own predetermined definition of what it is and what it stands for. I sure as hell did.</p>
                     <p>So, yeah, let’s just get the easy part out the way:</p>
+                    <p>Halo Infinite, officially out on Wednesday for Xbox and PC, is the seventh mainline Halo game and the first in six years, following 2015’s divisive Halo 5: Guardians. Infinite picks up roughly a year and a half after the events of Halo 5, but doesn’t concern itself with those events beyond some perfunctory, and intermittent, moments of exposition. And in a departure from that game’s most notorious misstep, Halo Infinite’s story is told entirely from the perspective of longtime series hero Master Chief.</p>
+                    <p>Playing the whole game as Mr. John Halo himself makes Halo Infinite feel less like a proper sequel to Halo 5 and more like a follow-up to the venerable original trilogy, when the series was under the purview of Bungie. At times, it plays like a greatest hits album of iconic setpieces from Halo, Halo 2, and Halo 3 (which tracks, seeing as Joseph Staten, an instrumental creative force behind Bungie’s trilogy, was brought in last August to help carry Halo Infinite over the finish line). You are, once again, a seven-foot-tall supersoldier palling around with a vivid blue artificial intelligence on a ring-shaped space station, hoping to save the galaxy from zealously religious extraterrestrials. We’ve all seen Hollywood bungle fan service. Halo Infinite nails it by including winks and nods for more than the sake of winking and nodding. These moments are genuinely thrilling on their own merits, and never overstay their welcome. Fan service is, apparently, more fun when you can actively engage with it.</p>
+                    <p><img src={TopGames1t1} alt="Halo Infinite" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -44,11 +76,16 @@ export const Games = {
             img: imgTopGames2,
             alt: "Game 2",
             title: "Over Watch 2",
-            author: "Ryū Ga Gotoku Studios",
-            description: "",
+            author: "Kenneth Shepard",
+            description: "Blizzard’s mismanagement of Overwatch 2 makes an underwhelming season feel all the worse",
             detail: (
                 <div>
-                    <p>Overwatch 2 is a free-to-play shooter featuring 30+ epic heroes, each with game-changing abilities. Choose your hero, group up with your friends and battle across all-new maps and modes in the ultimate team-based shooter.</p>
+                    <h2>Overwatch 2 Can’t Afford A Season This Mid</h2>
+                    <p>Overwatch 2 is getting its ass beat online lately and for good reason. With the exception of its Pride event, it’s been nothing but bad news for the hero shooter between Blizzard announcing it was gutting its planned PvE suite of skill trees and replayable hero missions to charging $15 for its story missions. It’s sad, because the latest story trailer still managed to get me welled up on all the promise the sequel had when it was first announced in 2019. If Overwatch 2 is going to recover from this steady stream of bad news, Blizzard needs to come out swinging with something that shows that the game still has a lot to offer. And man, its fifth-season event is exactly the kind of nothing burger offering the game didn’t need right now.</p>
+                    <h2>What does Overwatch 2’s fifth season include?</h2>
+                    <p>Credit where credit is due, some of Overwatch 2’s fifth season is pretty cool. The battle pass has some of the series’ best highlight intros, the Critical Role reference is super cute, and the lore you unlock through the battle pass that tells the story of Tracer DMing a tabletop campaign is a lot of fun. But in terms of a playable event, the thing you actually get to experience, season five leads with one of Overwatch 2’s most underwhelming modes in a time where the game can’t really weather something so unremarkable. I’m talking about Defeat the Demon Lord, an asymmetrical PvP mode that’s meant to be part of Tracer’s campaign.</p>
+                    <p>In this mode, a team of four faces a beefed-up Reinhardt, the titular Demon Lord. The win state for both sides is Reinhardt must either get 30 kills, or the opposing team must take him down three times. It sounds unbalanced, but Reinhardt is ridiculously beefed up in this mode. With over 6000 health, he can take an onslaught of uninterrupted damage and still stand tall. I played a match as Orisa, and even as I unloaded entire clips into Reinhardt, it felt like I wasn’t even making a dent in his armor. He’s a force of nature as the Demon Lord, and while a coordinated team can overwhelm him, Reinhardt can more than hold his own when outnumbered.</p>
+                    <p><img src={TopGames2t1} alt="Over Watch 2" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -61,7 +98,11 @@ export const Games = {
             description: "",
             detail: (
                 <div>
-                    <p>The wicked Grape and the Sour Bunch have taken over the Sparkle Theater, and now it's up to Peach and the theater's guardian Stella to save the play––and the day! Peach can transform and use fantastic showstopping abilities to face off against the Sour Bunch. Fend off the Sour Bunch with sensational swordplay as a swordfighter...en garde! In another role, Peach puts on her detective hat to find out whodunnit in a museum mystery. From kung fu master to pastry chef, Peach’s roles give you distinctly powerful ways to save the play!</p>
+                    <p>Nearly two decades after Super Princess Peach released on the Nintendo DS, the titular leading lady is finally getting another chance at headlining her own game. Princess Peach: Showtime! opens the metaphorical theater doors for players worldwide on March 22, but reviews for the game are out now and will give you an idea of what to expect. Overall the reception to the platformer is mixed, with praise for Peach getting a chance to stand on her own, but some disappointment at the lack of mechanical depth.</p>
+                    <p><b>Order <i>Princess Peach: Showtime!:</i></b> | Best Buy | Humble Bundle</p>
+                    <p>Showtime! is another platformer set in the Mario universe, but it’s Peach taking center stage for once. The game begins with our leading lady going out to enjoy a nice evening at the Sparkle Theater until the venue is taken over by the villainous Sour Bunch led by the evil Grape. To save the theater and its many residents, Peach is granted the power to join the many plays being performed there. This means dressing up in a plethora of cute outfits that determine different gameplay mechanics, like Swordfighter Peach letting you cut through enemies and obstacles on stage such as vines that block your way forward, or Ninja Peach allowing you to sneak past vigilant enemies.</p>
+                    <p>Based on critics’ early access for review purposes, the game is currently sitting at a 75 on Metacritic and a 77 on Open Critic. Polygon’s Nicole Carpenter praised Princess Peach: Showtime! for giving Peach the starring role she deserves, saying that it is “everything I wanted in a game as a little girl.” Digital Trends’ Giovanni Colantonio liked Showtime! but noted unevenness in the game’s abilities, which makes it feel “like a dress rehearsal for the real show.”</p>
+                    <p><img src={TopGames3t1} alt="Princess Peach Showtime !" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -71,10 +112,13 @@ export const Games = {
             alt: "Game 4",
             title: "Call Of Duty Warzone 2.0",
             author: "Square Enix Creative Business Unit III",
-            description: "",
+            description: "The latest pricey cosmetic item will make your wallet chip and shatter",
             detail: (
                 <div>
-                    <p>Drop into the new map Al Mazrah in Call of Duty: Warzone 2.0</p>
+                    <p>Call of Duty players are (yet again) up in arms over the exorbitant cost of a new cosmetic item. This time the community dissatisfaction stems from a Modern Warfare 3 Dune: Part Two crossover skin that will set players back $40.</p>
+                    <p>The cosmetic in question is MW3 and Warzone’s Paul Atreides Feda Ykin Stealthsuit. It’s just one of many crossover cosmetics that coincide with the recent release of Dune: Part Two. But unlike the Paul Atreides and Feyd-Rautha Operator skins, getting it isn’t as simple as purchasing a bundle and unlocking it. Instead, like with past crossovers, the Stealthsuit is a special cosmetic only given to players after they buy specific bundles during the event. In this case, you’d have to get both the Paul Atreides Operator and Harkonnen Tracer Pack bundles, which cost 2,400 CoD Points (or $20) each.</p>
+                    <p>“I abhor the fact that you have to spend 4800 CoD Points to unlock this skin,” writes one Reddit user in the Modern Warfare 3 subreddit. This isn’t a new complaint from fans. Call of Duty games, most recently MW3 and Warzone, have had some incredibly pricey cosmetic items. Only a couple of weeks ago, developer Activision was under fire for a Godzilla x Kong crossover item that cost $80 in bundle purchases to unlock. With the Stealthsuit, this could be another example of a “pay-to-win” cosmetic, as the community has found its greyish-brown color blends into some maps and makes you harder to track.</p>
+                    <p><img src={TopGames4t1} alt="Call Of Duty Warzone 2.0" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -84,10 +128,11 @@ export const Games = {
             alt: "Game 5",
             title: "Tekken8",
             author: "Nintendo EPD",
-            description: "",
+            description: "Tekken8",
             detail: (
                 <div>
                     <p>Tekken 8 is the eighth canon release and tenth overall entry in the Tekken series. The game's story features 32 former and new characters, each with their own narrative that contributes to the overall story. Tekken 8 features upgraded fighting elements and systems from its predecessor, it also introduces brand-new mechanics such as the "Heat" system and "Tornado" hits. Arcade Quest was another addition to their online mode which includes tournaments, arcade features, customizable avatars and specialized currency that is featured throughout the game.</p>
+                    <p><img src={TopGames5t1} alt="Tekken8" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         }
@@ -106,14 +151,14 @@ export const Games = {
                     <p>Miyazaki started his career in game development relatively late. But by the time he was 33, he was already working as director on Demon’s Souls, the PlayStation 3 classic that created the oft-imitated Souls-like pseudo-genre as an enduring facet of gaming history. Since then, Miyazaki’s established himself as the creative genius behind FromSoftware’s biggest projects, including Dark Souls, Bloodborne, Sekiro: Shadows Die Twice, and now Elden Ring, which released for every major gaming console (apart from Switch, which can’t typically handle such vast games) on February 25. I’ve since spent more than 90 hours journeying through Miyazaki’s sub-conscious, and let me tell you, it can be a pretty weird place.</p>
                     <p>Elden Ring is an inevitable climax in Miyazaki’s legacy. It’s this massive, sprawling thing that borrows from, quite literally, every FromSoftware project that came before it. The game is (and I’m sorry in advance for saying so) Dark Souls meets Breath of the Wild. I barely know where I’m going or what I’m doing half the time, but the experience isn’t so unwieldy that it overwhelms with its many options and systems. Elden Ring mostly stays out of its own way, giving you the gentle nudges in the direction of cool stuff while also providing little resistance should you choose to forge your own path, a complete package neatly wrapped in the expected ambiguity of traditional FromSoftware design.</p>
                     <iframe
-                    width="783"
-                    height="459"
-                    src="https://www.youtube.com/embed/qDNq9f_UpRw"
-                    title="IGN / Seawolf Studio"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
+                        width="783"
+                        height="459"
+                        src="https://www.youtube.com/embed/qDNq9f_UpRw"
+                        title="IGN / Seawolf Studio"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             )
         },
@@ -128,6 +173,7 @@ export const Games = {
                 <div>
                     <p>Baldur’s Gate 3 has been propped up as a big-budget, computerized approximation of a tabletop role-playing game, but that’s not entirely accurate. Sure, as an RPG rooted in Dungeons & Dragons’ Fifth Edition ruleset, complete with dice rolls, big decisions, and enough customization options for your build, appearance, and backstory to fill a million character sheets, Baldur’s Gate 3 is an embarrassment of riches for the sickest of roleplaying sickos. But ultimately, as a video game that has to be programmed by people and therefore beholden to the finite possibilities the makers at Larian Studios were able to account for, it can’t quite match the expansive breadth of possibility that comes from a group of friends gathered around a table, riffing on each other’s ideas and “yes-anding” into different scenarios that completely derail the original plan. But damn, Baldur’s Gate 3 sure does a stellar job of emulating the concept.</p>
                     <p>In my first playthrough, I played a Warlock whose primary motivation in the world of Faerûn was self-preservation. I poured points into my Charisma stat, which made me a smooth enough talker that I could often charm my way out of fights rather than losing time and resources to a long, strategic battle. As I sorted out my character’s story in my head, I expressed it in dialogue, the spells I cast, and even the armor sets I wore as I wrote his tale with each decision, big and small.</p>
+                    <p><img src={RPG2t1} alt="Baldur's Gate 3" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -143,6 +189,7 @@ export const Games = {
                     <p>A bold and risky pivot toward action for Square Enix’s beloved RPG franchise, Final Fantasy XVI is a stunning achievement that revitalizes the series for a new age—and it just may be the best the series has been in more than 20 years.</p>
                     <p>In an era when so many developers try to emulate the open-world immersion mastered by Nintendo with recent Zelda games, FFXVI opts for something more linear that makes room for a thrilling episodic story chock full of epic action set pieces and tender moments between lovable characters.</p>
                     <p>Design-wise, it feels a bit like a PlayStation 2-era game with its world map and individual zones, but the power of the PlayStation 5 delivers world-class cinematics for a story unlike any other. Final Fantasy XVI feels just as sprawling and even more immersive than your average “open world” thanks to dynamic environments and a large number of side quests delving into the people of Valisthea. But best of all, the care and attention to detail captures that special something that defines Final Fantasy.</p>
+                    <p><img src={RPG3t1} alt="Baldur's Gate 3" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -151,11 +198,14 @@ export const Games = {
             img: imgRpgGames4,
             alt: "Game 4",
             title: "Diablo IV",
-            author: "Square Enix Creative Business Unit III",
-            description: "",
+            author: "Kenneth Shepard",
+            description: "For the next few days, Blizzard’s RPG is free to start on Steam",
             detail: (
                 <div>
-                    <p>Endless demons to slaughter. Deep customization through Talents, Skill Points, Runes, and Legendary loot. Randomized dungeons contained in a dynamic open world. Survive and conquer darkness—or succumb to the shadows.</p>
+                    <p>Diablo IV’s first big expansion, Vessel of Hatred, is just a few weeks away. The add-on will bring new stories, quests, and the Spiritborn class on October 8. If you’ve been sleeping on it since it launched last year, the RPG is on sale until September 2. However, if you’re looking for something to do this weekend, the game is actually free to try for the next few days.</p>
+                    <p>The Steam version of Diablo IV has a free trial until Tuesday, August 27. That’s four days to play through the RPG, grind through the procedurally generated dungeons, gather as much loot as you can, and get as close to the end of the game as possible so you can start Vessel of Hatred when it launches on October 8. I’m sure if you were dedicated enough you could finish the story campaign in that time, but either way, you’ll be able to figure out if Diablo IV is your jam. You’ll still have a few days to buy the full game at the discounted price of $29.99 before it reverts back to $49.99 on September 2.</p>
+                    <p>Should you decide to buy it, Vessel of Hatred will run you an additional $39.99. So the full Diablo IV experience will run you about $69.99 for the duration of this sale. Luckily, both the game and a pre-order for the expansion are bundled together right now, too. So if you decide you want both, it’s all conveniently contained in one purchase.</p>
+                    <p>Notably, if you’re subscribed to Xbox Game Pass, you already have access to Diablo IV. But if you want to own the game instead of having it tied to a subscription, this is a pretty good way to get the full package for a good price. Plus, given that there are seasonal events and likely future expansions in the cards, it’s probably worth paying for it once instead of having it tied to a recurring expense.</p>
                 </div>
             )
         },
@@ -182,10 +232,12 @@ export const Games = {
             alt: "Game 1",
             title: "Forza Motorsport",
             author: "PocketPair",
-            description: "",
+            description: "Forza Motorsport Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>Out-build the competition in the new career. Race your friends in adjudicated multiplayer events. Compete in over 500 cars on world-famous tracks with cutting-edge AI, advanced physics, tire and fuel strategy, and driver and safety ratings.</p>
+                    <h2>Forza Motorsport</h2>
+                    <p>All the latest game footage and images from Forza Motorsport by Turn 10 Studios | 2023</p>
+                    <p><img src={RacingGames1t1} alt="Forza Motorsport" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -195,10 +247,16 @@ export const Games = {
             alt: "Game 2",
             title: "Gran Turismo 7",
             author: "Ryū Ga Gotoku Studios",
-            description: "",
+            description: "Gran Turismo 7 Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>Gran Turismo 7 brings together the very best features of the Real Driving Simulator. Whether you’re a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favorites like GT Campaign, Arcade and Driving School. With the reintroduction of the legendary GT Simulation Mode, buy, tune, race and sell your way through a rewarding solo campaign as you unlock new cars and challenges. And if you love going head-to-head with others, hone your skills and compete in the GT Sport Mode.</p>
+                    <h2>Gran Turismo 7</h2>
+                    <p>All the latest game footage and images from Gran Turismo 7 by Polyphony Digital | 2022</p>
+                    <p><img src={RacingGames2t1} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Gran Turismo 7 screenshot 2</h2>
+                    <p><img src={RacingGames2t2} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Gran Turismo 7 screenshot 3</h2>
+                    <p><img src={RacingGames2t3} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -211,7 +269,10 @@ export const Games = {
             description: "Mario Kart 8 is an excellent game. Mario Kart 8 Deluxe is even better.",
             detail: (
                 <div>
-                    <p>Turn your racing experience upside down! Nintendo’s Mario Kart franchise comes to the Wii U console in full HD, introducing new racing circuit designs and anti-gravity karts that will have players driving upside down. And for the first time, all of Bowser’s seven Koopalings are playable characters-- get a taste of being bad on the race track by playing as Iggy, Larry, Lemmy, Ludwig, Morton, Roy and Wendy. Players will also enjoy a variety of series-favorite features, including the return of 12-player online competitive play, hang-gliders, underwater racing and motorbikes.</p>
+                    <p>Mario Kart 8 is an excellent game. Mario Kart 8 Deluxe is even better.</p>
+                    <p>Normally in a situation where a game we’ve reviewed in the past gets an updated version on a new console, we’d simply republish the original review with some notes on any significant differences. The Mario Kart 8 situation is a little different. The original came out on the Nintendo Wii U, a console that tried real hard but was never really a huge mainstream success. Conversely, Nintendo is calling the Switch its fastest selling console ever, with more than 2.5 million sold worldwide in under a month. There’s a whole new audience flocking to Nintendo’s new hybrid console, and they’re going to need a racing game to play once they’re finished with all of that Zelda. This is that game.</p>
+                    <p>So welcome, newcomers. Mario Kart 8 Deluxe is the latest installment of Nintendo’s long-running series of kart racing games, in which colorful characters from across several different Nintendo properties race through fantastical Nintendo-themed tracks. Winning requires a combination of racing skill and luck, as random power-ups sprinkled throughout the tracks bestow powers and weapons to help even the odds. If you’ve not yet experienced the joy of taking a blue shell to the face inches from the finish line, you’re in for a real treat.</p>
+                    <p>Much of what I wrote in my original Mario Kart 8 review still stands. Nintendo’s prolific kart racing series hadn’t really resonated with me until the Wii U installment came along, offering arcade style controls much easier to come to grips with than in previous games in the series.</p>
                 </div>
             )
         },
@@ -221,10 +282,16 @@ export const Games = {
             alt: "Game 4",
             title: "Need for Speed: Unbound",
             author: "Square Enix Creative Business Unit III",
-            description: "",
+            description: "Need for Speed: Unbound Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>Race against time, outsmart the cops, and take on weekly qualifiers to reach The Grand, Lakeshore's ultimate street racing challenge. Pack your garage with precision-tuned, custom rides and light up the streets with your style, exclusive fits, and a vibrant global soundtrack that bumps in every corner of the world.</p>
+                    <h2>Need for Speed: Unbound</h2>
+                    <p>All the latest game footage and images from Need for Speed: Unbound by Criterion Games | 2022</p>
+                    <p><img src={RacingGames4t1} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <p>Need for Speed: Unbound screenshot 2</p>
+                    <p><img src={RacingGames4t2} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <p>Need for Speed: Unbound screenshot 3</p>
+                    <p><img src={RacingGames4t3} alt="Gran Turismo 7" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -256,10 +323,16 @@ export const Games = {
             alt: "Game 1",
             title: "Resident Evil 4 : Separate Ways",
             author: "PocketPair",
-            description: "",
+            description: "Resident Evil 4: Separate Ways Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>The mission requires secrecy. Failure is not an option. Play as Ada Wong in this additional scenario and experience the events of Resident Evil 4 from her perspective, filling in unanswered questions posed in the main story. In addition to the action available in the base game with Leon, a grappling gun can be used to get to various locations, as well as take down enemies from a distance and launch a ranged melee attack. This allows for a more exciting and fast-paced gameplay experience.</p>
+                    <h2>Resident Evil 4: Separate Ways</h2>
+                    <p>All the latest game footage and images from Resident Evil 4: Separate Ways by Capcom | 2023</p>
+                    <p><img src={HorrorGames1t1} alt="Resident Evil 4 : Separate Ways" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Resident Evil 4: Separate Ways screenshot 2</h2>
+                    <p><img src={HorrorGames1t2} alt="Resident Evil 4 : Separate Ways" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Resident Evil 4: Separate Ways screenshot 3</h2>
+                    <p><img src={HorrorGames1t3} alt="Resident Evil 4 : Separate Ways" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -272,7 +345,11 @@ export const Games = {
             description: "",
             detail: (
                 <div>
-                    <p>Silent Hill is the first installment in the Silent Hill series of psychological survival horror video games. Unlike earlier survival horror games that focused on protagonists with combat training, the main character Harry Mason is an average man. The gameplay consists of combat, exploration, and puzzle-solving. The controller vibration is used to indicate Harry's heartbeat and will vibrate on low health. The player must regularly enter an inventory screen to check Harry's health, use items, and equip different weapons.</p>
+                    <h2>Silent Hill</h2>
+                    <p>All the latest game footage and images from Silent Hill by Team Silent | 1999</p>
+                    <p><img src={HorrorGames2t1} alt="Silent Hill" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <p><img src={HorrorGames2t2} alt="Silent Hill" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <p><img src={HorrorGames2t3} alt="Silent Hill" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -282,10 +359,16 @@ export const Games = {
             alt: "Game 3",
             title: "Alone In The Dark",
             author: "Epic Games",
-            description: "",
+            description: "Alone in the Dark Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>Alone in the Dark is a reboot of the original game and the fifth installment of the series. It features a new storyline and characters while still maintaining the core elements of the survival horror genre. The game is set out through DVD-style episodes where the player can choose to start from the beginning or choose to skip to a section if they get stuck. There is also a strong emphasis on exploration, atmosphere and tension with players needing to use stealth and strategy to avoid detection by enemies.</p>
+                    <h2>Alone in the Dark</h2>
+                    <p>All the latest game footage and images from Alone in the Dark by Eden Games | 2008</p>
+                    <p><img src={HorrorGames3t1} alt="Alone In The Dark" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <p>Alone in the Dark screenshot 2</p>
+                    <p><img src={HorrorGames3t2} alt="Alone In The Dark" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Alone in the Dark screenshot 3</h2>
+                    <p><img src={HorrorGames3t3} alt="Alone In The Dark" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -295,10 +378,15 @@ export const Games = {
             alt: "Game 4",
             title: "Dead By Daylight",
             author: "Square Enix Creative Business Unit III",
-            description: "",
+            description: "Dead by Daylight Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                   <p>Dead by Daylight is an asymmetrical multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed.</p> 
+                    <p>All the latest game footage and images from Dead by Daylight by Behaviour Interactive | 2016</p>
+                    <p><img src={HorrorGames4t1} alt="Dead By Daylight" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Dead by Daylight screenshot 2</h2>
+                    <p><img src={HorrorGames4t2} alt="Dead By Daylight" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Dead by Daylight screenshot 3</h2>
+                    <p><img src={HorrorGames4t3} alt="Dead By Daylight" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -308,10 +396,15 @@ export const Games = {
             alt: "Game 5",
             title: "Alan Wake II",
             author: "Nintendo EPD",
-            description: "",
+            description: "Alan Wake II Screenshots and Videos - PTGAMES",
             detail: (
                 <div>
-                    <p>Saga Anderson arrives to investigate ritualistic murders in a small town. Alan Wake pens a dark story to shape the reality around him. These two heroes are somehow connected. Can they become the heroes they need to be?</p>
+                    <p>All the latest game footage and images from Alan Wake II by Remedy Entertainment | 2023</p>
+                    <p><img src={HorrorGames5t1} alt="Alan Wake II" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Alan Wake II screenshot 2</h2>
+                    <p><img src={HorrorGames5t2} alt="Alan Wake II" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                    <h2>Alan Wake II screenshot 3</h2>
+                    <p><img src={HorrorGames5t3} alt="Alan Wake II" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         }

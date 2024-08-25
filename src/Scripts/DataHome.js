@@ -1,12 +1,21 @@
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+
 import imgMain from '../Assets/HomeContent/home-main.webp';
 
 import imgSide1 from '../Assets/HomeContent/home-side-1.webp';
 import imgSide2 from '../Assets/HomeContent/home-side-2.webp';
+import imgSide1t1 from '../Assets/HomeContent/side1-1.webp';
+import imgSide1t2 from '../Assets/HomeContent/side1-2.webp';
+
 import imgTips1 from '../Assets/HomeContent/tip-guide-1.webp';
 import imgTips2 from '../Assets/HomeContent/tip-guide-2.webp';
 import imgTips3 from '../Assets/HomeContent/tip-guide-3.webp';
 import imgTips4 from '../Assets/HomeContent/tip-guide-4.webp';
 import imgTips5 from '../Assets/HomeContent/tip-guide-5.webp';
+import imgTips2t1 from '../Assets/HomeContent/tip-guide-2-1.webp';
+import imgTips3t1 from '../Assets/HomeContent/tip-guide-3-1.webp';
+import imgTips4t1 from '../Assets/HomeContent/tip-guide-4-1.webp';
+import imgTips5t1 from '../Assets/HomeContent/tip-guide-5-1.webp';
 
 import imgLatest1 from '../Assets/HomeContent/home-latest-1.webp';
 import imgLatest2 from '../Assets/HomeContent/home-latest-2.webp';
@@ -14,12 +23,21 @@ import imgLatest3 from '../Assets/HomeContent/home-latest-3.webp';
 import imgLatest4 from '../Assets/HomeContent/home-latest-4.webp';
 import imgLatest5 from '../Assets/HomeContent/home-latest-5.webp';
 import imgLatest6 from '../Assets/HomeContent/home-latest-6.webp';
+import imgLatest3t1 from '../Assets/HomeContent/home-latest-3-1.webp';
+import imgLatest4t1 from '../Assets/HomeContent/home-latest-4-1.webp';
+import imgLatest4t2 from '../Assets/HomeContent/home-latest-4-2.webp';
+import imgLatest5t1 from '../Assets/HomeContent/home-latest-5-1.webp';
+import imgLatest6t1 from '../Assets/HomeContent/home-latest-6-1.webp';
 
 import imgTopGames1 from '../Assets/HomeContent/top-games-1.webp';
 import imgTopGames2 from '../Assets/HomeContent/top-games-2.webp';
 import imgTopGames3 from '../Assets/HomeContent/top-games-3.webp';
 import imgTopGames4 from '../Assets/HomeContent/top-games-4.webp';
 import imgTopGames5 from '../Assets/HomeContent/top-games-5.webp';
+import imgTopGames1t1 from '../Assets/HomeContent/top-games-1-1.webp';
+import imgTopGames2t1 from '../Assets/HomeContent/top-games-2-1.webp';
+import imgTopGames3t1 from '../Assets/HomeContent/top-games-3-1.webp';
+import imgTopGames4t1 from '../Assets/HomeContent/top-games-4-1.webp';
 
 import imgEs1 from '../Assets/HomeContent/essential-1.webp';
 import imgEs2 from '../Assets/HomeContent/essential-2.webp';
@@ -35,16 +53,22 @@ import imgTv1 from '../Assets/HomeContent/tv-1.webp';
 import imgTv2 from '../Assets/HomeContent/tv-2.webp';
 import imgTv3 from '../Assets/HomeContent/tv-3.webp';
 import imgTv4 from '../Assets/HomeContent/tv-4.webp';
+import imgTv1t1 from '../Assets/HomeContent/tv-1-1.webp';
+import imgTv2t1 from '../Assets/HomeContent/tv-2-1.webp';
 
 import imgCom1 from '../Assets/HomeContent/commetary-1.webp';
 import imgCom2 from '../Assets/HomeContent/commetary-2.webp';
 import imgCom3 from '../Assets/HomeContent/commetary-3.webp';
 import imgCom4 from '../Assets/HomeContent/commetary-4.webp';
+import imgCom1t1 from '../Assets/HomeContent/commetary-1-1.webp';
+import imgCom4t1 from '../Assets/HomeContent/commetary-4-1.webp'
 
 import imgRetro1 from '../Assets/HomeContent/retro-1.webp';
 import imgRetro2 from '../Assets/HomeContent/retro-2.webp';
 import imgRetro3 from '../Assets/HomeContent/retro-3.webp';
 import imgRetro4 from '../Assets/HomeContent/retro-4.webp';
+import imgRetro1t1 from '../Assets/HomeContent/retro-1-1.webp';
+import imgRetro4t1 from '../Assets/HomeContent/retro-4-1.webp';
 
 
 export const mainArticle = {
@@ -86,6 +110,15 @@ export const mainArticle = {
                 an appearance? Get excited for it at your peril. Whatever the case, we’ll get a <br />
                 better sense of the Switch’s twilight year by this time tomorrow.
             </p>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/kX3BkD5PVUM"
+                title="The Long-Awaited June Nintendo Direct Is Finally Happening"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
         </div>
     )
 };
@@ -158,6 +191,9 @@ export const sideArticle = [
                     and 2 are on the table either. The CRPGs developed by Interplay Entertainment <br />
                     before Bethesda purchased the license are isometric and more punishing. <br />
                     They’re great but much harder to get into in the year 2024.”
+                </p>
+                <p>
+                    <img src={imgSide1t1} alt="Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield" style={{ maxWidth: "100%", height: "auto" }} />
                 </p>
                 <p>
                     “Howard suggested modernizing them or porting them to console wasn’t really <br />
@@ -246,7 +282,15 @@ export const sideArticle = [
                     without the need for a true healer. Still, it’s not a good look for Dawntrail and it <br />
                     has put a sour taste in many healers’ mouths.
                 </p>
-
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/VqBWp00XNZs"
+                    title="Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
                 <p>You may think, based on Xenosys’ preview, that a healer strike might not get <br />
                     anywhere since it proved how useless the role is in even Dawntrail’s basic <br />
                     content. However, when completing party-based content for the first time <br />
@@ -273,7 +317,9 @@ export const sideArticle = [
                     the last semi-complex healer job in the game, alongside the continued <br />
                     bolstering of self-healing abilities in tank classes.
                 </p>
-
+                <p>
+                    <img src={imgSide1t2} alt="Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts" style={{ maxWidth: "100%", height: "auto" }} />
+                </p>
                 <p>As a healer, I understand the frustration that led to the strike. I hope Square <br />
                     Enix is currently working on changes to address these long-vocalized issues. <br />
                     There is even some hope that Dawntrail might offer an olive branch to the <br />
@@ -316,6 +362,9 @@ export const tipsGuides = [
                     the exact time players should expect it to be available. <br />
                     Pre-order Elden Ring: Shadow of the Erdtree:  | Best Buy | Humble Bundle <br />
                 </p>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <TwitterTweetEmbed tweetId="1801615583705723349" />
+                </div>
                 <p>
                     As can be seen in the above picture, Shadow of the Erdtree won’t be launching <br />
                     at once all around the world. In North America at least, the expansion will be <br />
@@ -357,6 +406,7 @@ export const tipsGuides = [
                 <p>Welcome to the first in a long line of MultiVersus character guides. As the first wave of post-launch patches has begun, I’ll now be diving in, starting with three brand new characters in order to offer some tips and general strategies to help you get a leg up. First up, it’s Jason.</p>
                 <p>It makes sense to start with Jason Voorhees, and that’s not just because he’s become a fast favorite of mine. He comes in the Battle Pass for MultiVersus’ first season, which means returning Open Beta players get him off the bat, and if you’re spending money, he’s a more reasonable return for investment compared to Joker. So grab your machete, axe and bright yellow sleeping bags, folks; it’s spooky time.</p>
                 <h2>How to unlock Jason in MultiVersus</h2>
+                <p><img src={imgTips2t1} alt="MultiVersus Character Guide: Jason Voorhees" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>For now, Jason is an instant unlock if you buy the season one Battle Pass. If you played the Open Beta and are coming back while the season is active, you don’t even have to pay. Otherwise, you’ll need to wait until the season ends before you can grab Jason as a separate purchase with Gleamium or Fighter Currency. It’s probably safe to assume he’ll be priced the same as Joker, but that’s just a guess for now.</p>
             </div>
         )
@@ -371,6 +421,7 @@ export const tipsGuides = [
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
                 <h2>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</h2>
+                <p><img src={imgTips3t1} alt="How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>Elden Ring is known for its challenging combat and hazardous exploration, so it’s reasonable to expect its Shadow of the Erdtree expansion to be an ultra-difficult experience. With dozens of hours of new exploration and battle ahead, you’ll want to be certain you’re well-prepared for all of the horrors that await you. As such, you may be asking yourself what level you should be before starting Shadow of the Erdtree. - Billy Givens Read More</p>
                 <h2>Octopath Traveler II’s Four Brand-New Boss Battles, Explained</h2>
                 <p>On June 6th, Square Enix announced that both Octopath Traveler games are now available on more platforms. Not only is Octopath Traveler available on PlayStation, but you can play Octopath Traveler 2 on Xbox and Xbox Game Pass. Square Enix released a trailer celebrating the new ports, but eagle-eyed RPG fans noticed something curious about the footage shown. Namely, why is there a shot of the protagonists from Octopath Traveler fighting the cast of Octopath Traveler 2? When did that ever happen in the games!? - Timothy Monbleau Read More</p>
@@ -388,6 +439,7 @@ export const tipsGuides = [
                 <p>Shin Megami Tensei V: Vengeance is a massively expanded version of 2021’s Shin Megami Tensei V, featuring more quests, monsters, and a new story path featuring a brand new character. However, perhaps most importantly, Vengeance drops the original game’s Nintendo Switch exclusivity for a multiplatform release. PC players can now enjoy this game via Steam, and Vengeance is officially Steam Deck verified. However, does it actually run well on Valve’s handheld device?</p>
                 <p>After spending at least 15 hours playing Shin Megami Tensei V: Vengeance portably, I can confirm that the game runs very well on the Steam Deck. At the default resolution of 1280 X 800, I was able to enjoy reliable performance that typically stayed close to a solid 60 FPS. If you plan on enjoying this RPG on the go (or in your bed), definitely grab the Steam version.</p>
                 <p>Buy Shin Megami Tensei V: Vengeance:  | Best Buy | Humble Bundle</p>
+                <p><img src={imgTips4t1} alt="How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <h2>What should you do if you encounter performance issues on the Steam Deck?</h2>
                 <p>That said, I did encounter one specific caveat: When I first started this game via docked play, I originally had issues getting through the introduction. Frame rates would drop to abysmal levels, causing the audio to unsync with the visuals. I haven’t been able to recreate this issue since then, so this may be a bizarre anomaly.</p>
             </div>
@@ -405,6 +457,7 @@ export const tipsGuides = [
                 <p>Buy Shin Megami Tensei V: Vengeance:  | Best Buy | Humble Bundle</p>
                 <p>For best results, your main character should be at level 24 before challenging Matador. If you’re underleveled, consider advancing the main story and returning to this encounter later. This is especially helpful if you’re playing the Vengeance story, since you’ll recruit Guest characters who can come in clutch for this fight. Also consider stocking up on Elec Shards from Cadaver’s Hollow to give the Nahobino and any other human characters a way to exploit Matador’s weakness.</p>
                 <p>With that out of the way, here’s everything you need to know about overcoming Matador.</p>
+                <p><img src={imgTips5t1} alt="How To Defeat Matador In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -434,7 +487,7 @@ export const latestUpdates = [
         img: imgLatest2,
         alt: "Latest News 2",
         title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
-        description: "PlayStation's latest sale is here, offering great discounts on PS5 consoles and games including Spider-Man 2.",
+        description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
         author: "John Walker",
         detail: (
             <div>
@@ -442,6 +495,9 @@ export const latestUpdates = [
                 <p>In a statement posted to the official Elden Ring X (formerly Twitter) feed, the team warns players to be “mindful” in the week running up to the expansion’s release. And it’s done in the most gentle, non-accusatory way imaginable.</p>
                 <p>“Please be mindful of spoilers,” says the tweeted JPEG, “for those who want to tread into the Realm of Shadows with nothing but their determination and their minds unclouded.”</p>
                 <p>Pre-order Elden Ring: Shadow of the Erdtree:  | Best Buy | Humble Bundle</p>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <TwitterTweetEmbed tweetId="1802579506479202486" />
+                </div>
                 <p>The subtext of course being, “Please don’t be a dick and spread the leaks.” Because of course some who’ve somehow got their hands on early copies have done exactly this.</p>
                 <p>Read More: Here’s What I Think Elden Ring: Shadow Of The Erdtree DLC Is About</p>
                 <p>One such leak on Reddit involved someone saying their friend had a review build, and posting alleged videos of boss fights, then angrily refuting those who claim it to be fake. (Given FromSoft has acknowledged there are leaks, it would suggest there’s some validity to the claims.) After a certain amount of goading, the anon account uploaded a better quality, much longer video of what they purport to be the final boss fight. Although adds, “My friend sux so I have no idea. He told me this was the final boss, but it wouldn’t surprise me if he missed something.”</p>
@@ -453,13 +509,14 @@ export const latestUpdates = [
         img: imgLatest3,
         alt: "Latest News 3",
         title: "A Father’s Day Tribute To My Much-Missed Gaming Dad",
-        description: "Destiny 2's upcoming expansion, The Final Shape, promises to be a pivotal moment for the game.",
+        description: "Hugh Walker was really good at Skyrim, dentistry, and being my dad",
         author: "John Walker",
         detail: (
             <div>
                 <p>My dad played video games before most people knew there were video games to play.</p>
                 <p>I think we got our off-brand Atari 2600 in 1979. This is one of so very many details I desperately wish I could fact check, but never will. Because in 2016, my dad—Hugh Walker—unexpectedly dropped dead on the sidewalk at the age of 66. He was walking home from breakfast at a friend’s, and then he wasn’t any more. And with him went nearly seven decades of encyclopedic information on every detail of world history, and forensic knowledge of the UK game development scene of the 1980s.</p>
                 <p>My dad was like a cuddly toy in many respects, but one in particular was the metaphorical hoop on a length of string protruding from his back, that when pulled would unleash a breathless spiel of informed and entertaining knowledge. It was always a monologue, but it was generally worth listening to. It might be that you’d accidentally trigger something on the royal turbulence of the 1500s, but it could equally be the origins of film-license specialists Ocean Software, or personal anecdotes on how he became friends with the developers at Level 9, developers behind text adventures like Jewels of Darkness and Ingrid Strikes Back.</p>
+                <p><img src={imgLatest3t1} alt="How To Defeat Matador In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -468,17 +525,17 @@ export const latestUpdates = [
         img: imgLatest4,
         alt: "Latest News 4",
         title: "Hands-On With Star Wars Outlaws, Weighing In On Dragon Age Discourse, And More Takes For The Week",
-        description: "A new Lego set featuring another iconic element from the Zelda universe is set to release soon.",
+        description: "We've also got a look at Astro Bot and thoughts on Gears of War: E-Day",
         author: "Kotaku Staff",
         detail: (
             <div>
                 <p>With Kotaku in attendance at last week’s Summer Game Fest, we got to go hands-on with some of the biggest games on the horizon. Read on for our impressions of Star Wars Outlaws, Horizon Lego Adventures, and the delightful-looking Astro Bot, among other games. We’ve also got an early look at one of next year’s most promising RPGs, Citizen Sleeper 2. And, with all the Dragon Age: The Veilguard news out of SGF, we’re also in the early throes of some intense discourse about the game. We weigh in on that, too. Click on for these stories and more.</p>
+                <h2>Star Wars Outlaws Hands-On: Good Gameplay, Wonderful World</h2>
+                <p><img src={imgLatest4t1} alt="Star Wars Outlaws Hands-On: Good Gameplay, Wonderful World" style={{ maxWidth: "100%", height: "auto" }} /></p>
+                <p>Kay Vess, lovable scoundrel and star of Ubisoft’s upcoming action adventure game Star Wars Outlaws, has a data spike shoved through her ponytail like a number 2 pencil. Alongside Kay at all times is her adorable companion Nix, a Merqaal that can help her snag hard-to-reach objects or distract enemies by running in front of them and playing dead. When repelling down ledges with Kay’s grappling hook, he’ll hop on her back and peer down with excitement while panting. On crime-hub planet Mirogana, neon signs inject bright pops of color into dark, seedy alleyways, droids cook strange foods at little stalls, and citizens enjoy some back-alley gambling. As Kay walks through this bustling world, a Mon Calamari asks for some credits to feed his gambling problem. - Alyssa Mercante Read More</p>
                 <h2>Hands-On With Horizon Lego Adventures: A Perfect Fit For Nintendo Switch</h2>
+                <p><img src={imgLatest4t2} alt="Hands-On With Horizon Lego Adventures: A Perfect Fit For Nintendo Switch" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>The first thing to know about the recently announced Horizon Lego Adventures is that it’s a Lego game first and an adaptation of Horizon Zero Dawn second. It’s not attempting to be a one-to-one, brick-by-brick recreation of the expansive open-world RPG or even an abridged version. Think of it more as a Shakespeare for Kids spin on the sci-fi adventure, except instead of translating the Bard’s iambic pentameter into contemporary English, it’s taking the familiar bones of a Lego adventure game and putting a pre-historic robot-smashing twist on it. - Ethan Gach Read More</p>
-                <h2>Let’s Skip The Dragon Age: The Veilguard Vs. Baldur’s Gate 3 Comparisons, Yeah?</h2>
-                <p>In 2023, Larian Studios’ award-winning game Baldur’s Gate 3 filled a void in RPG fans’ hearts. As of last year, BioWare, the developer behind Dragon Age and Mass Effect, hadn’t released an RPG in six years. Larian’s take on the Dungeons & Dragons ruleset checked off a lot of boxes for fans who wanted a party-driven RPG full of game-changing decisions, lovable and complicated characters, and a sprawling, impressively designed world. - Kenneth Shepard Read More</p>
-                <h2>Gears Of War: E-Day Will ‘Scare The S*** Out Of You’</h2>
-                <p>The “one more thing” at the Xbox showcase during Summer Game Fest was a reveal trailer for Gears of War: E-Day, a prequel to the original Gears trilogy starring everyone’s favorite bros, Marcus Fenix and Dominic Santiago. Naturally, Gears fans (myself included) were very excited at the reveal, though it’s not clear when it will launch. - Alyssa Mercante Read More</p>
             </div>
         )
     },
@@ -487,12 +544,13 @@ export const latestUpdates = [
         img: imgLatest5,
         alt: "Latest News 5",
         title: "A Revealing Epic Store Leak, New Star Wars Outlaws Details And More Of The Week's Big Stories",
-        description: "Several new games are announced for the PlayStation VR platform, promising exciting new experiences.",
+        description: "We also got our first real look at Dragon Age: The Veilguard.",
         author: "Kotaku Staff",
         detail: (
             <div>
                 <p>Summer Game Fest took up a lot of the oxygen in the room last week, and from there, we got new details on Star Wars Outlaws, Dragon Age: The Veilguard, and more. But there was no shortage of stories from beyond the showcases and show floor, too. An Epic Games Store leak hinted at some big things on the horizon, for one thing, and it seems a Nintendo Direct is coming very soon, for another. You’ll find all that and lots more in the pages ahead.</p>
                 <h2>RPG Devs Can’t Add Dating System Because Team Lacks ‘Real Life Experience’</h2>
+                <p><img src={imgLatest5t1} alt="A Revealing Epic Store Leak, New Star Wars Outlaws Details And More Of The Week's Big Stories" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>“Write what you know” is a popular piece of advice for authors and other creators. But what happens when your audience wants something that you don’t know much about? Well, you have to tell your fans on Steam that, no, you can’t add dating to your anime-themed tactical RPG because you and your team don’t have the real-life “experience” needed to create such a system. - Zack Zwiezen Read More</p>
                 <h2>The Big Nintendo Direct Everyone’s Waiting For Is Probably Next Week</h2>
                 <p>It wouldn’t be Summer Game Fest and the ghost of E3 season without a big Nintendo Direct. Previously teased for June, it now looks like the big Switch showcase could happen as early as next week thanks to a suspicious early announcement from Among Us maker Innersloth. - Ethan Gach Read More</p>
@@ -502,7 +560,7 @@ export const latestUpdates = [
     {
         id: 'lates-updates-6',
         img: imgLatest6,
-        alt: "Latest News 5",
+        alt: "Latest News 6",
         title: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
         description: "We'll also give you the lowdown on Octopath Traveler II's new bosses",
         author: "Kotaku Staff",
@@ -510,6 +568,7 @@ export const latestUpdates = [
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
                 <h2>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</h2>
+                <p><img src={imgLatest6t1} alt="Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>Elden Ring is known for its challenging combat and hazardous exploration, so it’s reasonable to expect its Shadow of the Erdtree expansion to be an ultra-difficult experience. With dozens of hours of new exploration and battle ahead, you’ll want to be certain you’re well-prepared for all of the horrors that await you. As such, you may be asking yourself what level you should be before starting Shadow of the Erdtree. - Billy Givens Read More</p>
             </div>
         )
@@ -526,7 +585,7 @@ export const topGames = [
         detail: (
             <div>
                 <p>All the latest game footage and images from Palworld by PocketPair | 2024</p>
-
+                <p><img src={imgTopGames1t1} alt="Palworld" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -542,6 +601,7 @@ export const topGames = [
                 <p>Like a Dragon: Infinite Wealth is the latest in the long-running series of games formerly known as Yakuza. Starting in 2005 on the PS2, Yakuza introduced the world to its gripping tale of Japanese gangsters struggling to survive the complex loyalties and alliances of the criminal underworld, often forced to fight in overwhelming situations in order to survive.</p>
                 <p>Infinite Wealth itself is a direct sequel to 2020’s Yakuza: Like a Dragon, which departed significantly from the standard brawling action that has long been the series’ bread and butter. As in that game, combat here is entirely turn-based, with all of the RPG stats and features you know from games that are usually set in more fantastical realms. Starring one of the most charismatic characters of our time, Ichiban Kasuga, Infinite Wealth tells a satisfying and intriguing tale of mystery and organized crime. And it’s all set in a digestible RPG that rewards the time you put into it without feeling burdensome or unapproachable.</p>
                 <p>Pre-order Like a Dragon: Infinite Wealth: | Best Buy |Humble Bundle | Target</p>
+                <p><img src={imgTopGames2t1} alt="Like a Dragon: Infinite Wealth" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -556,6 +616,7 @@ export const topGames = [
                 <p>It’s hard to say how Fortnite is turning out because it keeps turning into something else. Skins and storylines come and go. Landmarks appear and disappear. Weapons are added and removed. Recently, a mysterious excavation site appeared, but it was dug up and abandoned by the time I got there the next day. As I’m writing this, players are angry about a gameplay change that will probably be replaced by something new to hate a month from now. There’s never a perfect time to say what Fortnite is.</p>
                 <p>But here’s what it is:</p>
                 <p>My colleague Paul took this photo last week while out in New York City, where we live. Fortnite has nothing to do with New York, and New York has nothing to do with Fortnite, though that may change when the game’s $30 million World Cup descends on us in July. I laughed at this photo for a long time. “Yeah, OK,” I said. “This makes sense.”</p>
+                <p><img src={imgTopGames3t1} alt="Fortnite" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
@@ -570,6 +631,7 @@ export const topGames = [
                 <p>A bold and risky pivot toward action for Square Enix’s beloved RPG franchise, Final Fantasy XVI is a stunning achievement that revitalizes the series for a new age—and it just may be the best the series has been in more than 20 years.</p>
                 <p>In an era when so many developers try to emulate the open-world immersion mastered by Nintendo with recent Zelda games, FFXVI opts for something more linear that makes room for a thrilling episodic story chock full of epic action set pieces and tender moments between lovable characters.</p>
                 <p>Design-wise, it feels a bit like a PlayStation 2-era game with its world map and individual zones, but the power of the PlayStation 5 delivers world-class cinematics for a story unlike any other. Final Fantasy XVI feels just as sprawling and even more immersive than your average “open world” thanks to dynamic environments and a large number of side quests delving into the people of Valisthea. But best of all, the care and attention to detail captures that special something that defines Final Fantasy.</p>
+                <p><img src={imgTopGames4t1} alt="Final Fantasy XVI" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>It confidently wields subtle gestures to flesh out how broken people manage in a dark world where magic’s influence is both a blessing and a curse. Whether it’s the tender caress of a lover or a playful jab at a brother’s chest, intimate moments even out the blistering and occasionally bombastic pace of the main story.</p>
             </div>
         )
@@ -604,6 +666,15 @@ export const hadesEssentials = [
                 <p>Summer Game Fest, aka Geoff-con/Keighley-palooza, has come and gone. The E3 replacement included multiple online showcases and onsite events, each aimed at drumming up excitement for a flood of upcoming games. Which games rocked? Which ones sucked? Which ones will become video game industry touchstones while the rest fade from memory? We tried to play as many of them as we could to find out.</p>
                 <p>After flying back from LA, throwing all our dirty laundry in the corner, and passing out, we started gathering every single game we got a chance to actually go hands-on with during Summer Game Fest, from Marvel Rivals to Phantom Blade Zero, and all of the indies in-between. In some cases, we only got mere minutes with the the games as their developers and brand managers pitched us on what made them great. But for other games, like Star Wars Outlaws, we were able to roam new worlds at our leisure and chew on them for a while.</p>
                 <p>We saw loud monster truck races, real-time strategy battles, Souls-likes, sidescrollers, hotly anticipated Overwatch knockoffs, and much, much more. Every game we got a chance to try out is here for your perusal, along with details on where they’ll launch and when.</p>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/c5HrkNz1pSU"
+                    title="Every Game We Played At This Year's Not-E3 Summer Game Fest Extravaganza"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
             </div>
         )
     },
@@ -646,6 +717,15 @@ export const hadesEssentials = [
             <div>
                 <p>Today, we got nearly two hours of new trailers for upcoming games courtesy of Geoff Keighley and his annual Summer Game Fest showcase. It was a lot to sit through, but if you missed out on the live stream or just want a recap of everything shown off today, we’ve got you covered.</p>
                 <h2>Lego Horizon Adventures</h2>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8t2AqV_MlDM"
+                    title="Lego Horizon Adventures"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
                 <p>In a mashup that seems too perfect, Horizon and Lego are coming together to let us smash up digital plastic bricks across a post-apocalyptic world. With an isometric perspective, it gave us a nice look at a wide variety of environments. The game also seems like it’ll have a base-building mechanic as well.</p>
                 <p>Lego Horizon Adventures is expected in winter 2024 for PS5, PC, and even Switch. Betcha didn’t expect that!</p>
             </div>
@@ -659,7 +739,7 @@ export const futureGames = [
         img: imgFuture1,
         alt: "Future Game 1",
         title: "Everything We Know About Elden Ring's Shadow Of The Erdtree DLC",
-        description:"We finally know that the much-anticipated expansion launches on June 21",
+        description: "We finally know that the much-anticipated expansion launches on June 21",
         author: "By Levi Winslow",
         detail: (
             <div>
@@ -669,6 +749,15 @@ export const futureGames = [
                 <h2>What platforms will Shadow of the Erdtree launch on?</h2>
                 <p>Just about anywhere the base game currently exists: PC via Steam, PlayStation 4/5, Xbox One, and Xbox Series X/S.</p>
                 <h2>Is there a trailer for Shadow of the Erdtree yet?</h2>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/qLZenOn7WUo"
+                    title="Is there a trailer for Shadow of the Erdtree yet?"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
                 <p>The trailer dropped on February 21, not too long after Nintendo’s Direct Partner Showcase. You can check out the reveal below:</p>
             </div>
         )
@@ -678,13 +767,22 @@ export const futureGames = [
         img: imgFuture2,
         alt: "Future Game 2",
         title: "Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat",
-        description:"Konami gave us new gameplay footage for the upcoming remake of its beloved survival horror sequel",
+        description: "Konami gave us new gameplay footage for the upcoming remake of its beloved survival horror sequel",
         author: "By Ashley Bardhan and Zack Zwiezen",
         detail: (
             <div>
                 <p>Silent Hill 2, a remake of Konami’s legendary 2001 survival horror game currentlyin the works at Layers of Fear developer Bloober, got a new trailer during the January 31 Sony State of Play.</p>
                 <p>Bloober released its first Silent Hill 2 teaser in October 2022, unveiling the remake’s renditions of foggy old town Silent Hill and grimy executioner and series patron monster Pyramid Head, as well as a particularly haggard James Sunderland. Everyone freaked out. It was the first time Konami had revisited the Silent Hill franchise in years.</p>
                 <p>And now, we have a new gameplay trailer showing off the remake in action. However, this trailer is mostly focused on the game’s modernized third-person combat.</p>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ayKICAIUHkA"
+                    title="Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
             </div>
         )
     },
@@ -693,7 +791,7 @@ export const futureGames = [
         img: imgFuture3,
         alt: "Future Game 3",
         title: "All The Cool Stuff We Spotted In The Star Wars Outlaws Story Trailer",
-        description:"This trailer features Jabba the Hutt, Death Troopers, Crimson Dawn, Canto Bight, Han Solo, and much more!",
+        description: "This trailer features Jabba the Hutt, Death Troopers, Crimson Dawn, Canto Bight, Han Solo, and much more!",
         author: "By Zack Zwiezen",
         detail: (
             <div>
@@ -701,6 +799,15 @@ export const futureGames = [
                 <p>So, to help you all out, Kotaku has combed through the trailer and found some of the coolest, most important moments from the new Outlaws story trailer.</p>
                 <p>Oh and here’s the trailer in case you haven’t seen it yet or want to rewatch it before reading our breakdown.</p>
                 <p>Pre-order Star Wars Outlaws: Ubisoft | Best Buy</p>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tcdKEy-aJ6o"
+                    title="Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
             </div>
         )
     },
@@ -709,7 +816,7 @@ export const futureGames = [
         img: imgFuture4,
         alt: "Future Game 4",
         title: "Obsidian’s Avowed Will Defy One Major RPG Trend",
-        description:"",
+        description: "",
         author: "John Walker",
         detail: (
             <div>
@@ -741,6 +848,8 @@ export const additionalSections = {
                     <p>“If they kill off Carrie-Anne’s character,” I thought, “they must have big plans.”</p>
                     <p>Those plans become clearer when we’re introduced to Jedi Knight Yord Fandar (Charlie Barnett), tasked with investigating Indara’s murder. The problem: Mae has an identical twin, Osha Aniseya, a Jedi dropout but who still pulses with the Force. True, the identical twins trope is a bit shticky for Star Wars, and a tad on the nose (good and bad sides of the Force, and all that), but it didn’t undermine my investment, and it won’t yours.</p>
                     <p>Oh, and hang in for Yord’s outfit. Trust me.</p>
+                    <p>All of the Jedi wear gold and tan, a nod to where we are in the Star Wars timeline: These are the days of the High Republic, about a century before The Phantom Menace and the rise of Anakin Skywalker, aka Lord Vader, and before the Fall of the Jedi. The Golden Years, as it were.</p>
+                    <p><img src={imgTv1t1} alt="Star Wars" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -758,6 +867,7 @@ export const additionalSections = {
                     <h2>The events of The Acolyte episode 3</h2>
                     <p>All of The Acolyte’s third episode takes place within a flashback: 16 years before the start of the series, a coven of witches are hiding out on a planet called Brendok after fleeing persecution by those who believed they were wielding the Force for evil. This is the first canonical sect of witches since the Nightsisters of Dathomir, who very much hem closer to the evil side of Force use, though the show goes to great lengths to ensure we don’t paint the Witches of Brendok with the same broad strokes (even having them chant a spell entirely in English because I’m sure another language would be “too scary”).</p>
                     <p>Much like the miracle of Anakin Skywalker’s conception (he had no father, and was created entirely by the will of the Force and carried by his mother, Shmi), the witches have two twin girls in their midst: Mae and Osha, who were “created” by their mother Aniseya and carried by her partner, Koril (also a woman, yay space lesbians!).</p>
+                    <p><img src={imgTv2t1} alt="Star Wars" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -788,6 +898,15 @@ export const additionalSections = {
                 <div>
                     <p>On June 11, Netflix released the first trailer for the eagerly anticipated second season of Arcane (crowd cheers). The trailer announced that it would mark the finale of the animated series adaptation of Riot’s League of Legends (crowd boos). But wait, it might not be the end of Riot’s adaptations altogether (crowd mumbles, unsure of what to think).</p>
                     <p>The trailer itself is a stunning look at what fans can expect in the second season, which releases in November. Picking up right after the cliffhanger ending of the first season—which saw Jinx launching a rocket at the Piltover council—the season is going to be a hectic battle between the cities of Piltover and Zaun. To set the stage, we see Caitlyn forming a special task force of enforcers with the mission of going into Zaun and taking down Jinx. Vi (Jinx’s sister and dual protagonist of the show alongside Caitlyn) is on the task force, decked out in an enforcer uniform that signals how much her allegiances have changed.</p>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/AEbfiLaOdJA"
+                        title="Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                     <p>A climactic confrontation between Jinx and Vi near the end of the trailer has Vi calling her sister Jinx rather than her original name of Powder, further showing that she no longer sees Jinx as redeemable. The dour tone of the trailer is starting to make me even more worried for the show’s finale, which Jinx actor Ella Purnell teased would be “devastating.”</p>
                     <p>But there is still hope for life after Arcane because while it is indeed the final season of the show, Riot doesn’t seem to be done with adaptations. Anticipating fan outcry, the official Arcane Twitter account posted a message from show co-creator (and Riot Creative Director) Christian Linke directly under the trailer. First off, Linke assures fans that the team has always had a specific ending in mind, so the story of Arcane isn’t being rushed in the finale. Linke then goes on to say that the show is “just the beginning of our larger storytelling journey,” as well as revealing that Riot is currently working on new projects across film and television that will give other League of Legends characters the spotlight. Linke also revealed that Riot’s partnership with Fortiche, the animation studio behind Arcane, is not over.</p>
                     <p>As for what other characters could possibly get the Arcane treatment, Linke didn’t drop any hints. I personally want a pirate story set in Bilgewater starring Miss Fortune, though I think a project focused on the more magical side of the League of Legends world is also full of potential. But for now, I’ll just wait to watch Arcane’s end.</p>
@@ -811,6 +930,7 @@ export const additionalSections = {
                     <p>Read More: Troubled Vampire RPG Gets New Devs, Gameplay Changes, And 2024 Release
                         Order Still Wakes The Deep: Best Buy | Humble Bundle</p>
                     <p>A horror “walking simulator” (a genre term I use lovingly) set in Scotland, Still Wakes The Deep follows the story of Caz McCleary and the crew of the Beira D oil rig as a series of unexpected, unexplainable, and horrific events besiege the rig and its crew. Caz finds himself on the Beira D not because he’s made a lifelong career out of being a roughneck, but as a way to lay low while some drama at home hopefully chills out. See, the police may want to have a little chat with our pal Caz after he found himself caught up in some bullshit he likely instigated. His bright idea is to not face the consequences of his actions and instead work a random gig on an oil rig way out on the ocean where the police aren’t likely to find him. It’s 1975, I guess you could get away with such things back then.</p>
+                    <p><img src={imgCom1t1} alt="Star Wars" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -842,6 +962,15 @@ export const additionalSections = {
                     <p>Let’s be clear: they’re very different games. Animal Well is a Metroid-like platformer, while Master Key is a 2D Zelda-like RPG, but both are astonishingly good games, made by an individual, that perfectly execute their remit in an approachable and deeply engrossing way. One gets lucky, the other doesn’t. Let’s set about changing that.</p>
                     <p>Master Key is the 2D Zelda format distilled to its purest form. It’s a monochrome RPG in which you play an adorable fox, exploring an ever-growing territory as you earn new abilities that allow access to new areas. The map begins shrouded in clouds, each section revealed as you reach it, until you’ve discovered multiple biomes, temples, dungeons, and boss fights. And despite being “monochrome” (it defaults to black and white, with options in the settings to pick your own dual colour-scheme), it’s beautifully detailed, with a huge number of distinct enemy types, gorgeously animated, and each fought differently with your increasingly interesting range of attacks.</p>
                     <p>So yeah, that rather clinically explains that it delivers all the correct ingredients. What’s far more important is how well it’s done. Master Key is just so wonderfully crafted, a constant drip-feed of new abilities opening up new areas, letting you always feel as though you’re progressing. Reach a point where you’re stuck, and the world map (which I’m fairly certain is just the live game running at a tinier scale) will flash a region you should explore further. You’ll inevitably find the passageway you missed, or the secret entrance it’s hinting you toward, or the NPC with an item you need. And then there’s that dopamine hit of realising you’ve now got another whole swathe of game to explore.</p>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/kFWINtKIgXw"
+                        title="New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             )
         },
@@ -857,6 +986,7 @@ export const additionalSections = {
                     <p>I’m on a path to find reprieve from the suffering around me. But as I turn the next corner of clouding darkness, a bright red light paralyzes me as the forceful and commanding voice of my father tells me that not only am I doomed to fail in my struggles, but that I am actively causing the very harm I am seeking to alleviate. Be it through failure or a curse that he expects me to believe I carry with me that will spread to others, he calls me his daughter with a possessiveness that rattles me. It inspires fear and rage. Yet I continue to move forward, to find a way through, to find spaces where his corruption hasn’t spread. And I do this not only for myself, but for others to whom I have promised aid. But in my quest to kill godlike forces that are causing misery, I am ever aware of a creeping darkness that threatens to consume me and others. What must I do to heal this world? Is that what I’m here to do? Can I do this? As I hear my father’s voice again, reminding me of his abuse, I realize I have no choice. I must survive and bring an end to the suffering of all those I encounter.</p>
                     <p>Arriving on May 21, 2024 for Xbox Series X/S and PC, Senua’s Saga: Hellblade II picks up shortly after the events of 2017’s Hellblade: Senua’s Sacrifice. Continuing the story of Senua, a Pictish warrior who experiences psychosis and has lived through intense and tragic trauma, Saga delivers an experience that will be familiar to those who played Sacrifice. Saga is a tightly focused narrative of magical realism, though those magical elements may largely be part of how Senua perceives the world, rather than how it actually is. (And really, how much can any of us can attest to how reality “actually” is?) Senua’s altered perceptions of reality enable her to contend with seemingly supernatural forces inspired by Norse mythology. But she also, and perhaps most importantly, is in a battle with her own trauma in a way that allows her to see into the internal struggles of others.</p>
                     <p>Buy Senua’s Saga: Hellblade II: | Best Buy | GameStop</p>
+                    <p><img src={imgCom4t1} alt="Star Wars" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         }
@@ -875,6 +1005,7 @@ export const additionalSections = {
                     <p>After helping my childhood friend, Cloud, through a reality-bending experience to reclaim his identity, I listen as he apologizes for his worst actions and explains to a room full of people why he misled everyone. Yes, his mind was under the influence of an invasive presence, but this confession comes from a place of vulnerability, one where he’s owning his own actions. He confesses to being “ashamed of being so weak” to the point that he “created an illusion.” When he says he “can’t remain trapped in an illusion any more,” and that he’s “going to live [...] without pretending,” I feel inspired not only to defeat the evil we are facing, but to live my own life without pretending too. We all walk back to the cockpit of the airship called the Highwind, headed north to face our greatest fears with honesty and resolve in who we are, together.</p>
                     <p>Final Fantasy VII arrived on the original PlayStation on January 31, 1997 and it swiftly became a worldwide, cultural gaming phenomenon. In the more than two-and-a-half decades since, FF7’s world, characters, and soundtrack, not to mention the thrill of playing through its innovative, adventurous, and varied quest, have remained fresh and inspiring in the minds of countless gamers—especially for those of us who played it at an impressionable age in the late ‘90s.
                         As a kid, I experienced FF7 as a three-disc epic on a massive, glowing CRT screen that would loom over me for hours at a time, a disc spinning away under the plastic lid of my gray PlayStation with a colorful PSM sticker slapped on it. Final Fantasy VII pulled me in with a gravitational force unlike anything before, and few works of art have come close to hitting me in the same way.</p>
+                    <p><img src={imgRetro1t1} alt="Final Fantasy VII: The Kotaku Retro Review" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         },
@@ -890,6 +1021,17 @@ export const additionalSections = {
                     <p>When you first fire up The Making of Karateka, Digital Eclipse’s excellent interactive retrospective about Prince of Persia creator Jordan Mechner’s 1984 masterpiece, you’re greeted with this quote from his journals, written when he was just 18 years old:</p>
                     <p>“My goal for this summer is to finish Karateka. If it’s half as big as I dream it may be, that should be enough to launch me into the Video Game World.”</p>
                     <p>With this preface, The Making of Karateka makes its intentions crystal clear: not to dryly explain how a landmark game came to be, but to humanize that process of creation, capturing the creative brilliance and ambition of its young maker, without which Karateka never would have been made. Let me tell you why I think this matters so much.</p>
+                    <h2>Appreciating game history is as important as preserving it</h2>
+                    <p>When I was young, my mom, a movie lover, would sometimes show me films from the 1940s and ‘50s; films starring Cary Grant or Jimmy Stewart, films directed by Alfred Hitchcock or Billy Wilder. And, to be honest, I didn’t really get them. Being in black and white and dating from the vast irrelevance of time before I was born, they felt old and dusty to me. I couldn’t see them as the urgent, living creations that they are. I liked the lightsabers and starship battles of Star Wars, but didn’t yet grasp cinema as an art form that held onto its life and immediacy across the decades, an enduring reflection of the artistic impulses of those who made it.</p>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/DyfNjdTaFLE"
+                        title="This ‘Playable Documentary’ About A 1984 Classic Is One Of The Year’s Best Games"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             )
         },
@@ -920,6 +1062,7 @@ export const additionalSections = {
                     <p>After helping my childhood friend, Cloud, through a reality-bending experience to reclaim his identity, I listen as he apologizes for his worst actions and explains to a room full of people why he misled everyone. Yes, his mind was under the influence of an invasive presence, but this confession comes from a place of vulnerability, one where he’s owning his own actions. He confesses to being “ashamed of being so weak” to the point that he “created an illusion.” When he says he “can’t remain trapped in an illusion any more,” and that he’s “going to live [...] without pretending,” I feel inspired not only to defeat the evil we are facing, but to live my own life without pretending too. We all walk back to the cockpit of the airship called the Highwind, headed north to face our greatest fears with honesty and resolve in who we are, together.</p>
                     <p>Final Fantasy VII arrived on the original PlayStation on January 31, 1997 and it swiftly became a worldwide, cultural gaming phenomenon. In the more than two-and-a-half decades since, FF7’s world, characters, and soundtrack, not to mention the thrill of playing through its innovative, adventurous, and varied quest, have remained fresh and inspiring in the minds of countless gamers—especially for those of us who played it at an impressionable age in the late ‘90s.</p>
                     <p>As a kid, I experienced FF7 as a three-disc epic on a massive, glowing CRT screen that would loom over me for hours at a time, a disc spinning away under the plastic lid of my gray PlayStation with a colorful PSM sticker slapped on it. Final Fantasy VII pulled me in with a gravitational force unlike anything before, and few works of art have come close to hitting me in the same way.</p>
+                    <p><img src={imgRetro4t1} alt="Final Fantasy VII: The Kotaku Retro Review" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
         }
