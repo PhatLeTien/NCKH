@@ -27,13 +27,14 @@ import Add8t1 from '../Assets/News/add8t1.webp';
 
 export const mainNews = {
     id: "promising-sims-competitor-canceled",
-    imageUrl: imgnewsMain,
+    img: imgnewsMain,
     title: "Promising-Looking Sims Competitor Canceled",
     description: "Life By You is no longer being developed by Paradox Interactive following multiple delays",
     author: "By Zack Zwiezen",
     published: "PublishedJune 17, 2024",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'news',
     detail: (
         <div>
             <p>Paradox Interactive, the company behind Cities: Skylines and Crusader Kings, announced that after numerous delays it has decided to cancel development of Life By You, its highly anticipated Sims-like game.</p>
@@ -54,12 +55,13 @@ export const mainNews = {
 export const sideNews = [
     {
         id: "new-uncharted-movie",
-        imageUrl: imgnewsSide1,
+        img: imgnewsSide1,
         title: "New Uncharted Movie In The Works As Everyone Wonders Where The Hell The Next Game Is",
         author: "By Moises Taveras",
         description: "This is not the Uncharted sequel most folks have been waiting for",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>That sequel to the 2022 Uncharted film that approximately five of us actually liked is officially in production. The news was confirmed by Variety earlier today after Sony mentioned an Uncharted sequel at CineEurope 2024 while running down its pipeline of upcoming movies.</p>
@@ -71,12 +73,13 @@ export const sideNews = [
     },
     {
         id: "starfield-60fps-mod",
-        imageUrl: imgnewsSide3,
+        img: imgnewsSide3,
         title: "Starfield Can Run At 60 FPS On Xbox Series S Now Thanks To Mods",
         author: "By Zack Zwiezen",
         description: "You'll have to remove the grass and put up with a much lower resolution, but it's still playable",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Starfield on Xbox Series S is a surprisingly solid experience. However, Bethesda’s massive open-world space RPG is locked to 30 FPS on Xbox’s cheaper and less powerful console. But with some new fan-developed mods, Starfield can hit 60 or even 120 FPS on Series S, just be prepared for some less-than-great visuals.</p>
@@ -97,12 +100,13 @@ export const sideNews = [
     },
     {
         id: "overwatch-2-transformers-collab",
-        imageUrl: imgnewsSide2,
+        img: imgnewsSide2,
         title: "Overwatch 2 Teases Transformers Collaboration Ahead Of Season 11",
         author: "By Kenneth Shepard",
         description: "The next season seems like a Power Rangers tribute, but that’s not all Blizzard is teasing",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Overwatch 2’s eleventh season begins on Thursday, June 20, and this time around Blizzard is going with what looks like a Power Rangers tribute theme this season. But that’s not the only thing poking at millennial nostalgia, as Blizzard is teasing that a Transformers collaboration is in the works.</p>
@@ -121,13 +125,14 @@ export const sideNews = [
     },
     {
         id: "pirate-brawler-launch",
-        imageUrl: imgnewsSide4,
+        img: imgnewsSide4,
         title: "Pirate Brawler Planned For The OG Xbox Is Finally Launching 20 Years Later",
         author: "By Zack Zwiezen",
         description: "Age of Pirates: Captain Blood was set to arrive in 2006 at one point",
         category1: "",
         category2: "",
-        detail: (
+   
+   category: 'news',     detail: (
             <div>
                 <p>20 years ago, a third-person action-adventure pirate game called Age of Pirates: Captain Blood was announced via a short trailer at E3 2004. And then a lot of shit happened, leading to the game being delayed repeatedly in development and then protracted legal fights once it was finished. But now, finally, two decades later, this long-lost pirate game is arriving on all platforms later this year.</p>
                 <p>The complete story behind Captain Blood is a long and complicated tale involving multiple instances in which development was completely restarted from scratch as team members left, reportedly due to bad management decisions. However, after a big internal reboot in late 2004—which turned Captain Blood into a God of War clone—development on the game actually progressed and it was basically finished in 2009. However, the game’s previous publisher, Playlogic, began a new legal fight with the developer over the Captain Blood IP. So even though the studio reportedly began printing discs and preparing to ship copies to retailers, legal troubles led to it never launching. A trailer in 2010 promised a 2011 release, but that never happened. And that was the end of Captain Blood...or so we thought.</p>
@@ -149,13 +154,14 @@ export const sideNews = [
 export const additionalNews1 = [
     {
         id: "elden-ring-fantasy-rpg",
-        imageUrl: imgAdd1,
+        img: imgAdd1,
         title: "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
         description: "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
         author: "By Kenneth Shepard",
         published: "Published June 17, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Most of Elden Ring developer FromSoftware’s games have some form of cooperative play. However, they are full of restrictions and cost-related mechanics that make it impossible for you to play the whole way through with a friend without jumping through hoops. The good news is, it doesn’t sound like the studio is married to that ideal, and may consider a more seamless co-op experience in a future project.</p>
@@ -172,13 +178,14 @@ export const additionalNews1 = [
     },
     {
         id: "bethesda-fallout-starfield",
-        imageUrl: imgAdd2,
+        img: imgAdd2,
         title: "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
         description: "Todd Howard pours cold water on Fallout fans' hopes and dreams",
         author: "By Ethan Gach",
         published: "Published June 17, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Fallout fans have been desperate for something new to play in the post-apocalyptic RPG franchise ever since the Amazon TV adaptation blew up earlier this year. Recently, however, director Todd Howard said Bethesda doesn’t want to “rush” a new single-player Fallout game, and went into more detail about what the team is busy with, including expansions for Starfield beyond this fall’s Shattered Space DLC.</p>
@@ -196,13 +203,14 @@ export const additionalNews1 = [
     },
     {
         id: "ffxiv-healers-strike",
-        imageUrl: imgAdd3,
+        img: imgAdd3,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         description: "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon…",
         author: "By Willa Rowe",
         published: "Published June 17, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>After months (and even years) of healer mains in Final Fantasy 14 complaining that Square Enix’s MMORPG has simplified and devalued the job, seemingly to no avail, aggrieved healers are going one step further to make their opinion known: They’re going on strike.</p>
@@ -224,13 +232,14 @@ export const additionalNews1 = [
     },
     {
         id: "nintendo-direct-announcement",
-        imageUrl: imgAdd4,
+        img: imgAdd4,
         title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
         description: "The company has already confirmed there will be no mention of the Switch successor",
         author: "By Kenneth Shepard",
         published: "Published June 17, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Now that most of the industry is done with Summer Game Fest and all its orbiting events, Nintendo is jumping into the summer video game announcement fray with its own Nintendo Direct. After plenty of speculation and rumors floating around the internet, the company has confirmed the showcase will take place tomorrow, June 18, at 7 a.m. Pacific/10 a.m. Eastern. Thankfully, that’s an hour later than the usual ass-crack of dawn 9 a.m. Eastern slot the company typically chooses for these showcases.</p>
@@ -249,13 +258,14 @@ export const additionalNews1 = [
     },
     {
         id: "elden-ring-dlc-spoilers",
-        imageUrl: imgAdd5,
+        img: imgAdd5,
         title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
         description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
         author: "By John Walker",
         published: "Published June 17, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>With tiresome predictability, action RPG Elden Ring’s first and only DLC, Shadow of the Erdtree, is already being spoiled online, four days ahead of its release. This warning comes from no smaller a source than its own developers, FromSoftware. (There are no spoilers at all in this post.)</p>
@@ -270,13 +280,14 @@ export const additionalNews1 = [
     },
     {
         id: "elden-ring-dlc-update",
-        imageUrl: imgAdd6,
+        img: imgAdd6,
         title: "Elden Ring Players Will Still Get Some Cool New Features Even If They Don't Buy The Erdtree DLC",
         description: "A free update alongside the expansion adds better inventory management",
         author: "By Ethan Gach",
         published: "Published June 14, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>I imagine the cross-section of people who still play Elden Ring but aren’t buying its Shadow of the Erdtree expansion is pretty small. Even so, those people are in luck since they’ll still get to take advantage of a free update going live alongside the DLC. In addition to various gameplay changes, it’ll greatly improve inventory management and even add more hairstyles.</p>
@@ -289,13 +300,14 @@ export const additionalNews1 = [
     },
     {
         id: "dragon-age-veilguard-qa",
-        imageUrl: imgAdd7,
+        img: imgAdd7,
         title: "19 Things We Learned From The Dragon Age: The Veilguard Q&A",
         description: "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
         author: "By Kenneth Shepard",
         published: "Published June 14, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Dragon Age: The Veilguard’s promotional campaign is in full swing after BioWare reintroduced the re-titled RPG at Summer Game Fest earlier this month. While we learned a lot from the gameplay reveal and the behind-closed-doors presentation at the show, BioWare is still drip-feeding information to fans, most recently in the form of a Discord Q&A with game director Corinne Busche, creative director John Epler, and art director Matt Rhodes that took place earlier today, June 14.</p>
@@ -315,13 +327,14 @@ export const additionalNews1 = [
     },
     {
         id: "starfield-paid-mods",
-        imageUrl: imgAdd8,
+        img: imgAdd8,
         title: "Starfield’s Paid Mods Ignite A Review Bombing On Steam",
         description: "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
         author: "By Claire Jackson",
         published: "Published June 14, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Starfield has yet again rubbed folks the wrong way. This time it’s not over what many perceived as a mostly empty initial offering when it launched last year. Rather, criticism is centered on the game’s new Creations mod hub, which offers free and paid mods from both Bethesda and community members alike. Some are so irate over the presence of those paid mods that, in a case of history repeating itself, they’re taking to Steam to make their feelings known by review-bombing the game all over again.</p>
@@ -336,13 +349,14 @@ export const additionalNews1 = [
     },
     {
         id: "bloodborne-pc-port",
-        imageUrl: imgAdd9,
+        img: imgAdd9,
         title: "FromSoftware's Miyazaki On A Bloodborne PC Port: 'I'd Love More Players To Be Able To Enjoy It'",
         description: "FromSoftware president Hidetaka Miyazaki isn't 'opposed' to a new port of the beloved RPG",
         author: "By Zack Zwiezen",
         published: "Published June 13, 2024",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>For years now, Bloodborne fans have wanted the popular PS4-exclusive RPG ported to PC, hopefully with performance improvements and graphical options. And while FromSoftware’s president Hidetaka Miyazaki didn’t confirm that such a port is happening, he did say he’s not opposed to it and suggested that many people at the studio want a PC port to happen.</p>
@@ -360,13 +374,14 @@ export const additionalNews1 = [
 export const additionalNews2 = [
     {
         id: "nintendo-direct-happening",
-        imageUrl: imgAdd2_1,
+        img: imgAdd2_1,
         title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
         author: "By Kenneth Shepard",
         published: "Yesterday",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Now that most of the industry is done with Summer Game Fest and all its orbiting events, Nintendo is jumping into the summer video game announcement fray with its own Nintendo Direct. After plenty of speculation and rumors floating around the internet, the company has confirmed the showcase will take place tomorrow, June 18, at 7 a.m. Pacific/10 a.m. Eastern. Thankfully, that’s an hour later than the usual ass-crack of dawn 9 a.m. Eastern slot the company typically chooses for these showcases.</p>
@@ -385,13 +400,14 @@ export const additionalNews2 = [
     },
     {
         id: "ffxiv-healers-strike-dawntrail",
-        imageUrl: imgAdd2_2,
+        img: imgAdd2_2,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
         author: "By Willa Rowe",
         published: "Yesterday",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>After months (and even years) of healer mains in Final Fantasy 14 complaining that Square Enix’s MMORPG has simplified and devalued the job, seemingly to no avail, aggrieved healers are going one step further to make their opinion known: They’re going on strike.</p>
@@ -413,13 +429,14 @@ export const additionalNews2 = [
     },
     {
         id: "sims-competitor-canceled",
-        imageUrl: imgAdd2_3,
+        img: imgAdd2_3,
         title: "Promising-Looking Sims Competitor Canceled",
         // description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
         author: "By Zack Zwiezen",
         published: "Yesterday",
         category1: "CULTURE",
         category2: "NEWS",
+        category: 'news',
         detail: (
             <div>
                 <p>Paradox Interactive, the company behind Cities: Skylines and Crusader Kings, announced that after numerous delays it has decided to cancel development of Life By You, its highly anticipated Sims-like game.</p>

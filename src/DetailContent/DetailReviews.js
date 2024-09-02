@@ -57,7 +57,7 @@ const DetailReview = () => {
         <div className="detail-page-review">
             <Header />
             <div className="detail-review">
-                <img src={review.imageUrl} alt={review.title} className="detail-review-image" />
+                <img src={review.img} alt={review.title} className="detail-review-image" />
                 <h1>{review.title}</h1>
                 <p className="detail-review-author">{review.author}</p>
                 <p className="detail-review-description">{review.description}</p>

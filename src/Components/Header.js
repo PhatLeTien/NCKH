@@ -105,7 +105,7 @@ function Header() {
               </div>
             )}
           </div>
-          <button onClick={() => window.location.href = "/"} className="icon-item">
+          <button onClick={() => window.location.href = "/search"} className="icon-item">
             <FontAwesomeIcon icon={faSearch} />
           </button>
           <button onClick={handleSendTip} className="icon-item">

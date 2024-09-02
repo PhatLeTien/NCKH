@@ -43,12 +43,13 @@ import Key4t1 from '../Assets/Reviews/key-4t1.webp';
 
 export const mainReviews = {
     id: 'main-review',
-    imageUrl: imgMain,
+    img: imgMain,
     link: '/reviews/article/main-review',
-    category: 'MULTIPLATFORM',
+    category1: 'MULTIPLATFORM',
     title: 'Elden Ring: Shadow of the Erdtree Review: Massive, Menacing, And Magnificent',
     description: 'FromSoftware’s highly anticipated DLC could be a standalone game, it’s just that good',
     author: 'Alyssa Mercante',
+    category: 'reviews',
     detail: (
         <div>
             <p>I suffer from pretty bad anxiety, and in 2024, I think I’ve hit some personal records when it comes to sudden spikes of irrational, panic-inducing, thought-clouding, anxiety that has done wonders on my mental health, work performance, familial and platonic relationships, and more. Naturally, I thought it’d be a great idea to spend my free time with a game that demands some serious fortitude and a perpetual cycle of tough challenges that can easily make you feel like you suck: Elden Ring.</p>
@@ -65,12 +66,13 @@ export const mainReviews = {
 export const sideReviews = [
     {
         id: 'side-review-1',
-        imageUrl: imgSide1,
+        img: imgSide1,
         link: '/reviews/article/side-review-1',
-        category: 'MULTIPLATFORM',
+        category1: 'MULTIPLATFORM',
         title: 'Still Wakes The Deep: The Kotaku Review',
         description: 'The Chinese Room’s latest horror game begs you to consider what’s worth running from in life',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>As I peer out from a ventilation shaft to catch sight of the unspeakable horror in search of me, I prepare to toss a wrench I lifted from the ground in the desperate hope of distracting it. I step out of the shaft, throw it, and then immediately dart for the door. But I get the angle wrong and catch the lip of a beam just overhead. The monster turns and roars out that it has seen me with the contorted voice of someone I once knew. I have no means of dealing with this horrific creature and so I race to the nearest door. I make it out and seal the door behind me. I take a moment to catch my breath as I look around at the collapsing wreckage of this oil rig, this place of labor. The endless gray of the horizon looms forever into the distance; the ocean waves perpetually lap against the oil rig’s legs. Monstrous howls and screams emanate from the walls. Am I doomed to die here? Will I return home? Was it a mistake to come here?</p>
@@ -84,12 +86,13 @@ export const sideReviews = [
     },
     {
         id: 'side-review-2',
-        imageUrl: imgSide2,
+        img: imgSide2,
         link: '/reviews/article/side-review-2',
-        category: 'MULTIPLATFORM',
+        category1: 'MULTIPLATFORM',
         title: 'New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans',
         description: 'Tiny Terry’s Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car',
         author: 'Zack Zwiezen',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Below this paragraph is my full review of Tiny Terry’s Turbo Trip—a new comedic open-world action game out now on Steam and playable on Steam Deck. And it’s a good review. It does what you expect. But I can save you some time right now. If you are a fan of The Simpsons: Hit and Run, then you should play Tiny Terry’s Turbo Trip. It is a perfect recreation of that silly open-world GTA-like collecton-a-thon experience, just without Homer and Springfield. Anyway, for everyone still reading, here’s the review.</p>
@@ -109,12 +112,13 @@ export const sideReviews = [
     },
     {
         id: 'side-review-3',
-        imageUrl: imgSide3,
+        img: imgSide3,
         link: '/reviews/article/side-review-3',
-        category: 'SWITCH',
+        category1: 'SWITCH',
         title: 'New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great',
         description: 'Master Key is a sublime 2D RPG that’s a perfect follow-up to Animal Well',
         author: 'John Walker',
+        category: 'reviews',
         detail: (
             <div>
                 <p>I’m so delighted that Animal Well caught the wider attention of the games press, and indeed of players. It’s a wonderful game that deserves to be a massive hit. It’s also exactly the sort of game that often gets entirely overlooked. And if you don’t believe me, then you should definitely immediately buy and play Master Key.</p>
@@ -139,11 +143,12 @@ export const sideReviews = [
 export const Multiplatforms = [
     {
         id: 'multiplatform-review-1',
-        imageUrl: imgMul1,
+        img: imgMul1,
         link: '/reviews/article/multiplatform-review-1',
         alt: 'Future Game 1',
         title: 'Elden Ring: Shadow of the Erdtree Review: Massive, Menacing, And Magnificent',
         author: 'Alyssa Mercante',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Hours into playing Elden Ring: Shadow of the Erdtree, the massive, singular expansion for FromSoftware’s award-winning 2022 action RPG, I realize it’s paralleling my real life.</p>
@@ -158,11 +163,12 @@ export const Multiplatforms = [
     },
     {
         id: 'multiplatform-review-2',
-        imageUrl: imgMul2,
+        img: imgMul2,
         link: '/reviews/article/multiplatform-review-2',
         alt: 'Future Game 2',
         title: 'Still Wakes The Deep: The Kotaku Review',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>As I peer out from a ventilation shaft to catch sight of the unspeakable horror in search of me, I prepare to toss a wrench I lifted from the ground in the desperate hope of distracting it. I step out of the shaft, throw it, and then immediately dart for the door. But I get the angle wrong and catch the lip of a beam just overhead. The monster turns and roars out that it has seen me with the contorted voice of someone I once knew. I have no means of dealing with this horrific creature and so I race to the nearest door. I make it out and seal the door behind me. I take a moment to catch my breath as I look around at the collapsing wreckage of this oil rig, this place of labor. The endless gray of the horizon looms forever into the distance; the ocean waves perpetually lap against the oil rig’s legs. Monstrous howls and screams emanate from the walls. Am I doomed to die here? Will I return home? Was it a mistake to come here?</p>
@@ -176,11 +182,12 @@ export const Multiplatforms = [
     },
     {
         id: 'multiplatform-review-3',
-        imageUrl: imgMul3,
+        img: imgMul3,
         link: '/reviews/article/multiplatform-review-3',
         alt: 'Future Game 3',
         title: 'New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans',
         author: 'Zack Zwiezen',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Below this paragraph is my full review of Tiny Terry’s Turbo Trip—a new comedic open-world action game out now on Steam and playable on Steam Deck. And it’s a good review. It does what you expect. But I can save you some time right now. If you are a fan of The Simpsons: Hit and Run, then you should play Tiny Terry’s Turbo Trip. It is a perfect recreation of that silly open-world GTA-like collecton-a-thon experience, just without Homer and Springfield. Anyway, for everyone still reading, here’s the review.</p>
@@ -191,11 +198,12 @@ export const Multiplatforms = [
     },
     {
         id: 'multiplatform-review-4',
-        imageUrl: imgMul4,
+        img: imgMul4,
         link: '/reviews/article/multiplatform-review-4',
         alt: 'Future Game 4',
         title: 'Senua’s Saga: Hellblade II: The Kotaku Review',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>I’m on a path to find reprieve from the suffering around me. But as I turn the next corner of clouding darkness, a bright red light paralyzes me as the forceful and commanding voice of my father tells me that not only am I doomed to fail in my struggles, but that I am actively causing the very harm I am seeking to alleviate. Be it through failure or a curse that he expects me to believe I carry with me that will spread to others, he calls me his daughter with a possessiveness that rattles me. It inspires fear and rage. Yet I continue to move forward, to find a way through, to find spaces where his corruption hasn’t spread. And I do this not only for myself, but for others to whom I have promised aid. But in my quest to kill godlike forces that are causing misery, I am ever aware of a creeping darkness that threatens to consume me and others. What must I do to heal this world? Is that what I’m here to do? Can I do this? As I hear my father’s voice again, reminding me of his abuse, I realize I have no choice. I must survive and bring an end to the suffering of all those I encounter.</p>
@@ -211,11 +219,12 @@ export const Multiplatforms = [
 export const PlayStation = [
     {
         id: 'playstation-review-1',
-        imageUrl: imgPlay1,
+        img: imgPlay1,
         link: '/reviews/article/playstation-review-1',
         alt: 'Future Game 1',
         title: 'Stellar Blade: The Kotaku Review',
         author: 'Levi Winslow',
+        category: 'reviews',
         detail: (
             <div>
                 <p>In many ways, Stellar Blade is awesome. The action is awesome, the soundtrack is awesome, the world is awesome. However, when you peel back the curtain just a bit and peer behind all the flash and style, you find that Shift Up’s character action game can also be quite tedious. It’s a game of dichotomies, one that’s beautiful yet flat, enjoyable yet frustrating, vast yet shallow. There’s a lot to love about Stellar Blade, but equally, there’s a lot to dislike, and after 30ish hours of slashing and dashing as Eve, I came away from the game wishing it were more refined in some regards and more challenging in others.</p>
@@ -229,11 +238,12 @@ export const PlayStation = [
     },
     {
         id: 'playstation-review-2',
-        imageUrl: imgPlay2,
+        img: imgPlay2,
         link: '/reviews/article/playstation-review-2',
         alt: 'Future Game 2',
         title: 'Rise Of The Ronin: The Kotaku Review',
         author: 'Levi Winslow',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Rise of the Ronin feels like a game that’s already one or two generations old. Developer Team Ninja has called it their “most ambitious” title to date, but that ambition is overshadowed by lackluster graphics, outdated design concepts, and performance issues that put the game more in line with the PS4 or even the PS3 libraries. Despite these shortcomings, Rise of the Ronin is still a commendable release for Team Ninja. It takes everything the studio does best and melds it with ideas from other games to create something that’s intriguing, albeit unoriginal.</p>
@@ -247,11 +257,12 @@ export const PlayStation = [
     },
     {
         id: 'playstation-review-3',
-        imageUrl: imgPlay3,
+        img: imgPlay3,
         link: '/reviews/article/playstation-review-3',
         alt: 'Future Game 3',
         title: 'Final Fantasy VII Rebirth: The Kotaku Review',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>After helping my childhood friend, Cloud, through a reality-bending experience to reclaim his identity, I listen as he apologizes for his worst actions and explains to a room full of people why he misled everyone. Yes, his mind was under the influence of an invasive presence, but this confession comes from a place of vulnerability, one where he’s owning his own actions. He confesses to being “ashamed of being so weak” to the point that he “created an illusion.” When he says he “can’t remain trapped in an illusion any more,” and that he’s “going to live [...] without pretending,” I feel inspired not only to defeat the evil we are facing, but to live my own life without pretending too. We all walk back to the cockpit of the airship called the Highwind, headed north to face our greatest fears with honesty and resolve in who we are, together.</p>
@@ -263,11 +274,12 @@ export const PlayStation = [
     },
     {
         id: 'playstation-review-4',
-        imageUrl: imgPlay4,
+        img: imgPlay4,
         link: '/reviews/article/playstation-review-4',
         alt: 'Future Game 4',
         title: 'The Last of Us Part II Remastered: The Kotaku Review',
         author: 'Jen Glennon',
+        category: 'reviews',
         detail: (
             <div>
                 <p>The Last of Us Part II came out at the worst possible time. In June 2020, the pandemic was steadily becoming more terrifying, New York was under a curfew, and almost everything was closed or boarded up. The streets were all but empty despite the summer sunshine. I didn’t realize how good a job I’d done of forgetting that time, but as I made my way through Seattle again, it all came roaring back. That gnawing feeling of desperately wanting to catch a plane home, balanced against what then seemed like a pretty significant chance of Catching It and killing my parents. Rueing and lamenting every cigarette and joint I’d ever smoked. Drinking fancy wine alone—when would there ever be anything to celebrate again?—and staring out the window at the dying city below.</p>
@@ -283,11 +295,12 @@ export const PlayStation = [
 export const Controllers = [
     {
         id: 'controller-review-1',
-        imageUrl: imgCon1,
+        img: imgCon1,
         link: '/reviews/article/controller-review-1',
         alt: 'Future Game 1',
         title: 'Replica Xbox 360 Controller Nails The Vibes, But Lack Of Wireless Hurts',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>The Xbox’s gamepad wasn’t a hit right out of the gate. The original console’s first controller, often nicknamed “the Duke” for its comically large size, is remembered for just that: being enormous. Its followup, the “Controller S,” was serviceable but not particularly notable.</p>
@@ -303,11 +316,12 @@ export const Controllers = [
     },
     {
         id: 'controller-review-2',
-        imageUrl: imgCon2,
+        img: imgCon2,
         link: '/reviews/article/controller-review-2',
         alt: 'Future Game 2',
         title: 'The Next Time You’re Looking For New Switch Joy-Con, Check These Out',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>My Nintendo Switch largely sat unplayed for the duration of the pandemic. I purchased it in the Before Times thinking it’d make for a great subway companion. But between the short battery life and it being uncomfortable to hold for long periods, I just didn’t ever want to play it much. But there might finally be some light on my Switch’s horizon. Over the last few weeks I’ve been testing Hori’s new Split Pad Compact controller. While it has some cool unique features of its own, the best part might be the way that it’s encouraged me to spend more time with my Switch.</p>
@@ -321,11 +335,12 @@ export const Controllers = [
     },
     {
         id: 'controller-review-3',
-        imageUrl: imgCon3,
+        img: imgCon3,
         link: '/reviews/article/controller-review-3',
         alt: 'Future Game 3',
         title: 'The 5 Best Budget Controllers For Xbox And PC',
         author: 'Claire Jackson',
+        category: 'reviews',
         detail: (
             <div>
                 <p>The current Xbox Core controller might be one of the best Microsoft has produced, but it’ll set you back at least $130. Meanwhile, the regular official gamepads tend to go for about $60 brand new. You might be wondering if you can save a few bucks by getting something a little south of that number. Or you might be interested in trying out more modern pro controller features like assignable rear buttons and adjustable trigger ranges, but aren’t yet ready to spend over a hundred dollars on an Xbox Elite or Scuf controller.</p>
@@ -342,11 +357,12 @@ export const Controllers = [
     },
     {
         id: 'controller-review-4',
-        imageUrl: imgCon4,
+        img: imgCon4,
         link: '/reviews/article/controller-review-4',
         alt: 'Future Game 4',
         title: 'The Scuf Instinct Pro Feels Like An Official Xbox Controller',
         author: 'Mike Fahey',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Since 2011, Scuf Gaming has made a name for itself by producing some of the highest quality third-party console controllers and owning a ridiculous number of controller patents. The Scuf Instinct and Instinct Pro are the company’s first stabs at creating an elite-level controller for the Xbox Series X/S consoles, and it pretty much nailed it.</p>
@@ -366,11 +382,12 @@ export const Controllers = [
 export const Keyboards = [
     {
         id: 'keyboard-review-1',
-        imageUrl: imgKey1,
+        img: imgKey1,
         link: '/reviews/article/keyboard-review-1',
         alt: 'Future Game 1',
         title: 'The Shurikey Hanzo Keyboard Looks Like A Toy, Types Like A Weapon',
         author: 'Mike Fahey',
+        category: 'reviews',
         detail: (
             <div>
                 <p>With plastic screws on its sides, a pair of knobs on its face, and playful splashes of color from its keys to its cable, the Shurikey Hanzo mechanical keyboard looks like a throwback to the gimmicky gaming keyboards of old. But beneath that toy-like exterior is a highly capable device with smooth electrostatic capacitative switches, swappable faceplates, and a sense of frivolity you don’t see too often in modern typing gear.</p>
@@ -382,11 +399,12 @@ export const Keyboards = [
     },
     {
         id: 'keyboard-review-2',
-        imageUrl: imgKey2,
+        img: imgKey2,
         link: '/reviews/article/keyboard-review-2',
         alt: 'Future Game 2',
         title: 'Kinesis’ TKO Is My New Favorite Compact Keyboard',
         author: 'Mike Fahey',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Kinesis Gaming’s new 60 percent keyboard is a lot more than just small and portable. The TKO Tournament keyboard’s got hot-swappable switches, an optional triple-split spacebar, and the ability to tilt up either side for maximum ergonomic comfort. It’s more than I knew I needed in a tiny keyboard.</p>
@@ -398,11 +416,12 @@ export const Keyboards = [
     },
     {
         id: 'keyboard-review-3',
-        imageUrl: imgKey3,
+        img: imgKey3,
         link: '/reviews/article/keyboard-review-3',
         alt: 'Future Game 3',
         title: 'The Razer Huntsman Mini Is An Excellent Intro To 60 Percent Keyboards',
         author: 'Mike Fahey',
+        category: 'reviews',
         detail: (
             <div>
                 <p>Smaller keyboards can be better keyboards. The 60 percent form factor strips away unnecessary keys and uses layers to stack important functions to create a pleasantly compact, perfectly functional and efficient keyboard. Mechanical keyboard enthusiasts have been singing the 60 percent keyboard’s praises for years. Now mainstream keyboard maker Razer gets in on the act with the new Huntsman Mini.</p>
@@ -415,11 +434,12 @@ export const Keyboards = [
     },
     {
         id: 'keyboard-review-4',
-        imageUrl: imgKey4,
+        img: imgKey4,
         link: '/reviews/article/keyboard-review-4',
         alt: 'Future Game 4',
         title: 'Kaliber Gaming’s Opto-Mechanical Keyboard Looks Sharp, Literally',
         author: 'Mike Fahey',
+        category: 'reviews',
         detail: (
             <div>
                 <p>I don’t normally go for gaming keyboards with fancy shapes, but there’s something sleek and dangerous about Kaliber Gaming’s HVER Pro X optical-mechanical gaming keyboard. It’s probably the jagged sheet of aluminum screwed atop its otherwise unassuming plastic frame.</p>

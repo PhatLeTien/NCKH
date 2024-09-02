@@ -16,11 +16,11 @@ const ReviewsContent = () => {
             <div className="Reviews-content">
                 <div className="main-review">
                     <div className="main-review-image">
-                        <img src={mainReviews.imageUrl} alt="Main review" />
+                        <img src={mainReviews.img} alt="Main review" />
                     </div>
                     <div className="main-review-content">
                         <a href={mainReviews.link}>
-                            <p className="review-category">{mainReviews.category}</p>
+                            <p className="review-category">{mainReviews.category1}</p>
                             <h1>{t('mainReviews.mainReviewsTitle')}</h1>
                             <p>{t('mainReviews.mainReviewsDescription')}</p>
                             <p className="author">{mainReviews.author}</p>
@@ -31,11 +31,11 @@ const ReviewsContent = () => {
                     {sideReviews.map((review, index) => (
                         <div key={index} className="side-review-item">
                             <div className="side-review-image">
-                                <img src={review.imageUrl} alt={`review ${index + 1}`} />
+                                <img src={review.img} alt={`review ${index + 1}`} />
                             </div>
                             <div className="side-review-content">
                                 <a href={review.link}>
-                                    <p className="review-category">{review.category}</p>
+                                    <p className="review-category">{review.category1}</p>
                                     <p className='title'>{t(`sideReviews.sideReviewsTitle${index + 1}`)}</p>
                                     <p className='description'>{t(`sideReviews.sideReviewsDescription${index + 1}`)}</p>
                                     <p className="author">{review.author}</p>
@@ -52,7 +52,7 @@ const ReviewsContent = () => {
                 <div className="multiplatforms-games-grid">
                     {Multiplatforms.map((multiplatforms, index) => (
                         <div key={index} className="multiplatforms-game-item">
-                            <img src={multiplatforms.imageUrl} alt={multiplatforms.alt} className="multiplatforms-game-image" />
+                            <img src={multiplatforms.img} alt={multiplatforms.alt} className="multiplatforms-game-image" />
                             <div className="multiplatforms-game-content">
                                 <a href={multiplatforms.link}>
                                     <div className="multiplatforms-game-article-title">{t(`Multiplatforms.mulReviewsTitle${index + 1}`)}</div>
@@ -70,7 +70,7 @@ const ReviewsContent = () => {
                 <div className="playstation-games-grid">
                     {PlayStation.map((playstation, index) => (
                         <div key={index} className="playstation-game-item">
-                            <img src={playstation.imageUrl} alt={playstation.alt} className="playstation-game-image" />
+                            <img src={playstation.img} alt={playstation.alt} className="playstation-game-image" />
                             <div className="playstation-game-content">
                                 <a href={playstation.link}>
                                     <div className="playstation-game-article-title">{t(`PlayStations.psReviewsTitle${index + 1}`)}</div>
@@ -88,7 +88,7 @@ const ReviewsContent = () => {
                 <div className="controllers-games-grid">
                     {Controllers.map((controllers, index) => (
                         <div key={index} className="controllers-game-item">
-                            <img src={controllers.imageUrl} alt={controllers.alt} className="controllers-game-image" />
+                            <img src={controllers.img} alt={controllers.alt} className="controllers-game-image" />
                             <div className="controllers-game-content">
                             <a href={controllers.link}>
                                 <div className="controllers-game-article-title">{t(`Controllers.conReviewsTitle${index + 1}`)}</div>
@@ -106,7 +106,7 @@ const ReviewsContent = () => {
                 <div className="keyboards-games-grid">
                     {Keyboards.map((keyboards, index) => (
                         <div key={index} className="keyboards-game-item">
-                            <img src={keyboards.imageUrl} alt={keyboards.alt} className="keyboards-game-image" />
+                            <img src={keyboards.img} alt={keyboards.alt} className="keyboards-game-image" />
                             <div className="keyboards-game-content">
                             <a href={keyboards.link}>
                                 <div className="keyboards-game-article-title">{t(`Keyboards.keyReviewsTitle${index + 1}`)}</div>

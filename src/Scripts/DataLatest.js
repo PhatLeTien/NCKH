@@ -37,10 +37,11 @@ export const articles = [
     description: "A recent Akuma event could foreshadow Street Fighter’s future",
     author: "By Ethan Gach",
     published: "Published 4 hours ago",
-    imgSrc: Latest1,
+    img: Latest1,
     link: "#",
     category1: "CULTURE",
     category2: "FEATURE",
+    category: 'latest',
     detail: (
       <div>
         <p>It’s hard to believe that the most famous franchise in fighting game history has never had a guest character before. God of War’s Kratos has been in Mortal Kombat. Yoda was in Soul Calibur. Super Smash Bros. Ultimate’s roster is now home to more characters from outside the series than from within it. But Fatal Fury’s upbeat denim-clad, city-slicker Terry Bogard (who is also in Smash) will mark the first time someone from another franchise has been playable inside Street Fighter.</p>
@@ -58,10 +59,11 @@ export const articles = [
     description: "Life By You is no longer being developed by Paradox Interactive following multiple delays",
     author: "By Zack Zwiezen",
     published: "Published 4 hours ago",
-    imgSrc: Latest2,
+    img: Latest2,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Paradox Interactive, the company behind Cities: Skylines and Crusader Kings, announced that after numerous delays it has decided to cancel development of Life By You, its highly anticipated Sims-like game.</p>
@@ -84,10 +86,11 @@ export const articles = [
     description: "After a decade of waiting, we’re finally going back to Thedas, and the fandom is awake again",
     author: "By Kenneth Shepard",
     published: "Published 4 hours ago",
-    imgSrc: Latest3,
+    img: Latest3,
     link: "#",
     category1: "OPINION",
     category2: "COMMENTARY",
+    category: 'latest',
     detail: (
       <div>
         <p>Dragon Age: The Veilguard has activated a side of the internet that has been living off crumbs for a decade. Think about it: the Dragon Age fandom hasn’t had a game to dissect, anticipate, or scrutinize since Inquisition launched in 2014. The Veilguard, which is set to finally wrap up the devastating cliffhanger of Inquisition’s Trespasser DLC, is just a few short months away, and after a name change, cinematic trailer, and gameplay reveal, fans finally have something substantial to chew on, rather than sustaining themselves with comics, short stories, and a Netflix anime. Having watched BioWare fans go through some tough times between Inquisition and The Veilguard, it’s heartening to see the explosion of fan art, theories, and love outpouring from every side of the internet in anticipation of the next chapter. But that anticipation is tinged with a bit of fear. After waiting all this time, what happens if The Veilguard doesn’t live up to the game someone has imagined for ten years? Worse yet, what happens to BioWare if it has what some might consider its third “strike”?</p>
@@ -102,10 +105,11 @@ export const articles = [
     description: "This is not the Uncharted sequel most folks have been waiting for",
     author: "By Moises Taveras",
     published: "Published 5 hours ago",
-    imgSrc: Latest4,
+    img: Latest4,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>That sequel to the 2022 Uncharted film that approximately five of us actually liked is officially in production. The news was confirmed by Variety earlier today after Sony mentioned an Uncharted sequel at CineEurope 2024 while running down its pipeline of upcoming movies.</p>
@@ -121,10 +125,11 @@ export const articles = [
     description: "You'll have to remove the grass and put up with a much lower resolution, but it's still playable",
     author: "By Zack Zwiezen",
     published: "Published 6 hours ago",
-    imgSrc: Latest5,
+    img: Latest5,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Starfield on Xbox Series S is a surprisingly solid experience. However, Bethesda’s massive open-world space RPG is locked to 30 FPS on Xbox’s cheaper and less powerful console. But with some new fan-developed mods, Starfield can hit 60 or even 120 FPS on Series S, just be prepared for some less-than-great visuals.</p>
@@ -149,10 +154,11 @@ export const articles = [
     description: "The latest Star Wars series kicks off with a shocking event and some thrillingly bold storytelling",
     author: "By Jan Lucanus",
     published: "Published 7 hours ago",
-    imgSrc: Latest6,
+    img: Latest6,
     link: "#",
     category1: "CULTURE",
     category2: "TV AND MOVIES",
+    category: 'latest',
     detail: (
       <div>
         <p>A long time ago in a galaxy that’s ours, Star Wars meant fun, adventure, creativity, and cultural impact. Then Disney bought the rights from George Lucas and the franchise suffered from quality control and oversaturation (*cough* Solo, *cough* The Book of Boba Fett). When The Acolyte trailer dropped, I thought it was going to be more Disney-era Star Wars fare of meaningless drama for shells of characters. I was wrong. The Acolyte is important, raising timely questions about power delivered by one of the best ensembles ever assembled for the franchise.</p>
@@ -171,10 +177,11 @@ export const articles = [
     description: "The Chinese Room's latest horror game begs you to consider what’s worth running from in life",
     author: "By Claire Jackson",
     published: "Published 7 hours ago",
-    imgSrc: Latest7,
+    img: Latest7,
     link: "#",
     category1: "REVIEWS",
     category2: "MULTIPLATFORM",
+    category: 'latest',
     detail: (
       <div>
         <p>As I peer out from a ventilation shaft to catch sight of the unspeakable horror in search of me, I prepare to toss a wrench I lifted from the ground in the desperate hope of distracting it. I step out of the shaft, throw it, and then immediately dart for the door. But I get the angle wrong and catch the lip of a beam just overhead. The monster turns and roars out that it has seen me with the contorted voice of someone I once knew. I have no means of dealing with this horrific creature and so I race to the nearest door. I make it out and seal the door behind me. I take a moment to catch my breath as I look around at the collapsing wreckage of this oil rig, this place of labor. The endless gray of the horizon looms forever into the distance; the ocean waves perpetually lap against the oil rig’s legs. Monstrous howls and screams emanate from the walls. Am I doomed to die here? Will I return home? Was it a mistake to come here?</p>
@@ -192,10 +199,11 @@ export const articles = [
     description: "darkwebSTREAMER blends horror and sim elements into an enthralling experience that’s hard to put down",
     author: "By Willa Rowe",
     published: "Published 7 hours ago",
-    imgSrc: Latest8,
+    img: Latest8,
     link: "#",
     category1: "OPINION",
     category2: "IMPRESSIONS",
+    category: 'latest',
     detail: (
       <div>
         <p>Of the seven demos I played at the Tribeca Festival’s official games section, darkwebSTREAMER is by far the one I spent the most time with. The horror narrative roguelike’s risk-reward system, based around streaming progressively more dangerous occult activities in hopes of becoming the best streamer you can be, hooked me immediately.</p>
@@ -211,10 +219,11 @@ export const articles = [
     description: "Age of Pirates: Captain Blood was set to arrive in 2006 at one point",
     author: "By Zack Zwiezen",
     published: "Published 8 hours ago",
-    imgSrc: Latest9,
+    img: Latest9,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>20 years ago, a third-person action-adventure pirate game called Age of Pirates: Captain Blood was announced via a short trailer at E3 2004. And then a lot of shit happened, leading to the game being delayed repeatedly in development and then protracted legal fights once it was finished. But now, finally, two decades later, this long-lost pirate game is arriving on all platforms later this year.</p>
@@ -238,10 +247,11 @@ export const articles = [
     description: "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
     author: "By Kenneth Shepard",
     published: "Published 10 hours ago",
-    imgSrc: Latest10,
+    img: Latest10,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Most of Elden Ring developer FromSoftware’s games have some form of cooperative play. However, they are full of restrictions and cost-related mechanics that make it impossible for you to play the whole way through with a friend without jumping through hoops. The good news is, it doesn’t sound like the studio is married to that ideal, and may consider a more seamless co-op experience in a future project.</p>
@@ -259,10 +269,11 @@ export const articles = [
     description: "Todd Howard pours cold water on Fallout fans' hopes and dreams",
     author: "By Ethan Gach",
     published: "Published 10 hours ago",
-    imgSrc: Latest11,
+    img: Latest11,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Fallout fans have been desperate for something new to play in the post-apocalyptic RPG franchise ever since the Amazon TV adaptation blew up earlier this year. Recently, however, director Todd Howard said Bethesda doesn’t want to “rush” a new single-player Fallout game, and went into more detail about what the team is busy with, including expansions for Starfield beyond this fall’s Shattered Space DLC.</p>
@@ -284,10 +295,11 @@ export const articles = [
     description: "There’ll be a pretty big window to preload the expansion as well, but only on PlayStation",
     author: "By Moises Taveras",
     published: "Published 10 hours ago",
-    imgSrc: Latest12,
+    img: Latest12,
     link: "#",
     category1: "NEWS",
     category2: "STRATEGY",
+    category: 'latest',
     detail: (
       <div>
         <p>Elden Ring’s highly anticipated expansion, Shadow of the Erdtree, is dropping later this week, and a lot of people are pumped for what’s shaping up to be one of the biggest releases of the year. Whether you’re a lorehound or simply someone looking for a proper excuse to dive into the game of 2022, Shadow of the Erdtree is going to be massive, and you’re probably going to want to get into it as soon as possible to avoid potential spoilers.</p>
@@ -305,10 +317,11 @@ export const articles = [
     description: "How to make the most of the classic slasher villain's best moves",
     author: "By Lucas White",
     published: "Published 10 hours ago",
-    imgSrc: Latest13,
+    img: Latest13,
     link: "#",
     category1: "REVIEWS",
     category2: "INDIE",
+    category: 'latest',
     detail: (
       <div>
         <p>Welcome to the first in a long line of MultiVersus character guides. As the first wave of post-launch patches has begun, I’ll now be diving in, starting with three brand new characters in order to offer some tips and general strategies to help you get a leg up. First up, it’s Jason.</p>
@@ -325,10 +338,11 @@ export const articles = [
     description: "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon without a healer",
     author: "By Willa Rowe",
     published: "Published 11 hours ago",
-    imgSrc: Latest14,
+    img: Latest14,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>After months (and even years) of healer mains in Final Fantasy 14 complaining that Square Enix’s MMORPG has simplified and devalued the job, seemingly to no avail, aggrieved healers are going one step further to make their opinion known: They’re going on strike.</p>
@@ -354,10 +368,11 @@ export const articles = [
     description: "The company has already confirmed there will be no mention of the Switch successor",
     author: "By Kenneth Shepard",
     published: "Published 11 hours ago",
-    imgSrc: Latest15,
+    img: Latest15,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Now that most of the industry is done with Summer Game Fest and all its orbiting events, Nintendo is jumping into the summer video game announcement fray with its own Nintendo Direct. After plenty of speculation and rumors floating around the internet, the company has confirmed the showcase will take place tomorrow, June 18, at 7 a.m. Pacific/10 a.m. Eastern. Thankfully, that’s an hour later than the usual ass-crack of dawn 9 a.m. Eastern slot the company typically chooses for these showcases.</p>
@@ -380,10 +395,11 @@ export const articles = [
     description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
     author: "By John Walker",
     published: "Published 12 hours ago",
-    imgSrc: Latest16,
+    img: Latest16,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>With tiresome predictability, action RPG Elden Ring’s first and only DLC, Shadow of the Erdtree, is already being spoiled online, four days ahead of its release. This warning comes from no smaller a source than its own developers, FromSoftware. (There are no spoilers at all in this post.)</p>
@@ -402,10 +418,11 @@ export const articles = [
     description: "Hugh Walker was really good at Skyrim, dentistry, and being my dad",
     author: "By John Walker",
     published: "Published Yesterday",
-    imgSrc: Latest17,
+    img: Latest17,
     link: "#",
     category1: "CULTURE",
     category2: "FEATURE",
+    category: 'latest',
     detail: (
       <div>
         <p>My dad played video games before most people knew there were video games to play.</p>
@@ -421,10 +438,11 @@ export const articles = [
     description: "A free update alongside the expansion adds better inventory management",
     author: "By Ethan Gach",
     published: "Published Friday 5:15PM",
-    imgSrc: Latest18,
+    img: Latest18,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>I imagine the cross-section of people who still play Elden Ring but aren’t buying its Shadow of the Erdtree expansion is pretty small. Even so, those people are in luck since they’ll still get to take advantage of a free update going live alongside the DLC. In addition to various gameplay changes, it’ll greatly improve inventory management and even add more hairstyles.</p>
@@ -446,10 +464,11 @@ export const articles = [
     description: "The creative leads behind BioWare’s next big RPG gathered on Discord to answer fan questions",
     author: "By Kenneth Shepard",
     published: "Published Friday 5:05PM",
-    imgSrc: Latest19,
+    img: Latest19,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Dragon Age: The Veilguard’s promotional campaign is in full swing after BioWare reintroduced the re-titled RPG at Summer Game Fest earlier this month. While we learned a lot from the gameplay reveal and the behind-closed-doors presentation at the show, BioWare is still drip-feeding information to fans, most recently in the form of a Discord Q&A with game director Corinne Busche, creative director John Epler, and art director Matt Rhodes that took place earlier today, June 14.</p>
@@ -468,10 +487,11 @@ export const articles = [
     description: "Frustration over paid mods continues to be a sore spot among fans (and critics) of Bethesda games",
     author: "By Claire Jackson",
     published: "Published Friday 4:00PM",
-    imgSrc: Latest20,
+    img: Latest20,
     link: "#",
     category1: "CULTURE",
     category2: "NEWS",
+    category: 'latest',
     detail: (
       <div>
         <p>Starfield has yet again rubbed folks the wrong way. This time it’s not over what many perceived as a mostly empty initial offering when it launched last year. Rather, criticism is centered on the game’s new Creations mod hub, which offers free and paid mods from both Bethesda and community members alike. Some are so irate over the presence of those paid mods that, in a case of history repeating itself, they’re taking to Steam to make their feelings known by review-bombing the game all over again.</p>

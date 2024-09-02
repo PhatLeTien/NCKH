@@ -54,7 +54,7 @@ const DetailNews = () => {
             <div className="detail-news-container">
                 <div className="detail-news-content">
                     <div className="detail-news-image">
-                        <img src={article.imageUrl} alt={article.title} />
+                        <img src={article.img} alt={article.title} />
                     </div>
                     <div className="detail-news-info">
                         <div className="title-container">

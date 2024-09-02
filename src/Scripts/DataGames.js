@@ -61,6 +61,7 @@ export const Games = {
             title: "Halo Infinite",
             author: "PocketPair",
             description: "Master Chief’s latest is somehow both a return to form and a revelatory evolution for 343 Industries",
+            category: 'games',
             detail: (
                 <div>
                     <p>How do you even consider Halo Infinite in totality? Not just any Halo game but this Halo game—one that was supposed to herald a new generation of Xboxes but was delayed out of the launch window; one that’s had no shortage of public scrutiny over its tumultuous development process; one that’s not even out yet but has already been the centerpiece of multiple internet-dominating conversations; and, most crucially, one that’s meant to revitalize a totemic first-person shooter series after a stretch of metabolic dormancy. There are so many expectations on Halo Infinite’s armor-clad shoulders that you’d think it’d crumble apart in a pile of pixels. Every single player is bound to come into this game with their own predetermined definition of what it is and what it stands for. I sure as hell did.</p>
@@ -78,6 +79,7 @@ export const Games = {
             title: "Over Watch 2",
             author: "Kenneth Shepard",
             description: "Blizzard’s mismanagement of Overwatch 2 makes an underwhelming season feel all the worse",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Overwatch 2 Can’t Afford A Season This Mid</h2>
@@ -96,6 +98,7 @@ export const Games = {
             title: "Princess Peach Showtime !",
             author: "Epic Games",
             description: "",
+            category: 'games',
             detail: (
                 <div>
                     <p>Nearly two decades after Super Princess Peach released on the Nintendo DS, the titular leading lady is finally getting another chance at headlining her own game. Princess Peach: Showtime! opens the metaphorical theater doors for players worldwide on March 22, but reviews for the game are out now and will give you an idea of what to expect. Overall the reception to the platformer is mixed, with praise for Peach getting a chance to stand on her own, but some disappointment at the lack of mechanical depth.</p>
@@ -113,6 +116,7 @@ export const Games = {
             title: "Call Of Duty Warzone 2.0",
             author: "Square Enix Creative Business Unit III",
             description: "The latest pricey cosmetic item will make your wallet chip and shatter",
+            category: 'games',
             detail: (
                 <div>
                     <p>Call of Duty players are (yet again) up in arms over the exorbitant cost of a new cosmetic item. This time the community dissatisfaction stems from a Modern Warfare 3 Dune: Part Two crossover skin that will set players back $40.</p>
@@ -129,6 +133,7 @@ export const Games = {
             title: "Tekken8",
             author: "Nintendo EPD",
             description: "Tekken8",
+            category: 'games',
             detail: (
                 <div>
                     <p>Tekken 8 is the eighth canon release and tenth overall entry in the Tekken series. The game's story features 32 former and new characters, each with their own narrative that contributes to the overall story. Tekken 8 features upgraded fighting elements and systems from its predecessor, it also introduces brand-new mechanics such as the "Heat" system and "Tornado" hits. Arcade Quest was another addition to their online mode which includes tournaments, arcade features, customizable avatars and specialized currency that is featured throughout the game.</p>
@@ -145,6 +150,7 @@ export const Games = {
             title: "Elden Ring",
             author: "PocketPair",
             description: "FromSoftware iterates on its previous work to deliver a frustrating master class in world-building",
+            category: 'games',
             detail: (
                 <div>
                     <p>I spend too much time, at least for someone with only 33 years on his odometer, thinking about legacy. I find myself overly concerned with what I’ve accomplished and what I’ll leave behind, especially in comparison to other people—both successful and otherwise. As such, while playing FromSoftware’s Elden Ring over the last month, I couldn’t help but pore over studio president Hidetaka Miyazaki’s biography, if only to feel a little worse about myself.</p>
@@ -169,6 +175,7 @@ export const Games = {
             title: "Baldur's Gate 3",
             author: "Ryū Ga Gotoku Studios",
             description: "Larian Studios’ deep fantasy RPG is as rewarding as it is arduous",
+            category: 'games',
             detail: (
                 <div>
                     <p>Baldur’s Gate 3 has been propped up as a big-budget, computerized approximation of a tabletop role-playing game, but that’s not entirely accurate. Sure, as an RPG rooted in Dungeons & Dragons’ Fifth Edition ruleset, complete with dice rolls, big decisions, and enough customization options for your build, appearance, and backstory to fill a million character sheets, Baldur’s Gate 3 is an embarrassment of riches for the sickest of roleplaying sickos. But ultimately, as a video game that has to be programmed by people and therefore beholden to the finite possibilities the makers at Larian Studios were able to account for, it can’t quite match the expansive breadth of possibility that comes from a group of friends gathered around a table, riffing on each other’s ideas and “yes-anding” into different scenarios that completely derail the original plan. But damn, Baldur’s Gate 3 sure does a stellar job of emulating the concept.</p>
@@ -184,11 +191,13 @@ export const Games = {
             title: "Final Fantasy XVI",
             author: "Epic Games",
             description: "A bold shift to action and a stirring fantasy tale make this the best Final Fantasy in ages",
+            category: 'games',
             detail: (
                 <div>
                     <p>A bold and risky pivot toward action for Square Enix’s beloved RPG franchise, Final Fantasy XVI is a stunning achievement that revitalizes the series for a new age—and it just may be the best the series has been in more than 20 years.</p>
                     <p>In an era when so many developers try to emulate the open-world immersion mastered by Nintendo with recent Zelda games, FFXVI opts for something more linear that makes room for a thrilling episodic story chock full of epic action set pieces and tender moments between lovable characters.</p>
-                    <p>Design-wise, it feels a bit like a PlayStation 2-era game with its world map and individual zones, but the power of the PlayStation 5 delivers world-class cinematics for a story unlike any other. Final Fantasy XVI feels just as sprawling and even more immersive than your average “open world” thanks to dynamic environments and a large number of side quests delving into the people of Valisthea. But best of all, the care and attention to detail captures that special something that defines Final Fantasy.</p>
+                    <p>Dcategory: 'games',esign-wise, it feels a bit like a PlayStation 2-era game with its world map and indivi
+                        dual zones, but the power of the PlayStation 5 delivers world-class cinematics for a story unlike any other. Final Fantasy XVI feels just as sprawling and even more immersive than your average “open world” thanks to dynamic environments and a large number of side quests delving into the people of Valisthea. But best of all, the care and attention to detail captures that special something that defines Final Fantasy.</p>
                     <p><img src={RPG3t1} alt="Baldur's Gate 3" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 </div>
             )
@@ -200,6 +209,7 @@ export const Games = {
             title: "Diablo IV",
             author: "Kenneth Shepard",
             description: "For the next few days, Blizzard’s RPG is free to start on Steam",
+            category: 'games',
             detail: (
                 <div>
                     <p>Diablo IV’s first big expansion, Vessel of Hatred, is just a few weeks away. The add-on will bring new stories, quests, and the Spiritborn class on October 8. If you’ve been sleeping on it since it launched last year, the RPG is on sale until September 2. However, if you’re looking for something to do this weekend, the game is actually free to try for the next few days.</p>
@@ -216,6 +226,7 @@ export const Games = {
             title: "World WarCraft",
             author: "Nintendo EPD",
             description: "",
+            category: 'games',
             detail: (
                 <div>
                     <p>“Well, it’s more of the same” is generally my answer when people ask me how I’m enjoying World of Warcraft’s seventh paid expansion, Battle for Azeroth. Then I spend several minutes explaining why that’s not a bad thing.</p>
@@ -233,6 +244,7 @@ export const Games = {
             title: "Forza Motorsport",
             author: "PocketPair",
             description: "Forza Motorsport Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Forza Motorsport</h2>
@@ -248,6 +260,7 @@ export const Games = {
             title: "Gran Turismo 7",
             author: "Ryū Ga Gotoku Studios",
             description: "Gran Turismo 7 Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Gran Turismo 7</h2>
@@ -267,6 +280,7 @@ export const Games = {
             title: "Mario Kart 8",
             author: "Epic Games",
             description: "Mario Kart 8 is an excellent game. Mario Kart 8 Deluxe is even better.",
+            category: 'games',
             detail: (
                 <div>
                     <p>Mario Kart 8 is an excellent game. Mario Kart 8 Deluxe is even better.</p>
@@ -283,6 +297,7 @@ export const Games = {
             title: "Need for Speed: Unbound",
             author: "Square Enix Creative Business Unit III",
             description: "Need for Speed: Unbound Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Need for Speed: Unbound</h2>
@@ -302,6 +317,7 @@ export const Games = {
             title: "Rocket League",
             author: "Nintendo EPD",
             description: "Luke and Patrick have been playing a lot of Rocket League, one of the surprise hits of the year so far. Rather than have them fight it out to review the game, we figured it was best to just let them both do it.",
+            category: 'games',
             detail: (
                 <div>
                     <p>Luke and Patrick have been playing a lot of Rocket League, one of the surprise hits of the year so far. Rather than have them fight it out to review the game, we figured it was best to just let them both do it.</p>
@@ -324,6 +340,7 @@ export const Games = {
             title: "Resident Evil 4 : Separate Ways",
             author: "PocketPair",
             description: "Resident Evil 4: Separate Ways Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Resident Evil 4: Separate Ways</h2>
@@ -343,6 +360,7 @@ export const Games = {
             title: "Silent Hill",
             author: "Ryū Ga Gotoku Studios",
             description: "",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Silent Hill</h2>
@@ -360,6 +378,7 @@ export const Games = {
             title: "Alone In The Dark",
             author: "Epic Games",
             description: "Alone in the Dark Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <h2>Alone in the Dark</h2>
@@ -379,6 +398,7 @@ export const Games = {
             title: "Dead By Daylight",
             author: "Square Enix Creative Business Unit III",
             description: "Dead by Daylight Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <p>All the latest game footage and images from Dead by Daylight by Behaviour Interactive | 2016</p>
@@ -397,6 +417,7 @@ export const Games = {
             title: "Alan Wake II",
             author: "Nintendo EPD",
             description: "Alan Wake II Screenshots and Videos - PTGAMES",
+            category: 'games',
             detail: (
                 <div>
                     <p>All the latest game footage and images from Alan Wake II by Remedy Entertainment | 2023</p>

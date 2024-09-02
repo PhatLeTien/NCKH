@@ -77,38 +77,27 @@ export const mainArticle = {
     title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
     description: "The company has already confirmed there will be no mention of the Switch successor",
     author: "Kenneth Shepard",
+    category: 'home',
     detail: (
         <div>
             <p>
-                Now that most of the industry is done with Summer Game Fest and all its <br />
+                Now that most of the industry is done with <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Summer Game Fest</u> and all its <br />
                 orbiting events, Nintendo is jumping into the summer video game <br />
                 announcement fray with its own Nintendo Direct. After plenty of speculation <br />
-                and rumors floating around the internet, the company has confirmed the <br />
+                and <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>rumors</u> floating around the internet, the company has confirmed the <br />
                 showcase will take place tomorrow, June 18, at 7 a.m. Pacific/10 a.m. Eastern. <br />
                 Thankfully, that’s an hour later than the usual ass-crack of dawn 9 a.m. Eastern <br />
                 slot the company typically chooses for these showcases.
             </p>
             <p>
-                According to Nintendo’s announcement post, the stream will last about 40 <br />
+                According to Nintendo’s <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>announcement post</u>, the stream will last about 40 <br />
                 minutes and will specifically focus on Switch games coming out in the second <br />
-                half of 2024. So if you, like me, were hoping to see a glimpse of Pokémon <br />
-                Legends: Z-A, tuck that for a bit, because that game’s coming out in 2025. As <br />
-                previously announced, this Direct won’t have any mention of the Switch <br />
+                half of 2024. So if you, like me, were hoping to see a glimpse of <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Pokémon</u><br />
+                <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Legends: Z-A</u>, tuck that for a bit, because that game’s coming out in 2025. As <br />
+                <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>previously announced</u>, this Direct won’t have any mention of the Switch <br />
                 successor reportedly coming out next year. Good on Nintendo for keeping <br />
                 expectations in check, but that won’t stop a subset of the internet from being <br />
                 mad when it doesn’t show up. The stream will go live on YouTube at this link.
-            </p>
-            <p>
-                As for what we might see during the show, Nintendo has been pretty quiet about <br />
-                what its 2024 line-up will look like by year’s end. Some theorize this might be <br />
-                because the Switch successor was going to be released this year but has been <br />
-                delayed into 2025, requiring the company to shift its schedules around for the <br />
-                latter half of 2024. In a way that’s refreshing because now we might have a fair <br />
-                bit of surprises, but a lack of specificity always opens these things up for <br />
-                disappointment as people’s expectations get too high. Will Metroid Prime 4, <br />
-                which has been missing in action since its announcement in 2017, finally make <br />
-                an appearance? Get excited for it at your peril. Whatever the case, we’ll get a <br />
-                better sense of the Switch’s twilight year by this time tomorrow.
             </p>
             <iframe
                 width="560"
@@ -119,6 +108,18 @@ export const mainArticle = {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             ></iframe>
+            <p>
+                As for what we might see during the show, Nintendo has been pretty quiet about <br />
+                what its 2024 line-up will look like by year’s end. Some theorize this might be <br />
+                because the Switch successor was going to be released this year but has been <br />
+                delayed into 2025, requiring the company to shift its schedules around for the <br />
+                latter half of 2024. In a way that’s refreshing because now we might have a fair <br />
+                bit of surprises, but a lack of specificity always opens these things up for <br />
+                disappointment as people’s expectations get too high. Will <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Metroid Prime 4</u>,<br />
+                which has been missing in action since its announcement in 2017, finally make <br />
+                an appearance? Get excited for it at your peril. Whatever the case, we’ll get a <br />
+                better sense of the Switch’s twilight year by this time tomorrow.
+            </p>
         </div>
     )
 };
@@ -130,21 +131,22 @@ export const sideArticle = [
         title: "Bethesda Not 'Rushing' New Fallout Game, Planning More Expansions For Starfield",
         description: "Todd Howard pours cold water on Fallout fans' hopes and dreams",
         author: "By Ethan Gach",
+        category: 'home',
         detail: (
             <div>
                 <p>
                     “Fallout fans have been desperate for something new to play in the post <br />
-                    -apocalyptic RPG franchise ever since the Amazon TV adaptation blew up earlier <br />
+                    -apocalyptic RPG franchise ever since <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>the Amazon TV adaptation blew up</u> earlier <br />
                     this year. Recently, however, director Todd Howard said Bethesda doesn’t want <br />
                     to “rush” a new single-player Fallout game, and went into more detail about <br />
                     what the team is busy with, including expansions for Starfield beyond this fall’s <br />
-                    Shattered Space DLC.”
+                    <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Shattered Space DLC.</u>”
                 </p>
                 <p>
                     “We give a lot of thought to franchise management,” Howard, speaking like a <br />
-                    long-tenured NFL owner, told YouTuber MrMattyPlays in a wide-ranging <br />
-                    interview posted over the weekend. He said the team has never stopped working <br />
-                    on Fallout, but most of that now goes into Fallout 76, the multiplayer spin-off <br />
+                    long-tenured NFL owner, told YouTuber MrMattyPlays in a <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>wide-ranging</u> <br />
+                    <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>interview</u> posted over the weekend. He said the team has never stopped working <br />
+                    on Fallout, but most of that <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>now goes into Fallout 76</u>, the multiplayer spin-off <br />
                     which just received new map expansion and story questline.”
                 </p>
                 <p>
@@ -157,7 +159,7 @@ export const sideArticle = [
                 <p>
                     “Howard continued:”
                 </p>
-                <p>
+                <p style={{ borderLeft: '5px solid yellow', paddingLeft: '10px' }}>
                     “Totally get the desire for a new kind of mainline single-player game. And <br />
                     look, those things take time. I don’t think it’s bad for people to miss things. <br />
                     We just want to get it right and make sure that everything we’re doing in a <br />
@@ -165,22 +167,22 @@ export const sideArticle = [
                     become meaningful moments for everybody who loved these franchises as much as <br />
                     we do.”
                 </p>
-                <p>
+                <h2>
                     “A new Fallout might not happen anytime soon”
-                </p>
+                </h2>
                 <p>
                     “That’ll be bad news for anyone who was hoping Bethesda might pivot to getting <br />
                     the next Fallout game out sooner in the wake of the Fallout TV show’s wild <br />
-                    success and breakout popularity beyond the existing fan base. Fallout 5, or <br />
+                    success and breakout popularity beyond the existing fan base. <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Fallout 5</u>, or <br />
                     whatever the studio decides to call it, is currently slated to go into production <br />
                     after The Elder Scrolls VI is complete, which is likely still many years away as <br />
                     well at this point.”
                 </p>
                 <p>
-                    “The recent boost in popularity, including Fallout 4's next-gen update making it <br />
+                    “The recent boost in popularity, including <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Fallout 4's next-gen update</u> making it <br />
                     one of April’s most-downloaded games, renewed speculation about whether <br />
                     Bethesda would be willing to hand-off the franchise to a third-party again, like it <br />
-                    did with Obsidian Entertainment for Fallout: New Vegas. Given that the studio <br />
+                    <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>did with Obsidian Entertainment for Fallout: New Vegas</u>. Given that the studio <br />
                     is now part of Microsoft, there’s a lot of other internal teams it could partner <br />
                     with to potentially put out a smaller spin-off based in that world in the short-<br />
                     term.”
@@ -217,7 +219,7 @@ export const sideArticle = [
                 <p>
                     “For example, Howard said he’d wished the team had supported The Elder <br />
                     Scrolls IV: Skyrim for longer given how long it kept selling and being widely-<br />
-                    played for. Starfield is currently set to get its first expansion, Shattered Space, <br />
+                    played for. Starfield is currently set to get its first expansion, <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Shattered Space</u>, <br />
                     later this year, but it won’t be the only one. “We’re planning for the one after <br />
                     this, so there will be another one,” he confirmed in the interview.”
                 </p>
@@ -251,18 +253,20 @@ export const sideArticle = [
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         description: "Mounting complaints from the community came to a head after a streamer beat the next expansion’s first dungeon without a healer",
         author: "By Willa Rowe",
+        category: 'home',
         detail: (
             <div>
-                <p>After months (and even years) of healer mains in Final Fantasy 14 complaining
-                    that Square Enix’s MMORPG has simplified and devalued the job, seemingly to <br />
+                <p>After months (and even years) of healer mains in <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Final Fantasy 14</u> complaining
+                    that <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Square Enix’s</u> MMORPG has <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>simplified</u> and <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>devalued</u> the job, seemingly to <br />
                     no avail, aggrieved healers are going one step further to make their opinion <br />
                     known: They’re going on strike.
                 </p>
                 <p>The strike originated on June 9, when Square Enix forum user Gemina (a <br />
-                    Scholar main) posted a thread succinctly titled #FFXIVHEALERSTRIKE. The <br />
+                    Scholar main) posted a thread succinctly titled <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>#FFXIVHEALERSTRIKE</u>. The <br />
                     thread opens with a mission statement for the strike. Gemina writes:
                 </p>
-                <p>I would like to make this the official thread for those in support of a healer <br />
+                <p style={{ borderLeft: '5px solid yellow', paddingLeft: '10px' }}>
+                    I would like to make this the official thread for those in support of a healer <br />
                     strike as a collective voice to the dev team to express the dissatisfaction with <br />
                     the continued direction the game has gone concerning healer gameplay and <br />
                     what is an arrived consensus that has deemed to be a negligence towards the <br />
@@ -272,9 +276,9 @@ export const sideArticle = [
                     jobs in any group content (dungeons, raids, trials).
                 </p>
 
-                <p>While this is not a new issue for FF14’s healer community, Dawntrail previews <br />
+                <p>While this is not a new issue for FF14’s healer community, <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Dawntrail</u> previews <br />
                     were the tipping point that led to the strike. Specifically, FF14 content creator <br />
-                    Xenosys Vex’s preview video, showing a four-person party beating the new <br />
+                    <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Xenosys Vex’s preview video</u>, showing a four-person party beating the new <br />
                     expansion’s first dungeon, Ihuykatumu, without a healer. Of course, Xenosys <br />
                     used some clever party make-up: The party’s tank was a Warrior, a class known <br />
                     for its self-healing abilities. The Warrior was then supported by three DPS <br />
@@ -302,8 +306,8 @@ export const sideArticle = [
 
                 <p>The grievances listed by Gemina sum up a building list of issues players have <br />
                     had with the healer role—issues that have only been exacerbated by the <br />
-                    imminent changes coming to the new expansion. The healer community, me <br />
-                    included, has long been complaining that each expansion’s job changes have <br />
+                    imminent changes coming to the new expansion. The <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>healer community</u>, <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>me</u> <br />
+                    <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>included</u>, has long been complaining that each expansion’s job changes have <br />
                     continuously diminished the usefulness of healers in anything but high-end <br />
                     content, in addition to simplifying the actual rotation of play. For example, the <br />
                     average rotation of a White Mage in an encounter is to spam the single target <br />
@@ -346,21 +350,22 @@ export const tipsGuides = [
         title: "Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop",
         description: "There’ll be a pretty big window to preload the expansion as well, but only on PlayStation",
         author: "By Moises Taveras",
+        category: 'home',
         detail: (
             <div>
                 <p>
-                    Elden Ring’s highly anticipated expansion, Shadow of the Erdtree, is dropping <br />
+                <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Elden Ring’s</u> highly anticipated expansion, <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Shadow of the Erdtree</u>, is dropping <br />
                     later this week, and a lot of people are pumped for what’s shaping up to be one <br />
                     of the biggest releases of the year. Whether you’re a lorehound or simply <br />
-                    someone looking for a proper excuse to dive into the game of 2022, Shadow of <br />
+                    someone looking for a proper excuse to dive into <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>the game of 2022</u>, Shadow of <br />
                     the Erdtree is going to be massive, and you’re probably going to want to get into <br />
-                    it as soon as possible to avoid potential spoilers.
+                    it as soon as possible to <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>avoid potential spoilers.</u>
                 </p>
                 <p>
                     Ahead of launch, the official Elden Ring Twitter account posted a graphic <br />
                     detailing the release schedule for the expansion, including local time zones and <br />
                     the exact time players should expect it to be available. <br />
-                    Pre-order Elden Ring: Shadow of the Erdtree:  | Best Buy | Humble Bundle <br />
+                    Pre-order Elden Ring: Shadow of the Erdtree:  | <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Best Buy</u> | <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>Humble Bundle</u> <br />
                 </p>
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <TwitterTweetEmbed tweetId="1801615583705723349" />
@@ -387,8 +392,8 @@ export const tipsGuides = [
                     Xbox and PC players are being forced to download the DLC at launch.
                 </p>
                 <p>
-                    Until then, there’s a lot you can be doing to prepare for the expansion, not the <br />
-                    least of which is defeating Mohg, the optional boss that needs to be beaten in <br />
+                    Until then, there’s a lot you can be doing to <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>prepare for the expansion</u>, not the <br />
+                    least of which is <u style={{ borderBottom: '2px solid rgb(177, 36, 96)', textDecoration: 'none' }}>defeating Mohg</u>, the optional boss that needs to be beaten in <br />
                     order to access Shadow of the Erdtree. So get to it y’all, and I’ll see you in the <br />
                     Land of Shadow soon.
                 </p>
@@ -401,6 +406,7 @@ export const tipsGuides = [
         title: "MultiVersus Character Guide: Jason Voorhees",
         description: "How to make the most of the classic slasher villain's best moves",
         author: "By Lucas White",
+        category: 'home',
         detail: (
             <div>
                 <p>Welcome to the first in a long line of MultiVersus character guides. As the first wave of post-launch patches has begun, I’ll now be diving in, starting with three brand new characters in order to offer some tips and general strategies to help you get a leg up. First up, it’s Jason.</p>
@@ -417,6 +423,7 @@ export const tipsGuides = [
         title: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
         description: "We'll also give you the lowdown on Octopath Traveler II's new bosses",
         author: "By Kotaku Staff",
+        category: 'home',
         detail: (
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
@@ -434,6 +441,7 @@ export const tipsGuides = [
         title: "Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide",
         description: "There aren’t many graphical options to choose from, but let’s discuss the best settings for Atlus’ RPG on Steam Deck",
         author: "By Timothy Monbleau",
+        category: 'home',
         detail: (
             <div>
                 <p>Shin Megami Tensei V: Vengeance is a massively expanded version of 2021’s Shin Megami Tensei V, featuring more quests, monsters, and a new story path featuring a brand new character. However, perhaps most importantly, Vengeance drops the original game’s Nintendo Switch exclusivity for a multiplatform release. PC players can now enjoy this game via Steam, and Vengeance is officially Steam Deck verified. However, does it actually run well on Valve’s handheld device?</p>
@@ -451,6 +459,7 @@ export const tipsGuides = [
         title: "How To Defeat Matador In Shin Megami Tensei V: Vengeance",
         description: "Beware the critical hits in Shin Megami Tensei V: Vengeance’s first major optional boss battle",
         author: "By Timothy Monbleau",
+        category: 'home',
         detail: (
             <div>
                 <p>Matador has an infamous reputation in the Shin Megami Tensei canon, and Shin Megami Tensei V: Vengeance is no exception. As the first boss in the Return of the True Demon sidequest, Matador can and will wipe the floor with you if you challenge him unprepared. Though Matador was a challenge in the vanilla version of Shin Megami Tensei V, the Vengeance rerelease adds a new gimmick that you’ll need to deliberately play around. Fortunately, as long as you bring the right skills and demons, you can easily overcome this challenge.</p>
@@ -471,6 +480,7 @@ export const latestUpdates = [
         title: "Elden Ring Director Talks His Ideal Fantasy RPG, Seamless Co-op, And More",
         description: "Hidetaka Miyazaki is wrapping up the Shadow of the Erdtree DLC",
         author: "Kenneth Shepard",
+        category: 'home',
         detail: (
             <div>
                 <p>Most of Elden Ring developer FromSoftware’s games have some form of cooperative play. However, they are full of restrictions and cost-related mechanics that make it impossible for you to play the whole way through with a friend without jumping through hoops. The good news is, it doesn’t sound like the studio is married to that ideal, and may consider a more seamless co-op experience in a future project.</p>
@@ -489,6 +499,7 @@ export const latestUpdates = [
         title: "PSA: There Are Elden Ring: Shadow Of The Erdtree Spoilers Out There",
         description: "FromSoftware has issued a warning about footage of major boss fights appearing on Reddit",
         author: "John Walker",
+        category: 'home',
         detail: (
             <div>
                 <p>With tiresome predictability, action RPG Elden Ring’s first and only DLC, Shadow of the Erdtree, is already being spoiled online, four days ahead of its release. This warning comes from no smaller a source than its own developers, FromSoftware. (There are no spoilers at all in this post.)</p>
@@ -511,6 +522,7 @@ export const latestUpdates = [
         title: "A Father’s Day Tribute To My Much-Missed Gaming Dad",
         description: "Hugh Walker was really good at Skyrim, dentistry, and being my dad",
         author: "John Walker",
+        category: 'home',
         detail: (
             <div>
                 <p>My dad played video games before most people knew there were video games to play.</p>
@@ -527,6 +539,7 @@ export const latestUpdates = [
         title: "Hands-On With Star Wars Outlaws, Weighing In On Dragon Age Discourse, And More Takes For The Week",
         description: "We've also got a look at Astro Bot and thoughts on Gears of War: E-Day",
         author: "Kotaku Staff",
+        category: 'home',
         detail: (
             <div>
                 <p>With Kotaku in attendance at last week’s Summer Game Fest, we got to go hands-on with some of the biggest games on the horizon. Read on for our impressions of Star Wars Outlaws, Horizon Lego Adventures, and the delightful-looking Astro Bot, among other games. We’ve also got an early look at one of next year’s most promising RPGs, Citizen Sleeper 2. And, with all the Dragon Age: The Veilguard news out of SGF, we’re also in the early throes of some intense discourse about the game. We weigh in on that, too. Click on for these stories and more.</p>
@@ -546,6 +559,7 @@ export const latestUpdates = [
         title: "A Revealing Epic Store Leak, New Star Wars Outlaws Details And More Of The Week's Big Stories",
         description: "We also got our first real look at Dragon Age: The Veilguard.",
         author: "Kotaku Staff",
+        category: 'home',
         detail: (
             <div>
                 <p>Summer Game Fest took up a lot of the oxygen in the room last week, and from there, we got new details on Star Wars Outlaws, Dragon Age: The Veilguard, and more. But there was no shortage of stories from beyond the showcases and show floor, too. An Epic Games Store leak hinted at some big things on the horizon, for one thing, and it seems a Nintendo Direct is coming very soon, for another. You’ll find all that and lots more in the pages ahead.</p>
@@ -564,6 +578,7 @@ export const latestUpdates = [
         title: "How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week's Gaming Tips",
         description: "We'll also give you the lowdown on Octopath Traveler II's new bosses",
         author: "Kotaku Staff",
+        category: 'home',
         detail: (
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
@@ -582,6 +597,7 @@ export const topGames = [
         alt: "Game 1",
         title: "Palworld",
         author: "PocketPair",
+        category: 'home',
         detail: (
             <div>
                 <p>All the latest game footage and images from Palworld by PocketPair | 2024</p>
@@ -595,6 +611,7 @@ export const topGames = [
         alt: "Game 2",
         title: "Like a Dragon: Infinite Wealth",
         author: "Ryū Ga Gotoku Studios",
+        category: 'home',
         detail: (
             <div>
                 <p>I’m soaking up the sun as I stroll along the beautiful beaches of Hawaii when suddenly a group of suspicious-looking characters take notice. As they approach, threatening me, I’m transported from the reality of Hawaii around me to some kind of alternate dimension where I’m expected to pull off some thrilling heroics. My enemies no longer look like your average tough guys on the street—their eyes glow red, they’re able to spew toxic fumes at me. But their new monstrous appearance is no match for my sweet selection of skills, my trusty baseball bat, and a crew of comrades who are ready to dive in with their own eccentric combat skills. But before they throw down, they’ll have to wait their turn, of course.</p>
@@ -611,6 +628,7 @@ export const topGames = [
         alt: "Game 3",
         title: "Fortnite",
         author: "Epic Games",
+        category: 'home',
         detail: (
             <div>
                 <p>It’s hard to say how Fortnite is turning out because it keeps turning into something else. Skins and storylines come and go. Landmarks appear and disappear. Weapons are added and removed. Recently, a mysterious excavation site appeared, but it was dug up and abandoned by the time I got there the next day. As I’m writing this, players are angry about a gameplay change that will probably be replaced by something new to hate a month from now. There’s never a perfect time to say what Fortnite is.</p>
@@ -626,6 +644,7 @@ export const topGames = [
         alt: "Game 4",
         title: "Final Fantasy XVI",
         author: "Square Enix Creative Business Unit III",
+        category: 'home',
         detail: (
             <div>
                 <p>A bold and risky pivot toward action for Square Enix’s beloved RPG franchise, Final Fantasy XVI is a stunning achievement that revitalizes the series for a new age—and it just may be the best the series has been in more than 20 years.</p>
@@ -642,6 +661,7 @@ export const topGames = [
         alt: "Game 5",
         title: "Super Mario Bros. Wonder",
         author: "Nintendo EPD",
+        category: 'home',
         detail: (
             <div>
                 <p>First, the bad news: Super Mario Bros. Wonder doesn’t cure covid-19. Trust me on that. But, if you ignore that one flaw and focus on everything else—the gorgeous graphics, the immensely creative levels, the pitch-perfect music—it’s easy to see this is one of Nintendo’s best Mario games in years.</p>
@@ -661,6 +681,7 @@ export const hadesEssentials = [
         alt: "Hades 2 Tips",
         title: "Every Game We Played At This Year's Not-E3 Summer Game Fest Extravaganza",
         author: "Alyssa Mercante and Ethan Gach",
+        category: 'home',
         detail: (
             <div>
                 <p>Summer Game Fest, aka Geoff-con/Keighley-palooza, has come and gone. The E3 replacement included multiple online showcases and onsite events, each aimed at drumming up excitement for a flood of upcoming games. Which games rocked? Which ones sucked? Which ones will become video game industry touchstones while the rest fade from memory? We tried to play as many of them as we could to find out.</p>
@@ -684,6 +705,7 @@ export const hadesEssentials = [
         alt: "Hades 2 Impressions",
         title: "14 Cool Details We Spotted In Star Wars Outlaws' New Gameplay Trailer",
         author: "Zack Zwiezen",
+        category: 'home',
         detail: (
             <div>
                 <p>On June 10, Ubisoft held its annual Ubisoft Forward event as the final big event of Summer Game Fest 2024. The show was a bit subdued compared to past years, but we did get a huge look at Star Wars Outlaws, which is set to launch on August 30, 2024 on Xbox, PlayStation, and PC.</p>
@@ -698,6 +720,7 @@ export const hadesEssentials = [
         alt: "Hades 2 Tips",
         title: "21 Incredible Games That Stole The Spotlight At This Year’s Day Of The Devs Showcase",
         author: "Ethan Gach",
+        category: 'home',
         detail: (
             <div>
                 <p>Day of the Devs returned for its 12th annual summer event with another Summer Game Fest post-show that gave the not-E3 microphone to the creators behind some of the most promising-looking upcoming games. Whether you like noir-influenced point-and-click adventures or nostalgia-fueled retro RPGs, the event once again proved indie gaming has something for everyone.</p>
@@ -713,6 +736,7 @@ export const hadesEssentials = [
         alt: "Hades 2 Tips",
         title: "Everything We Saw At Summer Game Fest 2024",
         author: "Claire Jackson",
+        category: 'home',
         detail: (
             <div>
                 <p>Today, we got nearly two hours of new trailers for upcoming games courtesy of Geoff Keighley and his annual Summer Game Fest showcase. It was a lot to sit through, but if you missed out on the live stream or just want a recap of everything shown off today, we’ve got you covered.</p>
@@ -741,6 +765,7 @@ export const futureGames = [
         title: "Everything We Know About Elden Ring's Shadow Of The Erdtree DLC",
         description: "We finally know that the much-anticipated expansion launches on June 21",
         author: "By Levi Winslow",
+        category: 'home',
         detail: (
             <div>
                 <p>FromSoftware showed us what’s been cooking in the Elden Ring oven, and the results have undoubtedly made Soulslike fans salivate. (I’m Soulslike fans.) The studio unveiled the first trailer for its hotly anticipated DLC, Shadow of the Erdtree, and now that we know it arrives on June 21, it’s a good time to round up everything we’ve learned about the upcoming expansion to one of 2022's best games.</p>
@@ -769,6 +794,7 @@ export const futureGames = [
         title: "Silent Hill 2 Remake's New Trailer Shows Off A Lot Of Combat",
         description: "Konami gave us new gameplay footage for the upcoming remake of its beloved survival horror sequel",
         author: "By Ashley Bardhan and Zack Zwiezen",
+        category: 'home',
         detail: (
             <div>
                 <p>Silent Hill 2, a remake of Konami’s legendary 2001 survival horror game currentlyin the works at Layers of Fear developer Bloober, got a new trailer during the January 31 Sony State of Play.</p>
@@ -793,6 +819,7 @@ export const futureGames = [
         title: "All The Cool Stuff We Spotted In The Star Wars Outlaws Story Trailer",
         description: "This trailer features Jabba the Hutt, Death Troopers, Crimson Dawn, Canto Bight, Han Solo, and much more!",
         author: "By Zack Zwiezen",
+        category: 'home',
         detail: (
             <div>
                 <p>On April 9, Ubisoft released the latest trailer for its upcoming open-world action game, Star Wars Outlaws. And as you might expect, this trailer is packed with small details, characters, hints at what the story will be about, and lots of Star Wars stuff to get all excited (or angry) about.</p>
@@ -818,6 +845,7 @@ export const futureGames = [
         title: "Obsidian’s Avowed Will Defy One Major RPG Trend",
         description: "",
         author: "John Walker",
+        category: 'home',
         detail: (
             <div>
                 <p>Amidst the recent flurry of information about Obsidian’s forthcoming RPG Avowed, one crucial morsel of information went under the radar. We learned that the first-person role-player would have lively combat, a classless main character exploring large, sprawling levels set in the same universe as Pillars of Eternity, and that there would be companions accompanying us on the journey. But can we kiss those companions? Eurogamer reveals that, no, we cannot.</p>
@@ -841,6 +869,7 @@ export const additionalSections = {
             title: "Star Wars: The Acolyte Episode One Is The Fresh Take The Jedi Needed",
             description: "The latest Star Wars series kicks off with a shocking event and some thrillingly bold storytelling",
             author: "By Jan Lucanus",
+            category: 'home',
             detail: (
                 <div>
                     <p>A long time ago in a galaxy that’s ours, Star Wars meant fun, adventure, creativity, and cultural impact. Then Disney bought the rights from George Lucas and the franchise suffered from quality control and oversaturation (*cough* Solo, *cough* The Book of Boba Fett). When The Acolyte trailer dropped, I thought it was going to be more Disney-era Star Wars fare of meaningless drama for shells of characters. I was wrong. The Acolyte is important, raising timely questions about power delivered by one of the best ensembles ever assembled for the franchise.</p>
@@ -860,6 +889,7 @@ export const additionalSections = {
             title: "Star Wars: The Acolyte Tells Us What We Already Knew About The Jedi",
             description: "They're complex, flawed group of individuals who have shifted and changed throughout Star Wars’ history",
             author: "By Alyssa Mercante",
+            category: 'home',
             detail: (
                 <div>
                     <p>Disney Plus’ latest Star Wars series, The Acolyte, was always going to court controversy. The Star Wars fandom has an infamously vocal minority who are, for lack of a better term, bigots, and Lucasfilm had already promised to stand up to them ahead of the series’ launch. But after The Acolyte episode 3, an entirely different Star Wars controversy has cropped up, reigniting a tired debate waged in internet forums and on social media: Are the Jedi good guys or bad guys?</p>
@@ -878,6 +908,7 @@ export const additionalSections = {
             title: "Blade Movie Loses Second Director In Latest Setback",
             description: "The Mahershala Ali MCU movie was announced in 2019",
             author: "By Willa Rowe",
+            category: 'home',
             detail: (
                 <div>
                     <p>Marvel’s upcoming Blade movie is back in the news and yet again it isn’t for good reasons. Yann Demange (‘71 and Lovecraft Country) has left the project as director, which marks the second director to exit the film in three years. This is the latest setback for the project, which was announced in 2019 with much anticipation as it would see Oscar winner Mahershala Ali take on the role of the iconic vampire hunter.</p>
@@ -894,6 +925,7 @@ export const additionalSections = {
             title: "Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell",
             description: "The League of Legends adaptation’s end is only the beginning",
             author: "By Willa Rowe",
+            category: 'home',
             detail: (
                 <div>
                     <p>On June 11, Netflix released the first trailer for the eagerly anticipated second season of Arcane (crowd cheers). The trailer announced that it would mark the finale of the animated series adaptation of Riot’s League of Legends (crowd boos). But wait, it might not be the end of Riot’s adaptations altogether (crowd mumbles, unsure of what to think).</p>
@@ -923,6 +955,7 @@ export const additionalSections = {
             title: "Still Wakes The Deep: The Kotaku Review",
             description: "The Chinese Room's latest horror game begs you to consider what’s worth running from in life",
             author: "By Claire Jackson",
+            category: 'home',
             detail: (
                 <div>
                     <p>As I peer out from a ventilation shaft to catch sight of the unspeakable horror in search of me, I prepare to toss a wrench I lifted from the ground in the desperate hope of distracting it. I step out of the shaft, throw it, and then immediately dart for the door. But I get the angle wrong and catch the lip of a beam just overhead. The monster turns and roars out that it has seen me with the contorted voice of someone I once knew. I have no means of dealing with this horrific creature and so I race to the nearest door. I make it out and seal the door behind me. I take a moment to catch my breath as I look around at the collapsing wreckage of this oil rig, this place of labor. The endless gray of the horizon looms forever into the distance; the ocean waves perpetually lap against the oil rig’s legs. Monstrous howls and screams emanate from the walls. Am I doomed to die here? Will I return home? Was it a mistake to come here?</p>
@@ -941,6 +974,7 @@ export const additionalSections = {
             title: "New Zany Open-World Game Is For All You Simpsons: Hit And Run Fans",
             description: "Tiny Terry's Turbo Trip is a new comedic PC game starring a teenager who wants to go to space in a car",
             author: "By Zack Zwiezen",
+            category: 'home',
             detail: (
                 <div>
                     <p>Below this paragraph is my full review of Tiny Terry’s Turbo Trip—a new comedic open-world action game out now on Steam and playable on Steam Deck. And it’s a good review. It does what you expect. But I can save you some time right now. If you are a fan of The Simpsons: Hit and Run, then you should play Tiny Terry’s Turbo Trip. It is a perfect recreation of that silly open-world GTA-like collecton-a-thon experience, just without Homer and Springfield. Anyway, for everyone still reading, here’s the review.</p>
@@ -956,6 +990,7 @@ export const additionalSections = {
             title: "New RPG Captures The Essence Of What Made Zelda: A Link To The Past So Great",
             description: "Master Key is a sublime 2D RPG that's a perfect follow-up to Animal Well",
             author: "By John Walker",
+            category: 'home',
             detail: (
                 <div>
                     <p>I’m so delighted that Animal Well caught the wider attention of the games press, and indeed of players. It’s a wonderful game that deserves to be a massive hit. It’s also exactly the sort of game that often gets entirely overlooked. And if you don’t believe me, then you should definitely immediately buy and play Master Key.</p>
@@ -981,6 +1016,7 @@ export const additionalSections = {
             title: "Senua’s Saga: Hellblade II: The Kotaku Review",
             description: "A spellbinding meditation on anguish and compassion, Hellblade II delivers one of the most gripping interactive and sensory experiences of 2024",
             author: "By Claire Jackson",
+            category: 'home',
             detail: (
                 <div>
                     <p>I’m on a path to find reprieve from the suffering around me. But as I turn the next corner of clouding darkness, a bright red light paralyzes me as the forceful and commanding voice of my father tells me that not only am I doomed to fail in my struggles, but that I am actively causing the very harm I am seeking to alleviate. Be it through failure or a curse that he expects me to believe I carry with me that will spread to others, he calls me his daughter with a possessiveness that rattles me. It inspires fear and rage. Yet I continue to move forward, to find a way through, to find spaces where his corruption hasn’t spread. And I do this not only for myself, but for others to whom I have promised aid. But in my quest to kill godlike forces that are causing misery, I am ever aware of a creeping darkness that threatens to consume me and others. What must I do to heal this world? Is that what I’m here to do? Can I do this? As I hear my father’s voice again, reminding me of his abuse, I realize I have no choice. I must survive and bring an end to the suffering of all those I encounter.</p>
@@ -1000,6 +1036,7 @@ export const additionalSections = {
             title: "Final Fantasy VII: The Kotaku Retro Review",
             description: "A timeless classic of an RPG, 1997’s Final Fantasy VII remains the best version of these characters and this world",
             author: "By Claire Jackson",
+            category: 'home',
             detail: (
                 <div>
                     <p>After helping my childhood friend, Cloud, through a reality-bending experience to reclaim his identity, I listen as he apologizes for his worst actions and explains to a room full of people why he misled everyone. Yes, his mind was under the influence of an invasive presence, but this confession comes from a place of vulnerability, one where he’s owning his own actions. He confesses to being “ashamed of being so weak” to the point that he “created an illusion.” When he says he “can’t remain trapped in an illusion any more,” and that he’s “going to live [...] without pretending,” I feel inspired not only to defeat the evil we are facing, but to live my own life without pretending too. We all walk back to the cockpit of the airship called the Highwind, headed north to face our greatest fears with honesty and resolve in who we are, together.</p>
@@ -1016,6 +1053,7 @@ export const additionalSections = {
             title: "This ‘Playable Documentary’ About A 1984 Classic Is One Of The Year’s Best Games",
             description: "The Making of Karateka brings an essential and exhilarating piece of game history to life",
             author: "By Carolyn Petit",
+            category: 'home',
             detail: (
                 <div>
                     <p>When you first fire up The Making of Karateka, Digital Eclipse’s excellent interactive retrospective about Prince of Persia creator Jordan Mechner’s 1984 masterpiece, you’re greeted with this quote from his journals, written when he was just 18 years old:</p>
@@ -1042,6 +1080,7 @@ export const additionalSections = {
             title: "10 Years Ago, Sony Redefined The Modern Console War",
             description: "After a rocky road through the lifecycle of PS3, PlayStation came out swinging",
             author: "By Mo Mozuch",
+            category: 'home',
             detail: (
                 <div>
                     <p>“PS3 has no games.” Well, it actually has more than 700, but don’t tell that to 2013’s memes. A decade ago, Sony’s PlayStation 3 began its descent into twilight once its successor, PlayStation 4, was scheduled for release on November 15.</p>
@@ -1057,6 +1096,7 @@ export const additionalSections = {
             title: "Final Fantasy VII: The Kotaku Retro Review",
             description: "A timeless classic of an RPG, 1997’s Final Fantasy VII remains the best version of these characters and this world",
             author: "By Claire Jackson",
+            category: 'home',
             detail: (
                 <div>
                     <p>After helping my childhood friend, Cloud, through a reality-bending experience to reclaim his identity, I listen as he apologizes for his worst actions and explains to a room full of people why he misled everyone. Yes, his mind was under the influence of an invasive presence, but this confession comes from a place of vulnerability, one where he’s owning his own actions. He confesses to being “ashamed of being so weak” to the point that he “created an illusion.” When he says he “can’t remain trapped in an illusion any more,” and that he’s “going to live [...] without pretending,” I feel inspired not only to defeat the evil we are facing, but to live my own life without pretending too. We all walk back to the cockpit of the airship called the Highwind, headed north to face our greatest fears with honesty and resolve in who we are, together.</p>

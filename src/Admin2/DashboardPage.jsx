@@ -19,17 +19,14 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
 
 const initialUserData = [
     { key: '1', name: 'Mike', age: 32, address: '10 Downing Street', phoneNumber: '1234567890' },
-    { key: '2', name: 'John', age: 42, address: '10 Downing Street', phoneNumber: '0987654321' },
 ];
 
 const initialProductData = [
     { key: '1', name: 'Laptop', price: '$1200', stock: 20 },
-    { key: '2', name: 'Phone', price: '$800', stock: 50 },
 ];
 
 const initialOrderData = [
     { key: '1', orderId: '1234', customer: 'Mike', total: '$1200' },
-    { key: '2', orderId: '5678', customer: 'John', total: '$800' },
 ];
 
 const DashboardPage = () => {
@@ -182,62 +179,133 @@ const DashboardPage = () => {
         });
     };
 
-    const userColumns = [
-        { title: 'Name', dataIndex: 'name', key: 'name' },
-        { title: 'Age', dataIndex: 'age', key: 'age' },
-        { title: 'Address', dataIndex: 'address', key: 'address' },
-        { title: 'Phone Number', dataIndex: 'phoneNumber', key: 'phoneNumber' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    const productColumns = [
-        { title: 'Name', dataIndex: 'name', key: 'name' },
-        { title: 'Price', dataIndex: 'price', key: 'price' },
-        { title: 'Stock', dataIndex: 'stock', key: 'stock' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    const orderColumns = [
-        { title: 'Order ID', dataIndex: 'orderId', key: 'orderId' },
-        { title: 'Customer', dataIndex: 'customer', key: 'customer' },
-        { title: 'Total', dataIndex: 'total', key: 'total' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
     const getColumns = () => {
         switch (selectedMenuKey) {
             case 'sub1':
-                return userColumns;
+                return [
+                    { title: 'Name', dataIndex: 'name', key: 'name' },
+                    { title: 'Age', dataIndex: 'age', key: 'age' },
+                    { title: 'Address', dataIndex: 'address', key: 'address' },
+                    { title: 'Phone Number', dataIndex: 'phoneNumber', key: 'phoneNumber' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
             case 'sub2':
-                return productColumns;
+                return [
+                    { title: 'Name', dataIndex: 'name', key: 'name' },
+                    { title: 'Price', dataIndex: 'price', key: 'price' },
+                    { title: 'Stock', dataIndex: 'stock', key: 'stock' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
             case 'sub3':
-                return orderColumns;
+                return [
+                    { title: 'Order ID', dataIndex: 'orderId', key: 'orderId' },
+                    { title: 'Customer', dataIndex: 'customer', key: 'customer' },
+                    { title: 'Total', dataIndex: 'total', key: 'total' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
             default:
                 return [];
+        }
+    };
+
+    const getModalTitle = () => {
+        switch (selectedMenuKey) {
+            case 'sub1':
+                return {
+                    edit: 'Chỉnh sửa người dùng',
+                    delete: 'Xóa người dùng',
+                    add: 'Thêm mới người dùng',
+                };
+            case 'sub2':
+                return {
+                    edit: 'Chỉnh sửa sản phẩm',
+                    delete: 'Xóa sản phẩm',
+                    add: 'Thêm mới sản phẩm',
+                };
+            case 'sub3':
+                return {
+                    edit: 'Chỉnh sửa đơn hàng',
+                    delete: 'Xóa đơn hàng',
+                    add: 'Thêm mới đơn hàng',
+                };
+            default:
+                return {};
+        }
+    };
+
+    const getModalFields = () => {
+        switch (selectedMenuKey) {
+            case 'sub1':
+                return (
+                    <>
+                        <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            case 'sub2':
+                return (
+                    <>
+                        <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="price" label="Price" rules={[{ required: true, message: 'Please input the price!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="stock" label="Stock" rules={[{ required: true, message: 'Please input the stock!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            case 'sub3':
+                return (
+                    <>
+                        <Form.Item name="orderId" label="Order ID" rules={[{ required: true, message: 'Please input the order ID!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="customer" label="Customer" rules={[{ required: true, message: 'Please input the customer!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="total" label="Total" rules={[{ required: true, message: 'Please input the total!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            default:
+                return null;
         }
     };
 
@@ -282,55 +350,33 @@ const DashboardPage = () => {
             </Footer>
 
             <Modal
-                title="Chỉnh sửa người dùng"
+                title={getModalTitle().edit}
                 visible={editModalVisible}
                 onOk={handleEditModalOk}
                 onCancel={handleModalCancel}
             >
                 <Form form={form}>
-                    <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
-                        <Input />
-                    </Form.Item>
+                    {getModalFields()}
                 </Form>
             </Modal>
 
             <Modal
-                title="Xóa người dùng"
+                title={getModalTitle().delete}
                 visible={deleteModalVisible}
                 onOk={handleDeleteModalOk}
                 onCancel={handleModalCancel}
             >
-                <p>Bạn có chắc chắn muốn xóa người dùng này không?</p>
+                <p>Bạn có chắc chắn muốn xóa bản ghi này không?</p>
             </Modal>
 
             <Modal
-                title="Thêm mới người dùng"
+                title={getModalTitle().add}
                 visible={addModalVisible}
                 onOk={handleAddModalOk}
                 onCancel={handleModalCancel}
             >
                 <Form form={form}>
-                    <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
-                        <Input />
-                    </Form.Item>
+                    {getModalFields()}
                 </Form>
             </Modal>
         </Layout>

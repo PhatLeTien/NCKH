@@ -25,7 +25,7 @@ const EntertainmentContent = () => {
             </div>
             <div className="entertainment-main-content">
                 <div className="entertainment-main-articles" onClick={() => openDetail(mainEntertainments)}>
-                    <img src={mainEntertainments.image} alt="Main article" />
+                    <img src={mainEntertainments.img} alt="Main article" />
                     <h2>{t('mainEnt.mainTitle')}</h2>
                     <p>{t('mainEnt.mainDescription')}</p>
                     <p className="entertainment-author">{t('mainEnt.mainAuthor')}</p>
@@ -41,7 +41,7 @@ const EntertainmentContent = () => {
             <div className="entertainment-additional-articles">
                 {additionalEntertainments.map((additional, index) => (
                     <div key={index} className="entertainment-additional-article" onClick={() => openDetail(additional)}>
-                        <img src={additional.image} alt={`Article ${index}`} />
+                        <img src={additional.img} alt={`Article ${index}`} />
                         <h3>{t(`addEnt.addEnt${index + 1}`)}</h3>
                     </div>
                 ))}
@@ -53,7 +53,7 @@ const EntertainmentContent = () => {
                 <div className="action-games-grid-ent">
                     {actionGamesEntertainments.map((actiongames, index) => (
                         <div key={index} className="action-game-item-ent" onClick={() => openDetail(actiongames)}>
-                            <img src={actiongames.image} alt={actiongames.alt} className="action-game-image-ent" />
+                            <img src={actiongames.img} alt={actiongames.alt} className="action-game-image-ent" />
                             <div className="action-game-content-ent">
                                 <div className="action-game-article-title-ent">{t(`actionEntGames.actionEnt${index + 1}`)}</div>
                             </div>
@@ -68,7 +68,7 @@ const EntertainmentContent = () => {
                 <div className="fantasy-games-grid-ent">
                     {fantasyGamesEntertainments.map((fantasygames, index) => (
                         <div key={index} className="fantasy-game-item-ent" onClick={() => openDetail(fantasygames)}>
-                            <img src={fantasygames.image} alt={fantasygames.alt} className="fantasy-game-image-ent" />
+                            <img src={fantasygames.img} alt={fantasygames.alt} className="fantasy-game-image-ent" />
                             <div className="fantasy-game-content-ent">
                                 <div className="fantasy-game-article-title-ent">{t(`fantasyEntGames.fantasyEnt${index + 1}`)}</div>
                             </div>
@@ -83,7 +83,7 @@ const EntertainmentContent = () => {
                 <div className="horror-games-grid-ent">
                     {horrorGamesEntertainments.map((horrorgames, index) => (
                         <div key={index} className="horror-game-item-ent" onClick={() => openDetail(horrorgames)}>
-                            <img src={horrorgames.image} alt={horrorgames.alt} className="horror-game-image-ent" />
+                            <img src={horrorgames.img} alt={horrorgames.alt} className="horror-game-image-ent" />
                             <div className="horror-game-content-ent">
                                 <div className="horror-game-article-title-ent">{t(`horrorEntGames.horrorEnt${index + 1}`)}</div>
                             </div>

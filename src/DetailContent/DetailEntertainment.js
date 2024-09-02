@@ -69,7 +69,7 @@ const DetailEntertainment = () => {
         <div className="detail-page">
             <Header />
             <div className="detail-entertainment">
-                <img src={entertainment.image} alt={entertainment.title} className="detail-entertainment-image" />
+                <img src={entertainment.img} alt={entertainment.title} className="detail-entertainment-image" />
                 <h1>{entertainment.title}</h1>
                 <p className="detail-entertainment-author">{entertainment.author}</p>
                 <p className="detail-entertainment-description">{entertainment.description}</p>

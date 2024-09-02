@@ -44,9 +44,10 @@ export const additionalEntertainments = [
         title: "Cate Blanchett Explains Why She's In The Borderlands Movie",
         // description: "A closer look at the new and thrilling episode of Star Wars: Acolyte.",
         link: "#",
-        image: addImage1,
+        img: addImage1,
         description: "The actress blames it all on covid-19 and a case of lockdown brain",
         author: "By Zack Zwiezen",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>It always seemed a bit weird that famed, Oscar-winning actress Cate Blanchett decided to be a part of the Borderlands live-action movie. Now we know the story of how this odd casting happened and it seems we can blame covid-19.</p>
@@ -70,9 +71,10 @@ export const additionalEntertainments = [
         title: "House Of The Dragon Season 2 Episode 3 Recap: Sister Act",
         // description: "An in-depth review of the latest horror flick, The Exorcism.",
         link: "#",
-        image: addImage2,
+        img: addImage2,
         description: "The stage is set for war in this intrigue-filled episode of the Game of Thrones prequel series",
         author: "By Liza Bautista",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>After two high-velocity episodes of death and mourning, the third episode of House of the Dragon’s second season slows down the energy, though not before giving a taste of the famed Bracken and Blackwood feud. The opposing families find themselves on opposite sides of the civil war and go to blows over it.</p>
@@ -89,9 +91,10 @@ export const additionalEntertainments = [
         title: "Hideo Kojima Really Loves The Chainsaw Man Creator’s New Movie",
         // description: "Brief description of another exciting article.",
         link: "#",
-        image: addImage3,
+        img: addImage3,
         description: "The Death Stranding dev has seen Look Back a lot since its release",
         author: "By Willa Rowe",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>Look Back, the adaptation of Chainsaw Man creator Tastsuki Fujimoto’s 2021 manga of the same name, is a hit in Japan after a strong opening weekend. One person who is particularly in love with the film is none other than everyone’s favorite full-time cinephile and part-time game developer, Hideo Kojima. In the five days since the movie’s release, Kojima appears to have seen the movie not once, not twice, but four times.</p>
@@ -109,7 +112,8 @@ export const mainEntertainments = {
     title: "Star Wars: The Acolyte Is Doing A Different Kind Of Fan-Service, And It Rocks",
     description: "The Disney+ series is leaning into an unapologetically horny part of the fandom, while also expanding the lore in fascinating ways",
     author: "By Alyssa Mercante",
-    image: mainImage, // Use the imported main image
+    img: mainImage, // Use the imported main image
+    category: 'entertainment',
     detail: (
         <div>
             <p>The Acolyte, much like its main characters, resists definition and placement in Star Wars’ decades-long legacy, and that is its biggest strength. The Disney+ series ticks many boxes that the more traditional, masculine fans of the franchise have been begging for for years (High Republic lore, rare aliens, wild lightsaber fights) while also aggressively and unapologetically catering to the femme side of fandom with a hot bad guy and heaps of sexual tension. We’ve never seen anything like this in Star Wars media before, and it’s breaking some brains. Despite its mere existence sending bad actors into a frenzy, The Acolyte is actually the Star Wars series we’ve all been waiting for.</p>
@@ -125,9 +129,10 @@ export const sideEntertainments = [
         title: "The Acolyte Episode 5 Review: Stunning Battles, Shallow Characters",
         // description: "A rundown of the best action movies you should check out.",
         link: "#",
-        image: sideImage1,
+        img: sideImage1,
         description: "The Star Wars series needs to take more time developing its major players",
         author: "By Jan Lucanus",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>After a slow episode 4, The Acolyte turns the volume all the way up on lightsaber battles with an episode that is worth every minute of screen time and then some. Featuring perhaps the best lightsaber choreography in Star Wars history, here the action takes priority over plot and character development.</p>
@@ -144,9 +149,10 @@ export const sideEntertainments = [
         title: "The Acolyte's Fourth Episode Is A Mundane Misstep",
         // description: "An exploration of the best fantasy movies.",
         link: "#",
-        image: sideImage2,
+        img: sideImage2,
         description: "This episode of the Star Wars High Republic series is a disappointment",
         author: "By Jan Lucanus",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>After establishing a high bar in earlier episodes, The Acolyte’s fourth installment struggles to maintain the momentum, suffering from a mix of standard writing, camerawork, and performances. Unfortunately, it also exhibits a number of tropes that are causing the Hollywood machine distress industry wide.</p>
@@ -167,9 +173,10 @@ export const sideEntertainments = [
         id: "sideEnt-3",
         title: "The Acolyte Episode 3 Review: Star Wars Finds Religion In A Whole New Way",
         link: "#",
-        image: sideImage3,
+        img: sideImage3,
         description: "With this entry, The Acolyte digs deep into the spiritual roots of The Force",
         author: "By Jan Lucanus",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>Just because you can grab an audience with a name like Star Wars doesn’t mean you can keep their attention. With its third episode, The Acolyte introduces a theme so big and so important—religion—that if the show doesn’t take it seriously in the coming episodes, it may lose mine.</p>
@@ -183,9 +190,10 @@ export const sideEntertainments = [
         id: "sideEnt-4",
         title: "First Gladiator 2 Pics Show Paul Mescal And Pedro Pascal Duke It Out",
         link: "#",
-        image: sideImage4,
+        img: sideImage4,
         description: "These images of the sequel's leading men are a post-Pride gift",
         author: "By Kenneth Shepard",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>It’s July 1, folks. You know what that means? Pride Month is over and all the corporations who told us we were welcome to spend our money at their businesses are about to fold up their rainbow flags and forget about the gays and theys until next year. But fear not, we have one buffer to cushion the fall as the country drops us down a chasm of despair: Paul Mescal and Pedro Pascal looking filthy and bloody in the first images from Gladiator II.</p>
@@ -198,9 +206,10 @@ export const sideEntertainments = [
         id: "sideEnt-5",
         title: "One Of TV's Best Shows Just Came Back With A Terrible Season Premiere",
         link: "#",
-        image: sideImage5,
+        img: sideImage5,
         description: "I promise I like The Bear, but this episode really tested my patience",
         author: "By Willa Rowe",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>FX’s The Bear has returned with its third season, dropped in its entirety on the streamer on June 27. The stunning cooking drama starring Jeremy Allen White and Ayo Edebiri has been one of the best things on television in recent years, an indulgent feast of spectacular camera work and acting. Unfortunately, Season 3’s premiere takes that indulgence to an extreme, resulting in an episode that works fine on its own merits and would have been fine if it landed midseason, but fails as a reintroduction to the show.</p>
@@ -213,9 +222,10 @@ export const sideEntertainments = [
         id: "sideEnt-6",
         title: "Elden Ring And House Of The Dragon Make This The Summer Of George R. R. Martin",
         link: "#",
-        image: sideImage6,
+        img: sideImage6,
         description: "With Elden Ring: Shadow of the Erdtree and House of the Dragon, it’s a Hot George Summer",
         author: "By Alyssa Mercante",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>For over 14 years, Game of Thrones author George R. R. Martin has been writing The Winds of Winter, the next book in his beloved fantasy saga. The HBO series inspired by the novels extended past his writing long before its final episode aired in 2019, though Martin did provide the broad strokes of how he intended to end his song of ice and fire. His last book, which inspired House of the Dragon, the Game of Thrones-spinoff currently airing on HBO, was published in 2018. Frustrated fans think The Winds of Winter will never come.</p>
@@ -235,9 +245,10 @@ export const sideEntertainments = [
         id: "sideEnt-7",
         title: "The Latest Acolyte Episode Is Star Wars At Its Most Sexy, Deadly",
         link: "#",
-        image: sideImage7,
+        img: sideImage7,
         description: "We got a masterful reveal, a hot baddie, and one of the best lightsaber battles ever",
         author: "By Alyssa Mercante",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>Star Wars is a lot of things, but it is rarely sexy. A few things spring to mind: Anakin Skywalker’s bare chest after a nightmare, Padme’s midriff in the fighting pit, or a sidelong glance from Han Solo, but in recent history the franchise has been somewhat devoid of sex and death. Kylo Ren and Rey Skywalker had some chemistry, sure, but it was akin to two teenagers first discovering horniness: clumsy, awkward, and at times, downright weird. And too many modern characters have been protected by plot armor, be it Boba Fett in his shitty Disney Plus series or side characters in The Mandalorian.</p>
@@ -253,12 +264,13 @@ export const sideEntertainments = [
 export const actionGamesEntertainments = [
     {
         id: "actionGames-1",
-        image: imageAction1, // Make sure to replace with the correct path
+        img: imageAction1, // Make sure to replace with the correct path
         alt: "Future Game 1",
         title: "The Super Mario Bros. Movie 2 Has A Release Date",
         // author: "Author 1"
         description: "Miyamoto took to Nintendo's official socials to declare the day",
         author: "By John Walker",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>It came as no surprise earlier this year when it was announced that The Super Mario Bros. Movie was to receive a sequel. The 2023 animated feature made $1.3 billion from its theatrical release alone, and in a world without Barbie, would have been the biggest film of the year. Of course it’s getting a sequel. And now we know precisely when.</p>
@@ -271,12 +283,13 @@ export const actionGamesEntertainments = [
     },
     {
         id: "actionGames-2",
-        image: imageAction2, // Make sure to replace with the correct path
+        img: imageAction2, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Arcane Season 2 Will Be Its Last, But Riot Still Has More Stories To Tell",
         // author: "Author 2"
         description: "The League of Legends adaptation’s end is only the beginning",
         author: "By Willa Rowe",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>On June 11, Netflix released the first trailer for the eagerly anticipated second season of Arcane (crowd cheers). The trailer announced that it would mark the finale of the animated series adaptation of Riot’s League of Legends (crowd boos). But wait, it might not be the end of Riot’s adaptations altogether (crowd mumbles, unsure of what to think).</p>
@@ -295,12 +308,13 @@ export const actionGamesEntertainments = [
     },
     {
         id: "actionGames-3",
-        image: imageAction3, // Make sure to replace with the correct path
+        img: imageAction3, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Arcane Season 2 Teaser Shows Off Caitlyn And Vi’s New Looks",
         // author: "Author 2"
         description: "The new season of the League of Legends spin-off show will be released on Netflix this November",
         author: "By Willa Rowe",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>It’s been almost three years since Arcane, the Netflix animated series inspired by Riot Games’ global hit MOBA League of Legends, was released, and fans are dying for more. Thankfully, the long-awaited second season is finally within sight, with a November release window. And we’ve had a fresh (brief) glimpse.</p>
@@ -319,12 +333,13 @@ export const actionGamesEntertainments = [
     },
     {
         id: "actionGames-4",
-        image: imageAction4, // Make sure to replace with the correct path
+        img: imageAction4, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Arcane Season 2 Teaser Shows Off Caitlyn And Vi’s New Looks",
         // author: "Author 2"
         description: "The new season of the League of Legends spin-off show will be released on Netflix this November",
         author: "By Willa Rowe",
+        category: 'entertainment',
         detail: (
             <div>
                 <p>It’s been almost three years since Arcane, the Netflix animated series inspired by Riot Games’ global hit MOBA League of Legends, was released, and fans are dying for more. Thankfully, the long-awaited second season is finally within sight, with a November release window. And we’ve had a fresh (brief) glimpse.</p>
@@ -347,10 +362,11 @@ export const actionGamesEntertainments = [
 export const fantasyGamesEntertainments = [
     {
         id: "fantasyGames-1",
-        image: imageFantasy1, // Make sure to replace with the correct path
+        img: imageFantasy1, // Make sure to replace with the correct path
         alt: "Future Game 1",
         title: "House Of The Dragon Season 2 Episode 3 Recap: Sister Act",
         author: "By Liza Bautista",
+        category: 'entertainment',
         description: "The stage is set for war in this intrigue-filled episode of the Game of Thrones prequel series",
         detail: (
             <div>
@@ -365,10 +381,11 @@ export const fantasyGamesEntertainments = [
     },
     {
         id: "fantasyGames-2",
-        image: imageFantasy2, // Make sure to replace with the correct path
+        img: imageFantasy2, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Elden Ring And House Of The Dragon Make This The Summer Of George R. R. Martin",
         author: "By Alyssa Mercante",
+        category: 'entertainment',
         description: "With Elden Ring: Shadow of the Erdtree and House of the Dragon, it’s a Hot George Summer",
         detail: (
             <div>
@@ -387,10 +404,11 @@ export const fantasyGamesEntertainments = [
     },
     {
         id: "fantasyGames-3",
-        image: imageFantasy3, // Make sure to replace with the correct path
+        img: imageFantasy3, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "House Of The Dragon Season Two Episode One Recap: Westeros Smells A Rat",
         author: "By Liza Bautista",
+        category: 'entertainment',
         description: "Season 2 of the Game of Thrones prequel series has the Targaryens eating their own",
         detail: (
             <div>
@@ -406,10 +424,11 @@ export const fantasyGamesEntertainments = [
     },
     {
         id: "fantasyGames-4",
-        image: imageFantasy4, // Make sure to replace with the correct path
+        img: imageFantasy4, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "The Live-Action Legend Of Zelda Movie Is Aiming For A More 'Grounded' Style",
         author: "By John Walker",
+        category: 'entertainment',
         description: "Director Wes Ball is aiming for something 'real,' following on from his Planet of the Apes entry",
         detail: (
             <div>
@@ -430,10 +449,11 @@ export const fantasyGamesEntertainments = [
 export const horrorGamesEntertainments = [
     {
         id: "horrorGames-1",
-        image: imageHorror1, // Make sure to replace with the correct path
+        img: imageHorror1, // Make sure to replace with the correct path
         alt: "Future Game 1",
         title: "The Exorcism Review: Clever Ideas Can't Develop In A Film This Shallow",
         author: "By Zack Trethaway",
+        category: 'entertainment',
         description: "The debut horror film from Joshua John Miller has some winking cleverness but little depth",
         detail: (
             <div>
@@ -450,10 +470,11 @@ export const horrorGamesEntertainments = [
     },
     {
         id: "horrorGames-2",
-        image: imageHorror2, // Make sure to replace with the correct path
+        img: imageHorror2, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Blade Movie Loses Second Director In Latest Setback",
         author: "By Willa Rowe",
+        category: 'entertainment',
         description: "The Mahershala Ali MCU movie was announced in 2019",
         detail: (
             <div>
@@ -466,10 +487,11 @@ export const horrorGamesEntertainments = [
     },
     {
         id: "horrorGames-3",
-        image: imageHorror3, // Make sure to replace with the correct path
+        img: imageHorror3, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "Here’s Your First Look At Return To Silent Hill’s Iconic Monster",
         author: "By Willa Rowe",
+        category: 'entertainment',
         description: "It seems there will be a lot of Pyramid Head content in the near future",
         detail: (
             <div>
@@ -482,10 +504,11 @@ export const horrorGamesEntertainments = [
     },
     {
         id: "horrorGames-4",
-        image: imageHorror4, // Make sure to replace with the correct path
+        img: imageHorror4, // Make sure to replace with the correct path
         alt: "Future Game 2",
         title: "2023’s Indie Fishing Horror Game Is Getting A Film Adaptation",
         author: "By Willa Rowe",
+        category: 'entertainment',
         description: "Based on Black Salt Games’ Dredge, the movie will be produced by Story Kitchen",
         detail: (
             <div>
