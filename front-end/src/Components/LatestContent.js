@@ -31,7 +31,7 @@ const LatestContent = () => {
       {currentArticles.map((article, index) => (
         <div key={index} className="article-latest">
           <Link to={`/latest/article/${indexOfFirstArticle + index + 1}`}>
-            <img src={article.imgSrc} alt={article.title} className="article-latest-image" />
+            <img src={article.img} alt={article.title} className="article-latest-image" />
             <div className="article-latest-content">
               <p className="article-latest-category">
                 <span className="highlighted">{article.category1}</span>

@@ -1,3 +1,5 @@
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+
 import imgMainGuide from '../Assets/Guides/main.webp';
 import imgSideGuide1 from '../Assets/Guides/side-1.webp';
 import imgSideGuide2 from '../Assets/Guides/side-2.webp';
@@ -17,18 +19,31 @@ import imgAdd2_1 from '../Assets/Guides/add-guide-2-1.webp';
 import imgAdd2_2 from '../Assets/Guides/add-guide-2-2.webp';
 import imgAdd2_3 from '../Assets/Guides/add-guide-2-3.webp';
 
+import SideGuides2t1 from '../Assets/Guides/side-2-1.webp';
+import SideGuides3t1 from '../Assets/Guides/side-3-1.webp';
+
+import Add1_1t1 from '../Assets/Guides/add-guide-1t1.webp';
+import Add4_1t1 from '../Assets/Guides/add-guide-4t1.webp';
+import Add7_1t1 from '../Assets/Guides/add-guide-7t1.webp';
+import Add9_1t1 from '../Assets/Guides/add-guide-9t1.webp';
+
+
 export const mainGuide = {
     id: 'main-guide-1',
-    imageUrl: imgMainGuide,
-    category: 'Game Tips',
+    img: imgMainGuide,
+    category1: 'Game Tips',
     title: 'Here’s When Elden Ring: Shadow Of The Erdtree Is Going To Drop',
     description: 'There’ll be a pretty big window to preload the expansion as well, but only on PlayStation',
     author: 'Moises Taveras',
+    category: 'guides',
     detail: (
         <div>
             <p>Elden Ring’s highly anticipated expansion, Shadow of the Erdtree, is dropping later this week, and a lot of people are pumped for what’s shaping up to be one of the biggest releases of the year. Whether you’re a lorehound or simply someone looking for a proper excuse to dive into the game of 2022, Shadow of the Erdtree is going to be massive, and you’re probably going to want to get into it as soon as possible to avoid potential spoilers.</p>
             <p>Ahead of launch, the official Elden Ring Twitter account posted a graphic detailing the release schedule for the expansion, including local time zones and the exact time players should expect it to be available.</p>
             <p>Pre-order Elden Ring: Shadow of the Erdtree:  | Best Buy | Humble Bundle</p>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <TwitterTweetEmbed tweetId="1801615583705723349" />
+            </div>
         </div>
     )
 };
@@ -36,11 +51,12 @@ export const mainGuide = {
 export const sideGuides = [
     {
         id: 'side-guide-1',
-        imageUrl: imgSideGuide1,
-        category: 'Game Tips',
+        img: imgSideGuide1,
+        category1: 'Game Tips',
         title: 'MultiVersus Character Guide: Jason Voorhees',
         description: 'How to make the most of the classic slasher villain’s best moves',
         author: 'Lucas White',
+        category: 'guides',
         detail: (
             <div>
                 <p>Welcome to the first in a long line of MultiVersus character guides. As the first wave of post-launch patches has begun, I’ll now be diving in, starting with three brand new characters in order to offer some tips and general strategies to help you get a leg up. First up, it’s Jason.</p>
@@ -52,31 +68,35 @@ export const sideGuides = [
     },
     {
         id: 'side-guide-2',
-        imageUrl: imgSideGuide2,
-        category: 'Game Tips',
+        img: imgSideGuide2,
+        category1: 'Game Tips',
         title: 'How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week’s Gaming Tips',
         description: 'We’ll also give you the lowdown on Octopath Traveler II’s new bosses',
         author: 'Kotaku Staff',
+        category: 'guides',
         detail: (
             <div>
                 <p>Elden Ring: Shadow of the Erdtree is almost here, so we’ll help you make sure you’re ready to access and conquer the DLC when it arrives. We’ve also got details on four new bosses who were recently added to Octopath Traveler II, as well as suggestions for those looking to get caught up on Dragon Age before The Veilguard lands later this year. And if you’re looking to improve your Starfield experience, look no further, we’ve got some mod recommendations to take your interstellar travels to the next level.</p>
-                <p>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</p>
+                <h2>Elden Ring: What Level To Reach For Shadow Of The Erdtree (And How To Grind Fast)</h2>
+                <p><img src={SideGuides2t1} alt="How To Prep For Elden Ring: Shadow Of The Erdtree And More Of The Week’s Gaming Tips" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>Elden Ring is known for its challenging combat and hazardous exploration, so it’s reasonable to expect its Shadow of the Erdtree expansion to be an ultra-difficult experience. With dozens of hours of new exploration and battle ahead, you’ll want to be certain you’re well-prepared for all of the horrors that await you. As such, you may be asking yourself what level you should be before starting Shadow of the Erdtree. - Billy Givens Read More</p>
             </div>
         )
     },
     {
         id: 'side-guide-3',
-        imageUrl: imgSideGuide3,
-        category: 'Game Tips',
+        img: imgSideGuide3,
+        category1: 'Game Tips',
         title: 'Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide',
         description: 'There aren’t many graphical options to choose from, but let’s discuss the best settings for Atlus’ RPG on Steam Deck',
         author: 'Timothy Monbleau',
+        category: 'guides',
         detail: (
             <div>
                 <p>Shin Megami Tensei V: Vengeance is a massively expanded version of 2021’s Shin Megami Tensei V, featuring more quests, monsters, and a new story path featuring a brand new character. However, perhaps most importantly, Vengeance drops the original game’s Nintendo Switch exclusivity for a multiplatform release. PC players can now enjoy this game via Steam, and Vengeance is officially Steam Deck verified. However, does it actually run well on Valve’s handheld device?</p>
                 <p>After spending at least 15 hours playing Shin Megami Tensei V: Vengeance portably, I can confirm that the game runs very well on the Steam Deck. At the default resolution of 1280 X 800, I was able to enjoy reliable performance that typically stayed close to a solid 60 FPS. If you plan on enjoying this RPG on the go (or in your bed), definitely grab the Steam version.</p>
                 <p><b>Buy <i>Shin Megami Tensei V: Vengeance:</i></b>  | Best Buy | Humble Bundle</p>
+                <p><img src={SideGuides3t1} alt="Shin Megami Tensei V: Vengeance Steam Deck Settings And Performance Guide" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     }
@@ -85,29 +105,32 @@ export const sideGuides = [
 export const additionalGuides1 = [
     {
         id: 'additional-guide-1-1',
-        imageUrl: imgAdd1_1,
+        img: imgAdd1_1,
         title: "How To Defeat Matador In Shin Megami Tensei V: Vengeance",
         description: "Beware the critical hits in Shin Megami Tensei V: Vengeance’s first major optional boss battle",
         author: "By Timothy Monbleau",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Matador has an infamous reputation in the Shin Megami Tensei canon, and Shin Megami Tensei V: Vengeance is no exception. As the first boss in the Return of the True Demon sidequest, Matador can and will wipe the floor with you if you challenge him unprepared. Though Matador was a challenge in the vanilla version of Shin Megami Tensei V, the Vengeance rerelease adds a new gimmick that you’ll need to deliberately play around. Fortunately, as long as you bring the right skills and demons, you can easily overcome this challenge.</p>
                 <p><b>Buy<i>Shin Megami Tensei V: Vengeance:</i></b>  | Best Buy | Humble Bundle</p>
                 <p>For best results, your main character should be at level 24 before challenging Matador. If you’re underleveled, consider advancing the main story and returning to this encounter later. This is especially helpful if you’re playing the Vengeance story, since you’ll recruit Guest characters who can come in clutch for this fight. Also consider stocking up on Elec Shards from Cadaver’s Hollow to give the Nahobino and any other human characters a way to exploit Matador’s weakness.</p>
                 <p>With that out of the way, here’s everything you need to know about overcoming Matador.</p>
+                <p><img src={Add1_1t1} alt="How To Defeat Matador In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
     {
         id: 'additional-guide-1-2',
-        imageUrl: imgAdd1_2,
+        img: imgAdd1_2,
         title: "10 Tips For Shin Megami Tensei V: Vengeance Beginners",
         description: "New to Atlus' RPG? Follow these tips and Da’at won’t be a problem",
         author: "By Timothy Monbleau",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>It’s been a good year for fans of Atlus RPGs. Between the launch of Persona 3 Reload in January and Metaphor:ReFantazio coming this October, you’d be forgiven for forgetting that Shin Megami Tensei V: Vengeance is available right now on PC, Nintendo Switch, and Xbox and PlayStation platforms. As the definitive version of 2021’s Shin Megami Tensei V, Vengeance is a stellar turn-based adventure that I can easily recommend to RPG fans and monster collecting fanatics alike. For Persona fans who are curious about the series those games spun off from, this is a great place to start.</p>
@@ -118,12 +141,13 @@ export const additionalGuides1 = [
     },
     {
         id: 'additional-guide-1-3',
-        imageUrl: imgAdd1_3,
+        img: imgAdd1_3,
         title: "Kotaku’s Weekend Guide: Four Games To Send You To The Stars (And Realms Beyond)",
         description: "Let’s travel to space, the dark place, and a popular fantasy game with a long-awaited sequel on the horizon",
         author: "By Claire Jackson, Ethan Gach, Willa Rowe, and John Walker",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Here we are again at another weekend. This time, we’re hoping to get a bit of rest from the wonderful mania of covering Summer Game Fest, and all the many showcases and events that happened in between.</p>
@@ -139,29 +163,32 @@ export const additionalGuides1 = [
     },
     {
         id: 'additional-guide-1-4',
-        imageUrl: imgAdd1_4,
+        img: imgAdd1_4,
         title: "How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance",
         description: "Let’s help you solve Nozuchi’s riddles and find the Sangaku Beads",
         author: "By Timothy Monbleau",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Most of the early game quests in Shin Megami Tensei V: Vengeance explicitly tell you where you need to go, but you’ll find a few exceptions. A prime example of this occurs when you meet the Nozuchi in a corner of West Shinbashi, who presents you with the “Beastly Battle of Wits” quest.</p>
                 <p>To complete this quest, you’ll have to solve three “riddles” the Nozuchi presents to you. However, each objective is different from the last, which can turn you around if you aren’t paying close attention.</p>
                 <p>Before we dissect each phase of the Beastly Battle of Wits, know that some combat is involved to complete this quest. There’s no major boss battle here, mind you, but the combat can catch you off guard if you’re under-leveled. The strongest monster you’ll face here is level 18, so use that information to decide if you’d like to tackle other quests to level up first.</p>
                 <p>With that out of the way, here’s how to complete each phase of this quest.</p>
+                <p><img src={Add4_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
     {
         id: 'additional-guide-1-5',
-        imageUrl: imgAdd1_5,
+        img: imgAdd1_5,
         title: "Starfield Mod Fixes The Ending To One Of The Game’s Best Quests",
         description: "It ain’t pretty, but it sure beats the canonical endings to this otherwise-great quest",
         author: "By Claire Jackson",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Hey, do you remember that really neat Star Trek-esque quest in Starfield where you had to help some long-lost colonists find a new home, but the game thought killing children was an acceptable outcome, while doing the same to the corporate execs who have power over those children and their relatives was just out of the question? Yeah, it’s definitely one of those moments that made me realize Starfield was far more on rails than it should be. But there’s good news, as modder cognimancer has delivered a mod on the Creations’ suite.</p>
@@ -178,12 +205,13 @@ export const additionalGuides1 = [
     },
     {
         id: 'additional-guide-1-6',
-        imageUrl: imgAdd1_6,
+        img: imgAdd1_6,
         title: "Cut Out Dragon Age: Inquisition’s Filler And Stick To The Good Stuff With These Mods",
         description: "If you’re replaying before The Veilguard, here’s a handy list of mods that will help you get the most out of it",
         author: "By Kenneth Shepard",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Dragon Age: The Veilguard is coming this fall, and fans and newcomers alike are going back to play the first three games before BioWare’s next fantasy RPG hits store shelves. However, Dragon Age: Inquisition is much more expansive than its predecessors, opting for the “open zone” format with a bunch of busy work and tiresome traversal. Thankfully, if you’re looking to go back to the 2014 RPG ahead of The Veilguard, there’s a mod list that will let you skip to all the good stuff and avoid a lot of the bloat.</p>
@@ -195,29 +223,32 @@ export const additionalGuides1 = [
     },
     {
         id: 'additional-guide-1-7',
-        imageUrl: imgAdd1_7,
+        img: imgAdd1_7,
         title: "Should You Take The Girl's Hand In Shin Megami Tensei V: Vengeance?",
         description: "Let’s figure out if you should embark on the Canon of Vengeance or the Canon of Creation",
         author: "By Timothy Monbleau",
         published: "Published June 14, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>One of the most impactful decisions you’ll make in Shin Megami Tensei V: Vengeance comes right at the start of the game. Standing at a literal crossroads, you see a girl suspended in the air. Ominous voices explain that she will lead the world into chaos and ruin, and if you take her hand, you will enter into “a world yet unknown.” The game then asks you if you’ll take her hand, but what, exactly, are you getting yourself into with this decision?</p>
                 <p>The decision to take the girl’s hand will determine which story path you’ll take in Shin Megami Tensei V: Vengeance. If you refuse to take her hand, you’ll embark on the Canon of Creation. This is the story that was featured in the 2021 original version of Shin Megami Tensei V, albeit with some new quests and quality of life changes. However, if you do take her hand, you’ll experience the Canon of Vengeance instead. This is the new story path, in which this mysterious girl will change key story beats and ultimately affect the outcome of the plot.</p>
                 <p>The game will explain all this after you make your choice, and it will give you the chance to alter your decision after explicitly telling you which path you’re about to take. However, once you make your decision, it’s set in stone for the rest of the game.</p>
                 <p><b>Buy <i>Shin Megami Tensei V: Vengeance:</i></b> | Best Buy | Humble Bundle</p>
+                <p><img src={Add7_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
             </div>
         )
     },
     {
         id: 'additional-guide-1-8',
-        imageUrl: imgAdd1_8,
+        img: imgAdd1_8,
         title: "The Quickest Way To Catch Up On Dragon Age Before The Veilguard Arrives",
         description: "BioWare’s fantasy RPG series has been going on for 15 years, here’s the most important things to go back and play",
         author: "By Kenneth Shepard",
         published: "Published June 13, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>It’s been ten years since Dragon Age: Inquisition, the third entry in BioWare’s fantasy RPG series, and so it’s likely that a lot of people who are intrigued by the upcoming Dragon Age: The Veilguard have never touched a game in the series before. If you were enticed by the early gameplay or quippy-ass cinematic trailer, you might be wondering if you can jump into the game without any prior knowledge. BioWare is adamant that you can play the game formerly known as Dragon Age: Dreadwolf without playing the three original games, but should you? Let’s unpack 15 years of lore and character development, and get to the meat of what you should probably actually play before The Veilguard arrives.</p>
@@ -232,15 +263,17 @@ export const additionalGuides1 = [
     },
     {
         id: 'additional-guide-1-9',
-        imageUrl: imgAdd1_9,
+        img: imgAdd1_9,
         title: "Octopath Traveler II's Four Brand-New Boss Battles, Explained",
         description: "Here’s how to access the Extra Battles in Square Enix's popular RPG",
         author: "By Timothy Monbleau",
         published: "Published June 13, 2024",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>On June 6th, Square Enix announced that both Octopath Traveler games are now available on more platforms. Not only is Octopath Traveler available on PlayStation, but you can play Octopath Traveler 2 on Xbox and Xbox Game Pass. Square Enix released a trailer celebrating the new ports, but eagle-eyed RPG fans noticed something curious about the footage shown. Namely, why is there a shot of the protagonists from Octopath Traveler fighting the cast of Octopath Traveler 2? When did that ever happen in the games!?</p>
+                <p><img src={Add9_1t1} alt="How To Complete The Beastly Battle Of Wits Quest In Shin Megami Tensei V: Vengeance" style={{ maxWidth: "100%", height: "auto" }} /></p>
                 <p>It turns out that Square Enix snuck in a little surprise for Octopath Traveler 2 fans amidst all the excitement. As part of Update 1.1.0, which became available on all platforms on June 6th, four new boss battles were added to the already sprawling RPG. For those who have cleared the main story, a new mode labeled Extra Battles will appear on the main menu for Octopath Traveler 2. In short, these new boss battles are no joke. If you felt Octopath Traveler 2 was too easy for your tastes, you’ll want to open your save file one more time to give these encounters a spin.</p>
                 <p>Here’s everything you need to know about these new battles.</p>
             </div>
@@ -251,11 +284,12 @@ export const additionalGuides1 = [
 export const additionalGuides2 = [
     {
         id: 'additional-guide-2-1',
-        imageUrl: imgAdd2_1,
+        img: imgAdd2_1,
         title: "The Long-Awaited June Nintendo Direct Is Finally Happening",
         author: "Kenneth Shepard",
         published: "Yesterday",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Now that most of the industry is done with Summer Game Fest and all its orbiting events, Nintendo is jumping into the summer video game announcement fray with its own Nintendo Direct. After plenty of speculation and rumors floating around the internet, the company has confirmed the showcase will take place tomorrow, June 18, at 7 a.m. Pacific/10 a.m. Eastern. Thankfully, that’s an hour later than the usual ass-crack of dawn 9 a.m. Eastern slot the company typically chooses for these showcases.</p>
@@ -274,11 +308,12 @@ export const additionalGuides2 = [
     },
     {
         id: 'additional-guide-2-2',
-        imageUrl: imgAdd2_2,
+        img: imgAdd2_2,
         title: "Frustrated Final Fantasy XIV Healers Are Planning To Strike When Dawntrail Debuts",
         author: "Willa Rowe",
         published: "Yesterday",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>After months (and even years) of healer mains in Final Fantasy 14 complaining that Square Enix’s MMORPG has simplified and devalued the job, seemingly to no avail, aggrieved healers are going one step further to make their opinion known: They’re going on strike.</p>
@@ -300,11 +335,12 @@ export const additionalGuides2 = [
     },
     {
         id: 'additional-guide-2-3',
-        imageUrl: imgAdd2_3,
+        img: imgAdd2_3,
         title: "Promising-Looking Sims Competitor Canceled",
         author: "Zack Zwiezen",
         published: "Yesterday",
         category1: "GAME TIPS",
+        category: 'guides',
         detail: (
             <div>
                 <p>Paradox Interactive, the company behind Cities: Skylines and Crusader Kings, announced that after numerous delays it has decided to cancel development of Life By You, its highly anticipated Sims-like game.</p>

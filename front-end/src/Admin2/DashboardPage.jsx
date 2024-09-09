@@ -3,41 +3,31 @@ import { LaptopOutlined, NotificationOutlined, UserOutlined, PlusOutlined } from
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';
 import { Avatar, Breadcrumb, Layout, Menu, Typography, Table, Modal, Form, Input, Button } from 'antd';
 import '../Admin2/DashboardPage.css';
-import axios from 'axios';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { Text } = Typography;
 const labels = ['Người Dùng', 'Sản Phẩm', 'Đơn Hàng'];
 
+const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
+    const key = `sub${index + 1}`;
+    return {
+        key,
+        icon: React.createElement(icon),
+        label: labels[index],
+    };
+});
 
-// Đây là danh sách các mục menu cho phần điều hướng bên trái của trang Dashboard. Mỗi mục có một key, icon, và label để xác định và hiển thị trong menu.
-const items2 = [
-    {
-        key: 'sub1',
-        icon: <UserOutlined />,
-        label: 'Người Dùng',
-
-    },
-    {
-        key: 'sub2',
-        icon: <LaptopOutlined />,
-        label: 'Post',
-        children: [
-            { key: 'sub2-1', label: 'Quản lý tin tức' },
-            { key: 'sub2-2', label: 'Loại tin tức' },
-        ],
-    },
-    {
-        key: 'sub3',
-        icon: <NotificationOutlined />,
-        label: 'Đơn Hàng',
-
-    },
-
+const initialUserData = [
+    { key: '1', name: 'Mike', age: 32, address: '10 Downing Street', phoneNumber: '1234567890' },
 ];
 
+const initialProductData = [
+    { key: '1', name: 'Laptop', price: '$1200', stock: 20 },
+];
 
-
+const initialOrderData = [
+    { key: '1', orderId: '1234', customer: 'Mike', total: '$1200' },
+];
 
 const DashboardPage = () => {
     const [editModalVisible, setEditModalVisible] = useState(false);
@@ -46,37 +36,39 @@ const DashboardPage = () => {
     const [recordToEdit, setRecordToEdit] = useState(null);
     const [recordToDelete, setRecordToDelete] = useState(null);
     const [selectedMenuKey, setSelectedMenuKey] = useState('sub1');
-    const [dataSource, setDataSource] = useState();
-    const [form] = Form.useForm();
-    const [user, setUser] = useState([]);
-    const [products, setProducts] = useState([]);
-    const [category, setCategories] = useState([]);
-    const [order, setOrder] = useState([]);
 
-
-  
-    const handleMenuClick = ({ key }) => {
-        setSelectedMenuKey(key);
+    const getDataFromLocalStorage = (key, initialData) => {
+        const savedData = localStorage.getItem(key);
+        return savedData ? JSON.parse(savedData) : initialData;
     };
-    //Hàm lưu dữ liệu datasource
-    useEffect(()=> { 
+
+    const [userData, setUserData] = useState(getDataFromLocalStorage('userData', initialUserData));
+    const [productData, setProductData] = useState(getDataFromLocalStorage('productData', initialProductData));
+    const [orderData, setOrderData] = useState(getDataFromLocalStorage('orderData', initialOrderData));
+
+    const [dataSource, setDataSource] = useState(userData);
+
+    const [form] = Form.useForm();
+
+    const saveDataToLocalStorage = (key, data) => {
+        localStorage.setItem(key, JSON.stringify(data));
+    };
+
+    useEffect(() => {
         switch (selectedMenuKey) {
             case 'sub1':
-                setDataSource(user);
+                setDataSource(userData);
                 break;
-            case 'sub2-1':
-                setDataSource(products);
-                break;
-            case 'sub2-2':
-                setDataSource(category);
+            case 'sub2':
+                setDataSource(productData);
                 break;
             case 'sub3':
-                setDataSource(order);
+                setDataSource(orderData);
                 break;
             default:
                 break;
         }
-    }, [selectedMenuKey, user, category, products, order]);
+    }, [selectedMenuKey, userData, productData, orderData]);
 
     const handleEdit = (record) => {
         setRecordToEdit(record);
@@ -90,11 +82,55 @@ const DashboardPage = () => {
     };
 
     const handleEditModalOk = () => {
-
+        form.validateFields().then(values => {
+            let updatedData;
+            switch (selectedMenuKey) {
+                case 'sub1':
+                    updatedData = userData.map(item => item.key === recordToEdit.key ? { ...item, ...values } : item);
+                    setUserData(updatedData);
+                    saveDataToLocalStorage('userData', updatedData);
+                    break;
+                case 'sub2':
+                    updatedData = productData.map(item => item.key === recordToEdit.key ? { ...item, ...values } : item);
+                    setProductData(updatedData);
+                    saveDataToLocalStorage('productData', updatedData);
+                    break;
+                case 'sub3':
+                    updatedData = orderData.map(item => item.key === recordToEdit.key ? { ...item, ...values } : item);
+                    setOrderData(updatedData);
+                    saveDataToLocalStorage('orderData', updatedData);
+                    break;
+                default:
+                    break;
+            }
+            setEditModalVisible(false);
+            setRecordToEdit(null);
+        }).catch(info => {
+            console.log('Validate Failed:', info);
+        });
     };
 
     const handleDeleteModalOk = () => {
-
+        let updatedData;
+        switch (selectedMenuKey) {
+            case 'sub1':
+                updatedData = userData.filter(item => item.key !== recordToDelete.key);
+                setUserData(updatedData);
+                saveDataToLocalStorage('userData', updatedData);
+                break;
+            case 'sub2':
+                updatedData = productData.filter(item => item.key !== recordToDelete.key);
+                setProductData(updatedData);
+                saveDataToLocalStorage('productData', updatedData);
+                break;
+            case 'sub3':
+                updatedData = orderData.filter(item => item.key !== recordToDelete.key);
+                setOrderData(updatedData);
+                saveDataToLocalStorage('orderData', updatedData);
+                break;
+            default:
+                break;
+        }
         setDeleteModalVisible(false);
         setRecordToDelete(null);
     };
@@ -105,10 +141,9 @@ const DashboardPage = () => {
         setAddModalVisible(false);
     };
 
- 
-
-    //Thêm loại sản phẩm
-   
+    const handleMenuClick = ({ key }) => {
+        setSelectedMenuKey(key);
+    };
 
     const handleAddNewRecord = () => {
         setAddModalVisible(true);
@@ -116,93 +151,161 @@ const DashboardPage = () => {
     };
 
     const handleAddModalOk = () => {
-
+        form.validateFields().then(values => {
+            const newRecord = { ...values, key: `${dataSource.length + 1}` };
+            let updatedData;
+            switch (selectedMenuKey) {
+                case 'sub1':
+                    updatedData = [...userData, newRecord];
+                    setUserData(updatedData);
+                    saveDataToLocalStorage('userData', updatedData);
+                    break;
+                case 'sub2':
+                    updatedData = [...productData, newRecord];
+                    setProductData(updatedData);
+                    saveDataToLocalStorage('productData', updatedData);
+                    break;
+                case 'sub3':
+                    updatedData = [...orderData, newRecord];
+                    setOrderData(updatedData);
+                    saveDataToLocalStorage('orderData', updatedData);
+                    break;
+                default:
+                    break;
+            }
+            setAddModalVisible(false);
+        }).catch(info => {
+            console.log('Validate Failed:', info);
+        });
     };
 
-    const userColumns = [
-        { title: 'Name', dataIndex: 'name', key: 'name' },
-        { title: 'Age', dataIndex: 'age', key: 'age' },
-        { title: 'Address', dataIndex: 'address', key: 'address' },
-        { title: 'Phone Number', dataIndex: 'phoneNumber', key: 'phoneNumber' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    const productColumns = [
-        { title: 'Name', dataIndex: 'name', key: 'name' },
-        { title: 'Price', dataIndex: 'price', key: 'price' },
-        { title: 'Stock', dataIndex: 'stock', key: 'stock' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    const orderColumns = [
-        { title: 'Order ID', dataIndex: 'orderId', key: 'orderId' },
-        { title: 'Customer', dataIndex: 'customer', key: 'customer' },
-        { title: 'Total', dataIndex: 'total', key: 'total' },
-        {
-            title: 'Actions', dataIndex: '', key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    const CategoryColumns = [
-        {
-            title: 'ID',
-            dataIndex: 'id',
-            key: 'id',
-        },
-        {
-            title: 'Loại tin tức',
-            dataIndex: 'name',
-            key: 'name',
-        },
-        {
-            title: 'Actions',
-            dataIndex: '',
-            key: 'actions',
-            render: (_, record) => (
-                <span>
-                    <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
-                    <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
-                </span>
-            ),
-        },
-    ];
-
-    //lấy bảng
     const getColumns = () => {
         switch (selectedMenuKey) {
             case 'sub1':
-                return userColumns;
-            case 'sub2-1':
-                return productColumns;
-            case 'sub2-2':
-                return CategoryColumns;
+                return [
+                    { title: 'Name', dataIndex: 'name', key: 'name' },
+                    { title: 'Age', dataIndex: 'age', key: 'age' },
+                    { title: 'Address', dataIndex: 'address', key: 'address' },
+                    { title: 'Phone Number', dataIndex: 'phoneNumber', key: 'phoneNumber' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
+            case 'sub2':
+                return [
+                    { title: 'Name', dataIndex: 'name', key: 'name' },
+                    { title: 'Price', dataIndex: 'price', key: 'price' },
+                    { title: 'Stock', dataIndex: 'stock', key: 'stock' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
             case 'sub3':
-                return orderColumns;
-
+                return [
+                    { title: 'Order ID', dataIndex: 'orderId', key: 'orderId' },
+                    { title: 'Customer', dataIndex: 'customer', key: 'customer' },
+                    { title: 'Total', dataIndex: 'total', key: 'total' },
+                    {
+                        title: 'Actions', dataIndex: '', key: 'actions',
+                        render: (_, record) => (
+                            <span>
+                                <Button type="link" icon={<EditOutlined />} style={{ marginRight: 16 }} onClick={() => handleEdit(record)}>Edit</Button>
+                                <Button type="link" icon={<DeleteOutlined />} onClick={() => handleDelete(record)}>Delete</Button>
+                            </span>
+                        ),
+                    },
+                ];
             default:
                 return [];
+        }
+    };
+
+    const getModalTitle = () => {
+        switch (selectedMenuKey) {
+            case 'sub1':
+                return {
+                    edit: 'Chỉnh sửa người dùng',
+                    delete: 'Xóa người dùng',
+                    add: 'Thêm mới người dùng',
+                };
+            case 'sub2':
+                return {
+                    edit: 'Chỉnh sửa sản phẩm',
+                    delete: 'Xóa sản phẩm',
+                    add: 'Thêm mới sản phẩm',
+                };
+            case 'sub3':
+                return {
+                    edit: 'Chỉnh sửa đơn hàng',
+                    delete: 'Xóa đơn hàng',
+                    add: 'Thêm mới đơn hàng',
+                };
+            default:
+                return {};
+        }
+    };
+
+    const getModalFields = () => {
+        switch (selectedMenuKey) {
+            case 'sub1':
+                return (
+                    <>
+                        <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            case 'sub2':
+                return (
+                    <>
+                        <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="price" label="Price" rules={[{ required: true, message: 'Please input the price!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="stock" label="Stock" rules={[{ required: true, message: 'Please input the stock!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            case 'sub3':
+                return (
+                    <>
+                        <Form.Item name="orderId" label="Order ID" rules={[{ required: true, message: 'Please input the order ID!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="customer" label="Customer" rules={[{ required: true, message: 'Please input the customer!' }]}>
+                            <Input />
+                        </Form.Item>
+                        <Form.Item name="total" label="Total" rules={[{ required: true, message: 'Please input the total!' }]}>
+                            <Input />
+                        </Form.Item>
+                    </>
+                );
+            default:
+                return null;
         }
     };
 
@@ -247,55 +350,33 @@ const DashboardPage = () => {
             </Footer>
 
             <Modal
-                title="Chỉnh sửa người dùng"
+                title={getModalTitle().edit}
                 visible={editModalVisible}
                 onOk={handleEditModalOk}
                 onCancel={handleModalCancel}
             >
                 <Form form={form}>
-                    <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
-                        <Input />
-                    </Form.Item>
+                    {getModalFields()}
                 </Form>
             </Modal>
 
             <Modal
-                title="Xóa người dùng"
+                title={getModalTitle().delete}
                 visible={deleteModalVisible}
                 onOk={handleDeleteModalOk}
                 onCancel={handleModalCancel}
             >
-                <p>Bạn có chắc chắn muốn xóa người dùng này không?</p>
+                <p>Bạn có chắc chắn muốn xóa bản ghi này không?</p>
             </Modal>
 
             <Modal
-                title="Thêm mới người dùng"
+                title={getModalTitle().add}
                 visible={addModalVisible}
                 onOk={handleAddModalOk}
                 onCancel={handleModalCancel}
             >
                 <Form form={form}>
-                    <Form.Item name="name" label="Name" rules={[{ required: true, message: 'Please input the name!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="age" label="Age" rules={[{ required: true, message: 'Please input the age!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="address" label="Address" rules={[{ required: true, message: 'Please input the address!' }]}>
-                        <Input />
-                    </Form.Item>
-                    <Form.Item name="phoneNumber" label="Phone Number" rules={[{ required: true, message: 'Please input the phone number!' }]}>
-                        <Input />
-                    </Form.Item>
+                    {getModalFields()}
                 </Form>
             </Modal>
         </Layout>

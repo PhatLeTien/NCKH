@@ -49,7 +49,7 @@ const NewsContent = () => {
                 <div className="column main-news-column" onClick={() => openDetail(mainNews)}>
                     <div className="main-news">
                         <div className="main-news-image">
-                            <img src={mainNews.imageUrl} alt="Main News" />
+                            <img src={mainNews.img} alt="Main News" />
                         </div>
                         <div className="main-news-content">
                             <h1>{t('mainNewsContent.mainNewsTitle')}</h1>
@@ -62,7 +62,7 @@ const NewsContent = () => {
                     {sideNews.slice(0, 2).map((news, index) => (
                         <div key={index} className="side-news-item" onClick={() => openDetail(news)}>
                             <div className="side-news-image">
-                                <img src={news.imageUrl} alt={`Side News ${index + 1}`} />
+                                <img src={news.img} alt={`Side News ${index + 1}`} />
                             </div>
                             <div className="side-news-content">
                                 <p>{t(`sideNewsContent.sideNewsTitle${index+1}`)}</p>
@@ -75,7 +75,7 @@ const NewsContent = () => {
                     {sideNews.slice(2, 4).map((news, index) => (
                         <div key={index} className="side-news-item" onClick={() => openDetail(news)}>
                             <div className="side-news-image">
-                                <img src={news.imageUrl} alt={`Side News ${index + 3}`} />
+                                <img src={news.img} alt={`Side News ${index + 3}`} />
                             </div>
                             <div className="side-news-content">
                                 <p>{t(`sideNewsContent.sideNewsTitle${index+3}`)}</p>
@@ -91,7 +91,7 @@ const NewsContent = () => {
                         <div key={index} className="additional-news-link" onClick={() => openDetail(news)}>
                             <div className="additional-news-item">
                                 <div className="additional-news-image">
-                                    <img src={news.imageUrl} alt={`Additional News ${index + 1}`} />
+                                    <img src={news.img} alt={`Additional News ${index + 1}`} />
                                 </div>
                                 <div className="additional-news-content">
                                     <p className="article-latest-category">
@@ -110,7 +110,7 @@ const NewsContent = () => {
                         <div key={index} className="additional-news-link" onClick={() => openDetail(news)}>
                             <div className="additional-news-item">
                                 <div className="additional-news-image">
-                                    <img src={news.imageUrl} alt={`Additional News ${index + 3}`} />
+                                    <img src={news.img} alt={`Additional News ${index + 3}`} />
                                 </div>
                                 <div className="additional-news-content">
                                     <p className="article-latest-category">

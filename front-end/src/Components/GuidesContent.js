@@ -52,10 +52,10 @@ const GuidesContent = () => {
             <div className="guides-content">
                 <div className="main-guide" onClick={() => openDetail(mainGuide)}>
                     <div className="main-guide-image">
-                        <img src={mainGuide.imageUrl} alt="Main Guide" />
+                        <img src={mainGuide.img} alt="Main Guide" />
                     </div>
                     <div className="main-guide-content">
-                        <p className="guide-category">{mainGuide.category}</p>
+                        <p className="guide-category">{mainGuide.category1}</p>
                         <h1>{t('mainGuides.mainGuidesTitle')}</h1>
                         <p>{t('mainGuides.mainGuidesDescription')}</p>
                         <p className="author">{mainGuide.author}</p>
@@ -65,10 +65,10 @@ const GuidesContent = () => {
                     {sideGuides.map((guide, index) => (
                         <div key={index} className="side-guide-item" onClick={() => openDetail(guide)}>
                             <div className="side-guide-image">
-                                <img src={guide.imageUrl} alt={`Guide ${index + 1}`} />
+                                <img src={guide.img} alt={`Guide ${index + 1}`} />
                             </div>
                             <div className="side-guide-content">
-                                <p className="guide-category">{guide.category}</p>
+                                <p className="guide-category">{guide.category1}</p>
                                 <p>{t(`sideGuides.sideGuidesTitle${ index + 1 }`)}</p>
                                 <p className='description'>{t(`sideGuides.sideGuidesDescription${ index + 1 }`)}</p>
                                 <p className="author">{guide.author}</p>
@@ -83,7 +83,7 @@ const GuidesContent = () => {
                         <div key={index} className="additional-guides-link" onClick={() => openDetail(guide)}>
                             <div className="additional-guides-item">
                                 <div className="additional-guides-image">
-                                    <img src={guide.imageUrl} alt={`Additional Guide ${index + 1}`} />
+                                    <img src={guide.img} alt={`Additional Guide ${index + 1}`} />
                                 </div>
                                 <div className="additional-guides-content">
                                     <p className="article-latest-category">
@@ -102,7 +102,7 @@ const GuidesContent = () => {
                         <div key={index} className="additional-guides-link" onClick={() => openDetail(guide)}>
                             <div className="additional-guides-item">
                                 <div className="additional-guides-image">
-                                    <img src={guide.imageUrl} alt={`Additional Guide ${index + 1}`} />
+                                    <img src={guide.img} alt={`Additional Guide ${index + 1}`} />
                                 </div>
                                 <div className="additional-guides-content">
                                     <p className="article-latest-category">
