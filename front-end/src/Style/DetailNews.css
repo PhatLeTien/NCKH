@@ -1,0 +1,66 @@
+.detail-page-news {
+    margin-top: 50px;
+}
+
+.detail-news-container {
+    padding: 20px;
+}
+
+.detail-news-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detail-news-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.detail-news-info {
+    margin-top: 20px;
+}
+
+/* New CSS for centering the title */
+.detail-news-info .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Optional: Ensures text is centered within the container */
+}
+
+.detail-news-info h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.detail-news-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.detail-news-info .author-news, .detail-news-info .published-news, .detail-news-info .categories-news {
+    font-size: 14px;
+    color: #888;
+}
+
+.detail-body-news p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 636px;
+    font-size: 18px;
+    line-height: 29px;
+    font-family: Georgia, serif;
+    box-sizing: inherit;
+    position: relative;
+}
+
+.detail-body-news p:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(229, 229, 229); /* Change this to the desired color of the line */
+    margin-top: 10px; /* Adjust the space between the paragraph and the line as needed */
+}

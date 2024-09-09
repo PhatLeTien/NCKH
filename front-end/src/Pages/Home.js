@@ -5,6 +5,7 @@ import HomeContent from '../Components/HomeContent';
 import { useTranslation } from 'react-i18next';
 
 
+
 function Home() {
   const { i18n } = useTranslation();
 
@@ -17,6 +18,7 @@ function Home() {
       i18n.changeLanguage('en'); // Hoặc ngôn ngữ mặc định của bạn
     }
   }, [i18n]);
+
 
   return (
     <div className='Home'>

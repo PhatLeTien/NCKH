@@ -26,6 +26,7 @@ import DetailEntertainment from './DetailContent/DetailEntertainment';
 import LoginPage from './Admin2/LoginPage';
 import DashboardPage from './Admin2/DashboardPage';
 
+
 function App() {
   return (
     <Router>
@@ -42,6 +43,7 @@ function App() {
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/games" element={<Games />} />
           <Route path="/entertainment" element={<Entertainment/>} />
+         
           <Route path="/home/article/:id" element={<DetailHome/>} />
           <Route path="/latest/article/:id" element={<DetailLatest />} />
           <Route path="/games/article/:id" element={<DetailGames />} />
@@ -51,7 +53,6 @@ function App() {
           <Route path="/entertainment/article/:id" element={<DetailEntertainment />} />
           <Route path="/admin-2" element={<DashboardPage />} />
           <Route path="/login-admin" element={<LoginPage />} />
-          <Route path="/search" element={<Search />} /> 
         </Routes>
       </div>
     </Router>
