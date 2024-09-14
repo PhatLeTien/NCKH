@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../Style/GuidesContent.css';
+import '../Guides/GuidesContent.css'
 import { useNavigate } from 'react-router-dom';
-import { mainGuide, sideGuides, additionalGuides1, additionalGuides2 } from '../Scripts/DataGuides';
+import { mainGuide, sideGuides, additionalGuides1, additionalGuides2 } from '../../Scripts/DataGuides';
 import { useTranslation } from 'react-i18next';
 
 const GuidesContent = () => {

@@ -82,13 +82,13 @@ function Header() {
           </div>
         </div>
         <nav className="main-nav">
-          <a href="/home">HOME</a>
-          <a href="/latest">LATEST</a>
-          <a href="/news">NEWS</a>
-          <a href="/guides">GUIDES</a>
-          <a href="/reviews">REVIEWS</a>
-          <a href="/games">GAMES</a>
-          <a href="/entertainment">ENTERTAINMENT</a>
+          <a href="/home">TRANG CHỦ</a>
+          <a href="/latest">GAME ONLINE</a>
+          <a href="/news">GAME MOBILE</a>
+          <a href="/guides">ESPORTS</a>
+          <a href="/reviews">CÔNG NGHỆ</a>
+          {/* <a href="/games">GAMES</a>
+          <a href="/entertainment">ENTERTAINMENT</a> */}
           {/* <a href="/">OPINION</a>
           <a href="/">ANIME</a> */}
         </nav>

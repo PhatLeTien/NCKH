@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer2';
-import HomeContent from '../Components/HomeContent';
+import HomeContent from '../Components/Home/HomeContent'
 import { useTranslation } from 'react-i18next';
 
 

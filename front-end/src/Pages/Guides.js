@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer2';
-import GuidesContent from '../Components/GuidesContent';
+import GuidesContent from '../Components/Guides/GuidesContent';
 
 function Guides() {
   return (

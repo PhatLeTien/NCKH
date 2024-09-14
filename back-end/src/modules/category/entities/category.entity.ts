@@ -7,7 +7,7 @@ import {
     UpdateDateColumn,
     OneToMany,
   } from 'typeorm';
-import { Post } from 'src/modules/post/entities/post.entity';
+import { Posts } from 'src/modules/post/entities/post.entity';
   
   @Entity('categories') // 'categories' là tên bảng trong cơ sở dữ liệu
   export class Category {
@@ -18,8 +18,8 @@ import { Post } from 'src/modules/post/entities/post.entity';
     name: string;
   
   
-    @OneToMany(() => Post, post => post.category) // Một danh mục có thể có nhiều bài viết
-    posts: Post[];
+    @OneToMany(() => Posts, post => post.category) // Một danh mục có thể có nhiều bài viết
+    posts: Posts[];
   
     @CreateDateColumn({ type: 'timestamp' })
     createdAt: Date;

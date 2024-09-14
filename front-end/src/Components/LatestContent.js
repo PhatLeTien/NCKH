@@ -33,11 +33,6 @@ const LatestContent = () => {
           <Link to={`/latest/article/${indexOfFirstArticle + index + 1}`}>
             <img src={article.img} alt={article.title} className="article-latest-image" />
             <div className="article-latest-content">
-              <p className="article-latest-category">
-                <span className="highlighted">{article.category1}</span>
-                <span className="separator"> » </span>
-                <span className="highlighted">{article.category2}</span>
-              </p>
               <h2 className="article-latest-title">{t(`articles.ArticleTitle${indexOfFirstArticle + index + 1}`)}</h2>
               <p className="article-latest-description">{t(`articles.ArticleDescription${indexOfFirstArticle + index + 1}`)}</p>
               <p className="article-latest-author">

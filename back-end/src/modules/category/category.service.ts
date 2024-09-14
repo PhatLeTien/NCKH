@@ -8,15 +8,20 @@ import { InjectRepository } from '@nestjs/typeorm';
 export class CategoryService {
 
     constructor(
-        @InjectRepository(Category) private userRepository: Repository<Category>,
+        @InjectRepository(Category) private categoryRepository: Repository<Category>,
       
 
     ) { }
 
     //Thêm loại
     async addCategory(categoryDTO:CategoryDTO):Promise<Category>{
-    return await this.userRepository.save({
+    return await this.categoryRepository.save({
         ...categoryDTO
     })
+}
+//Thêm loại
+
+async getCategory(): Promise<Category[]> {
+    return await this.categoryRepository.find();
 }
 }
