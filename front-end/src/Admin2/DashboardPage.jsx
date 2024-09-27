@@ -52,36 +52,25 @@ const DashboardPage = () => {
     //Thêm loại bài post
     const addPost = (post) => {
         requestApi('/post/addPost', 'POST', post, 'json')
-          .then(response => {
-            console.log('Post added successfully:', response.data);
-          })
-          .catch(error => {
-            console.error('Error adding post:', error);
-          });
-      };
-
-    //Thêm loại sản phẩm
-    const addCategory = (category) => {
-        requestApi('/category/addCategory', 'POST', category, {
-            headers: {
-                'Content-Type': 'multipart/form-data' // Đảm bảo header Content-Type là multipart/form-data khi gửi FormData
-            }
-        })
             .then(response => {
-
-                // Xử lý khi thêm sản phẩm thành công
-                console.log('Category added successfully:', response.data);
-                // fetchProduct();
-
-                // Cập nhật danh sách sản phẩm hoặc thực hiện các hành động khác sau khi thêm sản phẩm thành công
+                console.log('Post added successfully:', response.data);
             })
             .catch(error => {
-                // Xử lý khi có lỗi xảy ra
-                console.error('Error adding ', error);
-
+                console.error('Error adding post:', error);
             });
+    };
+    // Thêm loại sản phẩm
+    const addCategory = (category) => {
+        requestApi('/category/addCategory', 'POST', category, 'json')
+            .then(response => {
+                console.log('Category added successfully:', response.data);
+                fetchCategory(); // Cập nhật danh sách loại sản phẩm sau khi thêm mới
+            })
+            .catch(error => {
+                console.error('Error adding category', error);
+            });
+    };
 
-    }
 
     // Hàm để lấy loại sản phẩm
     const fetchCategory = async () => {
@@ -122,7 +111,7 @@ const DashboardPage = () => {
             default:
                 break;
         }
-    }, [selectedMenuKey, category]);
+    }, [selectedMenuKey, category, post]);
 
     const handleEdit = (record) => {
         setRecordToEdit(record);
@@ -213,13 +202,14 @@ const DashboardPage = () => {
 
                     addPost(post);
                     break;
-                case 'sub2-2':
-                    const category = new FormData();
-                    category.append('name', values.name);
-                    addCategory(category);
-                    // fetchCategory();
-
-                    break;
+                    case 'sub2-2':
+                        // Không cần sử dụng FormData khi chỉ gửi text đơn thuần
+                        const category = {
+                            categoryName: values.categoryName
+                        };
+                        addCategory(category); // Gửi dữ liệu dưới dạng JSON thay vì FormData
+                        console.log('JSON content:', category);
+                        break;
                 case 'sub3':
 
                     break;
@@ -282,11 +272,7 @@ const DashboardPage = () => {
                         dataIndex: 'id',
                         key: 'id',
                     },
-                    {
-                        title: 'Loại sản phẩm',
-                        dataIndex: 'name',
-                        key: 'name',
-                    },
+                    { title: 'categoryName', dataIndex: 'categoryName', key: 'categoryName' },
 
                     {
                         title: 'Actions',
@@ -369,7 +355,7 @@ const DashboardPage = () => {
                             >
                                 {category.map((category) => (
                                     <Option key={category.id} value={category.id}>
-                                        {category.name}
+                                        {category.categoryName}
                                     </Option>
                                 ))}
                             </Select>
@@ -399,7 +385,7 @@ const DashboardPage = () => {
                             >
                                 {category.map((category) => (
                                     <Option key={category.id} value={category.id}>
-                                        {category.name}
+                                        {category.categoryName}
                                     </Option>
                                 ))}
                             </Select>
@@ -426,12 +412,9 @@ const DashboardPage = () => {
                 );
             case 'sub2-2':
                 return (
-                    <>
-                        <Form.Item name="name" label="Tên loại sản phẩm" rules={[{ required: true, message: 'Vui lòng nhập tên loại sản phẩm!' }]}>
+                    <Form.Item name="categoryName" label="categoryName" rules={[{ required: true, message: 'Please input the name!' }]}>
                             <Input />
                         </Form.Item>
-
-                    </>
                 );
             case 'sub3':
                 return (

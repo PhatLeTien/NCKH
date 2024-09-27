@@ -15,8 +15,7 @@ import { Posts } from 'src/modules/post/entities/post.entity';
     id: number;
   
     @Column({ length: 255 })
-    name: string;
-  
+    categoryName: string;
   
     @OneToMany(() => Posts, post => post.category) // Một danh mục có thể có nhiều bài viết
     posts: Posts[];

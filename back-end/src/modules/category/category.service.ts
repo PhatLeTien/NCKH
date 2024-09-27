@@ -14,11 +14,11 @@ export class CategoryService {
     ) { }
 
     //Thêm loại
-    async addCategory(categoryDTO:CategoryDTO):Promise<Category>{
-    return await this.categoryRepository.save({
-        ...categoryDTO
-    })
-}
+    async addCategory(categoryDTO: CategoryDTO): Promise<Category> {
+        const newCategory = this.categoryRepository.create(categoryDTO); // Tạo một đối tượng mới từ DTO
+        return await this.categoryRepository.save(newCategory); // Lưu đối tượng vào cơ sở dữ liệu
+    }
+    
 //Thêm loại
 
 async getCategory(): Promise<Category[]> {
